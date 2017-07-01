@@ -29,3 +29,6 @@ bundle.js.map
 
 # Ignore the DSstore
 .DS_Store
+
+# Ignore secret files
+secrets.js;

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mmalamm/senwatch#readme",
   "dependencies": {
+    "curlrequest": "^1.0.1",
     "express": "^4.15.3",
     "request": "^2.81.0",
     "serve-favicon": "^2.4.3"
