@@ -31,4 +31,4 @@ bundle.js.map
 .DS_Store
 
 # Ignore secret files
-secrets.js;
+secrets.js
