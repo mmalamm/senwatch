@@ -1,0 +1,24 @@
+{
+  "name": "senwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmalamm/senwatch.git"
+  },
+  "author": "M M Alam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmalamm/senwatch/issues"
+  },
+  "homepage": "https://github.com/mmalamm/senwatch#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "request": "^2.81.0",
+    "serve-favicon": "^2.4.3"
+  }
+}
