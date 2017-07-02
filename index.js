@@ -57,20 +57,20 @@ curl.request(
     });
 
     let i = 0;
-    // sens.forEach( sen => {
-    //   if(sen.crp_id.length) {
-    //     request(`http://www.opensecrets.org/api/?method=candSummary&output=json&cid=${sen.crp_id}&apikey=${crpKey}`, function (error, response, body) {
-    //       // console.log('error:', error); // Print the error if one occurred
-    //       // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-    //       if (error) {
-    //         console.log('///////ERROR/////////', error);
-    //       }
-    //       sen.candSummary = JSON.parse(body);
-    //     });
-    //   } else {
-    //     console.log(`${sen.first_name} ${sen.last_name} does not have a crp_id`);
-    //   }
-    // })
+    sens.forEach( sen => {
+      if(sen.crp_id.length) {
+        request(`http://www.opensecrets.org/api/?method=candIndustry&output=json&cid=${sen.crp_id}&apikey=${crpKey}`, function (error, response, body) {
+          // console.log('error:', error); // Print the error if one occurred
+          // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+          if (error) {
+            console.log('///////ERROR/////////', error);
+          }
+          sen.candSummary = JSON.parse(body);
+        });
+      } else {
+        console.log(`${sen.first_name} ${sen.last_name} does not have a crp_id`);
+      }
+    })
 
     sens.forEach( sen => {
       sen.d_twitter_account = sen.twitter_account;
@@ -84,6 +84,7 @@ curl.request(
         request(`https://projects.propublica.org/politwoops/user/${sen.d_twitter_account}.json`, function(err, res, body) {
           if (err) {
             console.log('///////ERROR/////////', err);
+            return;
           }
           console.log(sen.twitter_account);
           let d_tweets = JSON.parse(body);
@@ -91,6 +92,16 @@ curl.request(
           console.log(sen.first_name, sen.last_name, sen.state, sen.party, ' good 2 go');
           i++;
           console.log(i);
+          d_tweets = d_tweets.tweets;
+          d_tweets = d_tweets.map( (tw) => {
+            return {
+              created_at: tw.created_at,
+              deleted_at: tw.updated_at,
+              body: tw.content,
+              profile_pic_url: tw.details.user.profile_image_url,
+              tw_user_name: tw.user_name
+            }
+          });
           sen.d_tweets = d_tweets;
         });
       } else {
