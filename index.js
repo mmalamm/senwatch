@@ -53,7 +53,7 @@ curl.request(
         rank: mem.state_rank,
         missed_votes_pct: mem.missed_votes_pct,
         votes_with_party_pct: mem.votes_with_party_pct
-      })
+      });
     });
 
     let i = 0;
@@ -70,7 +70,7 @@ curl.request(
       } else {
         console.log(`${sen.first_name} ${sen.last_name} does not have a crp_id`);
       }
-    })
+    });
 
     sens.forEach( sen => {
       sen.d_twitter_account = sen.twitter_account;
@@ -100,14 +100,14 @@ curl.request(
               body: tw.content,
               profile_pic_url: tw.details.user.profile_image_url,
               tw_user_name: tw.user_name
-            }
+            };
           });
           sen.d_tweets = d_tweets;
         });
       } else {
         console.log(`${sen.first_name} ${sen.last_name} does not have a twitter_account`);
       }
-    })
+    });
   });
 
 
