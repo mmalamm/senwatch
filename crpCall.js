@@ -1,5 +1,6 @@
 const request = require('request');
 
+let crpCallResult;
 const crpCall = (sen) => {
   if(sen.crp_id.length) {
     request(`http://www.opensecrets.org/api/?method=candIndustry&output=json&cid=${sen.crp_id}&apikey=${crpKey}`, function (error, response, body) {
