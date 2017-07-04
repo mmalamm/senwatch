@@ -51,6 +51,7 @@ curl.request(
         fax: mem.fax,
         state: mem.state,
         rank: mem.state_rank,
+        senate_class: mem.senate_class,
         missed_votes_pct: mem.missed_votes_pct,
         votes_with_party_pct: mem.votes_with_party_pct
       });

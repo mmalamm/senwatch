@@ -1,10 +1,9 @@
-'use strict'
-var request = require('request');
-const port = process.env.PORT || 3000;
+const fs = require ('fs'),
+  os = require('os'),
+  request = require('request');
 
-const fs = require('fs');
-const os = require('os');
-
+const sec = require('./secrets');
+let ppHeadersObj = sec.secrets.ppHeader || 'nunya';
 
 let ppCallResult;
 let result = {};
@@ -12,8 +11,8 @@ result.sens = [] ;
 
 let callUrl = {
   url : 'https://api.propublica.org/congress/v1/115/senate/members.json',
-  headers : {"X-API-Key":'nunya'}
-}
+  headers : ppHeadersObj
+};
 
  //let callUrl = 'https://projects.propublica.org/politwoops/user/realdonaldtrump.json';
 
@@ -36,6 +35,7 @@ let callback = function (error, response, body) {
         party: mem.party,
         twitter_account: mem.twitter_account,
         facebook_account: mem.facebook_account,
+        rss_url: mem.rss_url,
         crp_id: mem.crp_id,
         domain: mem.domain,
         next_election: mem.next_election,
@@ -51,11 +51,14 @@ let callback = function (error, response, body) {
       });
     });
 
-
-    fs.writeFile('sens.json', JSON.stringify(result), (err) => {
-      if (err) throw err;
-      console.log('The file has been saved!');
+    result.sens.forEach( sen => {
+      pp2req(sen);
     });
+
+    // fs.writeFile('sens.json', JSON.stringify(result), (err) => {
+    //   if (err) throw err;
+    //   console.log('The file has been saved!');
+    // });
 
     // fs.open('sens.json', 'a', (e, id) => {
     //   fs.write( id, JSON.stringify(result), null, 'utf8', () => {
@@ -68,9 +71,8 @@ let callback = function (error, response, body) {
 
   } else {
 
-
     fs.open('error_log.txt', 'a', (e, id) => {
-      fs.write( id, JSON.stringify(response) + os.EOL+ os.EOL+ os.EOL+ os.EOL+ os.EOL, null, 'utf8', () => {
+      fs.write( id, JSON.stringify(response) + os.EOL, null, 'utf8', () => {
         fs.close( id, () => {
           console.log('error logged');
         });
@@ -78,6 +80,6 @@ let callback = function (error, response, body) {
     });
 
   }
-}
+};
 
 request(callUrl, callback);
