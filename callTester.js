@@ -15,6 +15,8 @@ const port = process.env.PORT || 3000;
 // let testObj = { twitter_account: 'realdonaldtrump' };
 //
 // const dTweetsReq = require('./dTweetsReq');
+// console.log(dTweetsReq);
+// dTweetsReq.dTweetsReq(testObj);
 
 
 // const ppMCall = require('./ppMCall');

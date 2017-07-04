@@ -66,6 +66,11 @@ let callback = function (error, response, body) {
       pp2req.pp2req(sen);
     });
 
+    const dTweetsReq = require('./dTweetsReq');
+    result.sens.forEach( sen => {
+      dTweetsReq.dTweetsReq(sen);
+    });
+
     // fs.writeFile('sens.json', JSON.stringify(result), (err) => {
     //   if (err) throw err;
     //   console.log('The file has been saved!');

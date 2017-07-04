@@ -1,3 +1,4 @@
+'use strict';
 const fs = require ('fs'), os = require('os'), request = require('request');
 
 const dTweetsReq = sen => {
@@ -17,7 +18,7 @@ const dTweetsReq = sen => {
   let callback = (err, response, body) => {
     if (response.statusCode <= 200) {
       let result = JSON.parse(body);
-      d_tweets = result.tweets.map( (tw) => {
+      let d_tweets = result.tweets.map( (tw) => {
         return {
           created_at: tw.created_at,
           deleted_at: tw.updated_at,
@@ -34,7 +35,7 @@ const dTweetsReq = sen => {
       fs.open('error_log.txt', 'a', (e, id) => {
         fs.write( id, JSON.stringify(response) + os.EOL, null, 'utf8', () => {
           fs.close( id, () => {
-            console.log(`${sen.first_name} ${sen.last_name} didnt work`);
+            console.log(`${sen.first_name} ${sen.last_name} dTweetsReq didnt work`);
           });
         });
       });
