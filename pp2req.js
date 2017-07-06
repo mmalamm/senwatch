@@ -1,4 +1,4 @@
-const fs = require ('fs'), os = require('os'), request = require('request'), timeString = Date(Date.now());
+const fs = require ('fs'), os = require('os'), request = require('request');
 
 const sec = require('./secrets'), ppHeadersObj = sec.secrets.ppHeader || 'nunya';
 
@@ -11,7 +11,7 @@ const pp2req = (sen, iter) => {
   let callback = (err, response, body) => {
     if (response.statusCode <= 200) {
 
-      console.log(`${sen.first_name} ${sen.last_name} pp2 recieved @${timeString}`);
+      console.log(`${sen.first_name} ${sen.last_name} pp2 recieved @${Date(Date.now())}`);
 
       let data = JSON.parse(body);
       let result = data.results[0];
@@ -20,7 +20,7 @@ const pp2req = (sen, iter) => {
       sen.committees = result.roles[0].committees;
 
     } else {
-      console.log(`@${timeString}: ${sen.first_name} ${sen.last_name} committees FAILED!`);
+      console.log(`@${Date(Date.now())}: ${sen.first_name} ${sen.last_name} committees FAILED!`);
 
       fs.open('error_log.txt', 'a', (e, id) => {
         fs.write( id, JSON.stringify(response) + os.EOL, null, 'utf8', () => {
@@ -34,8 +34,8 @@ const pp2req = (sen, iter) => {
 
     let status = sen.dob ? 'yes' : 'no';
     let name = `${sen.first_name} ${sen.last_name}`;
-    iter.push({name,status});
-    console.log(`pp2 progress: ${iter.length}/100`);
+    iter.push({name,status,time:Date.now()});
+    console.log(`pp2 progress: ${iter.length}/100${iter.length==100?'!':'...'}`);
   };
 
   request(callUrl, callback);
