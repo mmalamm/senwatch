@@ -32,3 +32,6 @@ bundle.js.map
 
 # Ignore secret files
 secrets.js
+
+# Ignore local error logs
+error_log.txt

@@ -1,8 +1,8 @@
-'use strict';
-const fs = require ('fs'), os = require('os'), request = require('request');
+const fs = require ('fs'), os = require('os'), request = require('request'), timeString = Date(Date.now());
+
 const sec = require('./secrets'), ppHeadersObj = sec.secrets.ppHeader || 'nunya';
 
-const pp2req = (sen) => {
+const pp2req = (sen, iter) => {
 
   let callUrl = {
     url : `https://api.propublica.org/congress/v1/members/${sen.pp_id}.json`,
@@ -11,24 +11,31 @@ const pp2req = (sen) => {
   let callback = (err, response, body) => {
     if (response.statusCode <= 200) {
 
-      let data = JSON.parse(body);
+      console.log(`${sen.first_name} ${sen.last_name} pp2 recieved @${timeString}`);
 
+      let data = JSON.parse(body);
       let result = data.results[0];
       sen.dob = result.date_of_birth;
       sen.gender = result.gender;
       sen.committees = result.roles[0].committees;
 
     } else {
+      console.log(`@${timeString}: ${sen.first_name} ${sen.last_name} committees FAILED!`);
 
       fs.open('error_log.txt', 'a', (e, id) => {
         fs.write( id, JSON.stringify(response) + os.EOL, null, 'utf8', () => {
           fs.close( id, () => {
-            console.log(`${sen.first_name} ${sen.last_name} didnt work`);
+            console.log(`pp2req for ${sen.first_name} ${sen.last_name} didnt work! error logged.`);
           });
         });
       });
 
     }
+
+    let status = sen.dob ? 'yes' : 'no';
+    let name = `${sen.first_name} ${sen.last_name}`;
+    iter.push({name,status});
+    console.log(`pp2 progress: ${iter.length}/100`);
   };
 
   request(callUrl, callback);

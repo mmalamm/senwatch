@@ -6,8 +6,7 @@ const sec = require('./secrets');
 let ppHeadersObj = sec.secrets.ppHeader || 'nunya';
 
 let ppCallResult;
-let result = {};
-result.sens = [] ;
+const result = { pp2i:[], dTweetsi:[], sens:[] };
 
 let callUrl = {
   url : 'https://api.propublica.org/congress/v1/115/senate/members.json',
@@ -27,8 +26,8 @@ const corrections = (sen) => {
 
 let callback = function (error, response, body) {
   // console.log('error:', error); // Print the error if one occurred
-  console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-  ppCallResult = 'error';
+  console.log('statusCode for main PP call:', response && response.statusCode); // Print the response status code if a response was received
+
   if (response.statusCode <= 200) {
 
     ppCallResult = JSON.parse(body);
@@ -61,28 +60,16 @@ let callback = function (error, response, body) {
     });
 
     const pp2req = require('./pp2req');
-    result.sens.forEach( sen => {
-      pp2req.pp2req(sen);
+    const pp2i = result.pp2i;
+    result.sens.forEach( (sen) => {
+      pp2req.pp2req(sen, pp2i);
     });
 
     const dTweetsReq = require('./dTweetsReq');
-    result.sens.forEach( sen => {
-      dTweetsReq.dTweetsReq(sen);
+    const dTweetsi = result.dTweetsi;
+    result.sens.forEach( (sen) => {
+      dTweetsReq.dTweetsReq(sen, dTweetsi);
     });
-
-    // fs.writeFile('sens.json', JSON.stringify(result), (err) => {
-    //   if (err) throw err;
-    //   console.log('The file has been saved!');
-    // });
-
-    // fs.open('sens.json', 'a', (e, id) => {
-    //   fs.write( id, JSON.stringify(result), null, 'utf8', () => {
-    //     fs.close( id, () => {
-    //       console.log('senators json created');
-    //     });
-    //   });
-    // });
-
 
   } else {
 
