@@ -50,6 +50,6 @@ senModel = {
   img_url: str,
 
   //opensecrets api call 6
-  donations: object,
+  crp: object,
 
 };

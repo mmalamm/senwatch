@@ -1,4 +1,4 @@
-const fs = require ('fs'), os = require('os'), request = require('request');
+const fs = require ('fs'), os = require('os'), request = require('request'), chalk = require('chalk');
 
 const dTweetsReq = (sen, iter) => {
 
@@ -7,7 +7,7 @@ const dTweetsReq = (sen, iter) => {
   let callback = (err, response, body) => {
     if (response.statusCode <= 200) {
 
-      console.log(`${sen.first_name} ${sen.last_name} d_tweets recieved @${Date(Date.now())}`);
+      console.log(chalk.dim(`${sen.first_name} ${sen.last_name} d_tweets recieved @${Date(Date.now())}`));
 
       let result = JSON.parse(body);
       let d_tweets = result.tweets.map( (tw) => {
@@ -40,7 +40,7 @@ const dTweetsReq = (sen, iter) => {
     let status = typeof sen.d_tweets == 'string' ? 'no' : 'yes';
     let name = `${sen.first_name} ${sen.last_name}`;
     iter.push({name,status,time:Date.now()});
-    console.log(`dTweets progress: ${iter.length}/100${iter.length==100?'!':'...'}`);
+    console.log(chalk.blue(`dTweets progress: ${iter.length}/100${iter.length==100?'!':'...'}`));
   };
 
   if (sen.twitter_account.length) {

@@ -1,4 +1,4 @@
-const fs = require('fs'), os = require('os'), request = require('request');
+const fs = require('fs'), os = require('os'), request = require('request'), chalk = require('chalk');
 
 const sec = require('./secrets'), crpKey = sec.secrets.crpKey || 'nunya';
 
@@ -8,7 +8,7 @@ const crpReq = (sen, iter) => {
   let callback = (err, response, body) => {
     if (response.statusCode <= 200) {
 
-      console.log(`${sen.first_name} ${sen.last_name} crpInfo recieved @${Date(Date.now())}`);
+      console.log(chalk.dim(`${sen.first_name} ${sen.last_name} crpInfo recieved @${Date(Date.now())}`));
 
       let data = JSON.parse(body);
       let indObj = data.response.industries;
@@ -27,16 +27,21 @@ const crpReq = (sen, iter) => {
 
     }
 
-    let status = sen.donationsTest ? 'yes' : 'no';
+    let status = sen.crp ? 'yes' : 'no';
     let name = `${sen.first_name} ${sen.last_name}`;
     iter.push({name,status,time:Date.now()});
-    console.log(`crpReq progress: ${iter.length}/100${iter.length==100?'!':'...'}`);
+    console.log(chalk.red(`crpReq progress: ${iter.length}/100${iter.length==100?'!':'...'}`));
   };
 
   if (sen.crp_id.length) {
     request(callUrl, callback);
   } else {
-    sen.donationsTest = 'no_donations_on_file';
+    sen.crp = 'no_crp_on_file';
+
+    let status = 'no';
+    let name = `${sen.first_name} ${sen.last_name}`;
+    iter.push({name,status,time:Date.now()});
+    console.log(chalk.red(`crpReq progress: ${iter.length}/100${iter.length==100?'!':'...'}`));
   };
 };
 

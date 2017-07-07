@@ -18,6 +18,7 @@
   "homepage": "https://github.com/mmalamm/senwatch#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "chalk": "^2.0.1",
     "curlrequest": "^1.0.1",
     "express": "^4.15.3",
     "request": "^2.81.0",
