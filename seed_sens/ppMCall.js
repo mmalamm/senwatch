@@ -6,7 +6,7 @@ const sec = require('./secrets');
 let ppHeadersObj = sec.secrets.ppHeader || 'nunya';
 
 let ppCallResult;
-const result = { pp2i:[], pp3i:[], dTweetsi:[], crpi:[], wikii:[],  sens:[] };
+const result = { sens:[] };
 
 let callUrl = {
   url : 'https://api.propublica.org/congress/v1/115/senate/members.json',
@@ -62,30 +62,35 @@ let callback = function (error, response, body) {
       });
     });
 
+    result.pp2i = [];
     const pp2req = require('./pp2req');
     const pp2i = result.pp2i;
     result.sens.forEach( (sen) => {
       pp2req.pp2req(sen, pp2i);
     });
 
+    result.pp3i = [];
     const pp3req = require('./pp3req');
     const pp3i = result.pp3i;
     result.sens.forEach( (sen) => {
       pp3req.pp3req(sen, pp3i);
     });
 
+    result.dTweetsi = [];
     const dTweetsReq = require('./dTweetsReq');
     const dTweetsi = result.dTweetsi;
     result.sens.forEach( (sen) => {
       dTweetsReq.dTweetsReq(sen, dTweetsi);
     });
 
-    const crpReq = require('./crpReq');
-    const crpi = result.crpi;
-    result.sens.forEach( (sen) => {
-      crpReq.crpReq(sen, crpi);
-    });
+    // result.crpi = [];
+    // const crpReq = require('./crpReq');
+    // const crpi = result.crpi;
+    // result.sens.forEach( (sen) => {
+    //   crpReq.crpReq(sen, crpi);
+    // });
 
+    result.wikii = [];
     const wikiReq = require('./wikiReq');
     const wikii = result.wikii;
     result.sens.forEach( (sen) => {
