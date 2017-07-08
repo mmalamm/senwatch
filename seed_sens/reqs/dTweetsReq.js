@@ -27,13 +27,8 @@ const dTweetsReq = (sen, iter) => {
 
       sen.d_tweets = `no_deleted_tweets_found @${Date(Date.now())}`;
 
-      fs.open('error_log.txt', 'a', (e, id) => {
-        fs.write( id, JSON.stringify(response) + os.EOL, null, 'utf8', () => {
-          fs.close( id, () => {
-            console.log(`${sen.first_name} ${sen.last_name} dTweetsReq didnt work`);
-          });
-        });
-      });
+      const logError = require('../helpers/error_logger.js');
+      logError.logError('dTweetsCall', sen, response);
 
     }
 
@@ -47,7 +42,8 @@ const dTweetsReq = (sen, iter) => {
     request(callUrl, callback);
   } else {
     sen.d_tweets = 'no_twitter_account_on_file';
-  };
+    iter.push({name,status:'no',time:Date.now()});
+  }
 };
 
 exports.dTweetsReq = dTweetsReq;

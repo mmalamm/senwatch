@@ -17,13 +17,8 @@ const crpReq = (sen, iter) => {
     } else {
       console.log(`@${Date(Date.now())}: ${sen.first_name} ${sen.last_name} crpReq FAILED!`);
 
-      fs.open('error_log.txt', 'a', (e, id) => {
-        fs.write( id, JSON.stringify(response) + os.EOL, null, 'utf8', () => {
-          fs.close( id, () => {
-            console.log(`crpReq for ${sen.first_name} ${sen.last_name} didnt work! error logged.`);
-          });
-        });
-      });
+      const logError = require('../helpers/error_logger.js');
+      logError.logError('crpCall', sen, response);
 
     }
 
@@ -38,11 +33,10 @@ const crpReq = (sen, iter) => {
   } else {
     sen.crp = 'no_crp_on_file';
 
-    let status = 'no';
     let name = `${sen.first_name} ${sen.last_name}`;
-    iter.push({name,status,time:Date.now()});
+    iter.push({name,status:'no',time:Date.now()});
     console.log(chalk.red(`crpReq progress: ${iter.length}/100${iter.length==100?'!':'...'}`));
-  };
+  }
 };
 
 exports.crpReq = crpReq;

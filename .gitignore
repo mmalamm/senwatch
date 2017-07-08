@@ -35,3 +35,6 @@ secrets.js
 
 # Ignore local error logs
 error_log.txt
+
+#Ignore huge sens json file
+sens.json

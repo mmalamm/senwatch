@@ -32,7 +32,7 @@ const port = process.env.PORT || 3000;
 // const wikiReq = require('./wikiReq');
 // wikiReq.wikiReq(testObj, testObj.iter);
 
-const ppMCall = require('./ppMCall');
+const ppMCall = require('./reqs/ppMCall');
 ppMCall.ppMCall();
 let testObj = ppMCall.result;
 console.log(ppMCall);

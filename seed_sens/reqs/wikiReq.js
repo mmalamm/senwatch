@@ -54,13 +54,8 @@ const wikiReq = (sen, iter) => {
     } else {
       console.log(`@${Date(Date.now())}: ${sen.first_name} ${sen.last_name} wiki FAILED!`);
 
-      fs.open('error_log.txt', 'a', (e, id) => {
-        fs.write( id, JSON.stringify(response) + os.EOL, null, 'utf8', () => {
-          fs.close( id, () => {
-            console.log(`wikiReq for ${sen.first_name} ${sen.last_name} didnt work! error logged.`);
-          });
-        });
-      });
+      const logError = require('../helpers/error_logger.js');
+      logError.logError('wikiCall', sen, response);
 
     }
 

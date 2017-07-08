@@ -13,7 +13,7 @@ let callUrl = {
   headers : ppHeadersObj
 };
 
-const corrections = require('./corrections');
+const corrections = require('../helpers/corrections');
 
 let callback = function (error, response, body) {
   console.log(chalk.blue('statusCode for main PP call:', response && response.statusCode));
@@ -88,13 +88,8 @@ let callback = function (error, response, body) {
 
   } else {
 
-    fs.open('error_log.txt', 'a', (e, id) => {
-      fs.write( id, JSON.stringify(response) + os.EOL, null, 'utf8', () => {
-        fs.close( id, () => {
-          console.log(chalk.bgRed.bold('error logged'));
-        });
-      });
-    });
+    const logError = require('../helpers/error_logger.js');
+    logError.logError('ppMCall', null, response);
 
   }
 };

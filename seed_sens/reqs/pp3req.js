@@ -20,13 +20,8 @@ const pp3req = (sen, iter) => {
     } else {
       console.log(`@${Date(Date.now())}: ${sen.first_name} ${sen.last_name} votes FAILED!`);
 
-      fs.open('error_log.txt', 'a', (e, id) => {
-        fs.write( id, JSON.stringify(response) + os.EOL, null, 'utf8', () => {
-          fs.close( id, () => {
-            console.log(`pp2req for ${sen.first_name} ${sen.last_name} didnt work! error logged.`);
-          });
-        });
-      });
+      const logError = require('../helpers/error_logger.js');
+      logError.logError('pp3Call', sen, response);
 
     }
 
