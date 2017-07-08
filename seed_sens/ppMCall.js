@@ -15,20 +15,8 @@ let callUrl = {
 
 const corrections = require('./corrections');
 
-// const corrections = (sen) => {
-//   if (sen.twitter_account == 'RepToddYoung') sen.twitter_account = 'SenToddYoung';
-//   if (sen.twitter_account == 'SenFranken') sen.twitter_account = 'AlFranken';
-//   if (sen.twitter_account == 'SenKamalaHarris') sen.twitter_account = 'KamalaHarris';
-//   if (sen.twitter_account == 'SenJohnKennedy') sen.twitter_account = 'JohnKennedyLA';
-//   if (sen.twitter_account == 'SenatorStrange') sen.twitter_account = 'LutherStrange';
-//   if ((sen.first_name +' '+ sen.last_name) == 'Bill Cassidy') sen.twitter_account = 'BillCassidy';
-//   if ((sen.first_name +' '+ sen.last_name) == 'Amy Klobuchar') sen.twitter_account = 'AmyKlobuchar';
-//   if ((sen.first_name +' '+ sen.last_name) == 'Rand Paul') sen.twitter_account = 'RandPaul';
-// };
-
 let callback = function (error, response, body) {
-  // console.log('error:', error); // Print the error if one occurred
-  console.log(chalk.blue('statusCode for main PP call:', response && response.statusCode)); // Print the response status code if a response was received
+  console.log(chalk.blue('statusCode for main PP call:', response && response.statusCode));
 
   if (response.statusCode <= 200) {
 
@@ -37,6 +25,7 @@ let callback = function (error, response, body) {
     let mems = ppCallResult.results[0].members.filter(mem=>mem.in_office == 'true');
     mems.forEach( mem => {
       corrections.corrections(mem);
+
       result.sens.push({
         pp_id: mem.id,
         first_name: mem.first_name,

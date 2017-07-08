@@ -35,6 +35,7 @@ const formatName = (sen_name) => {
 
 const wikiReq = (sen, iter) => {
   let sen_name = formatName(`${sen.first_name} ${sen.last_name}`);
+  let defaultImg = `https://www.congress.gov/img/member/${sen.pp_id}.jpg`;
 
   let callUrl = `https://en.wikipedia.org/w/api.php?action=query&titles=${sen_name}&format=json&prop=pageimages&origin=*`;
   let callback = (err, response, body) => {
@@ -45,7 +46,7 @@ const wikiReq = (sen, iter) => {
       let data = JSON.parse(body);
       let result = data.query.pages;
       let thumbnail = result[Object.keys(result)[0]].thumbnail;
-      let pic_url = thumbnail ? thumbnail.source : 'http://www.senwatch.us/assets/images/congress-icon.svg';
+      let pic_url = thumbnail ? thumbnail.source : defaultImg;
       pic_url = pic_url.replace(/\d+px/, '250px');
       console.log(pic_url);
       sen.img_url = pic_url;
@@ -63,7 +64,7 @@ const wikiReq = (sen, iter) => {
 
     }
 
-    let status = sen.img_url ? 'yes' : 'no';
+    let status = sen.img_url === defaultImg ? 'no' : 'yes';
     let name = `${sen.first_name} ${sen.last_name}`;
     iter.push({name,status,time:Date.now()});
     console.log(chalk.magenta(`wiki progress: ${iter.length}/100${iter.length==100?'!':'...'}`));
