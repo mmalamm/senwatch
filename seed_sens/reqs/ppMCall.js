@@ -44,8 +44,9 @@ let callback = function (error, response, body) {
         total_present: mem.total_present,
         phone: mem.phone,
         fax: mem.fax,
+        senate_class: mem.senate_class,
         state: mem.state,
-        rank: mem.state_rank,
+        state_rank: mem.state_rank,
         missed_votes_pct: mem.missed_votes_pct,
         votes_with_party_pct: mem.votes_with_party_pct
       });

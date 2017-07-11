@@ -21,6 +21,7 @@
     "chalk": "^2.0.1",
     "curlrequest": "^1.0.1",
     "express": "^4.15.3",
+    "mongodb": "^2.2.30",
     "request": "^2.81.0",
     "serve-favicon": "^2.4.3"
   }
