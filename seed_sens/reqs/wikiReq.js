@@ -47,7 +47,7 @@ const wikiReq = (sen, iter) => {
       let result = data.query.pages;
       let thumbnail = result[Object.keys(result)[0]].thumbnail;
       let pic_url = thumbnail ? thumbnail.source : defaultImg;
-      pic_url = pic_url.replace(/\d+px/, '250px');
+      pic_url = pic_url.replace(/\d+px/, '500px');
       console.log(pic_url);
       sen.img_url = pic_url;
 

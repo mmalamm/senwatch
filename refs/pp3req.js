@@ -14,8 +14,8 @@ const pp3req = (sen, iter) => {
       console.log(chalk.dim(`${sen.first_name} ${sen.last_name} pp3 recieved @${Date(Date.now())}`));
 
       let data = JSON.parse(body);
-      let result = data.results[0].votes;
-      sen.votes = result;
+      let votes = data.results[0].votes;
+      sen.votes = votes;
 
     } else {
       console.log(`@${Date(Date.now())}: ${sen.first_name} ${sen.last_name} votes FAILED!`);

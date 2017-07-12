@@ -59,33 +59,33 @@ let callback = function (error, response, body) {
       pp2req.pp2req(sen, pp2i);
     });
 
-    result.pp3i = [];
-    const pp3req = require('./pp3req');
-    const pp3i = result.pp3i;
-    result.sens.forEach( (sen) => {
-      pp3req.pp3req(sen, pp3i);
-    });
-
-    result.dTweetsi = [];
-    const dTweetsReq = require('./dTweetsReq');
-    const dTweetsi = result.dTweetsi;
-    result.sens.forEach( (sen) => {
-      dTweetsReq.dTweetsReq(sen, dTweetsi);
-    });
-
-    // result.crpi = [];
-    // const crpReq = require('./crpReq');
-    // const crpi = result.crpi;
+    // result.pp3i = [];
+    // const pp3req = require('./pp3req');
+    // const pp3i = result.pp3i;
     // result.sens.forEach( (sen) => {
-    //   crpReq.crpReq(sen, crpi);
+    //   pp3req.pp3req(sen, pp3i);
     // });
 
-    result.wikii = [];
-    const wikiReq = require('./wikiReq');
-    const wikii = result.wikii;
+    // result.dTweetsi = [];
+    // const dTweetsReq = require('./dTweetsReq');
+    // const dTweetsi = result.dTweetsi;
+    // result.sens.forEach( (sen) => {
+    //   dTweetsReq.dTweetsReq(sen, dTweetsi);
+    // });
+
+    result.crpi = [];
+    const crpReq = require('./crpReq');
+    const crpi = result.crpi;
     result.sens.forEach( (sen) => {
-      wikiReq.wikiReq(sen, wikii);
+      crpReq.crpReq(sen, crpi);
     });
+
+    // result.wikii = [];
+    // const wikiReq = require('./wikiReq');
+    // const wikii = result.wikii;
+    // result.sens.forEach( (sen) => {
+    //   wikiReq.wikiReq(sen, wikii);
+    // });
 
   } else {
 
