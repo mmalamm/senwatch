@@ -8,7 +8,7 @@ let ppHeadersObj = sec.secrets.ppHeader || 'nunya';
 let ppCallResult;
 const result = { sens:[] };
 
-const seedOneCall = (pp1_id) => {
+const seedOneCall = (target_pp_id) => {
 
   let callUrl = {
     url : 'https://api.propublica.org/congress/v1/115/senate/members.json',
@@ -17,7 +17,7 @@ const seedOneCall = (pp1_id) => {
 
   const corrections = require('../helpers/corrections');
 
-  let callback = (pp1_id) => {
+  let callback = (target_pp_id) => {
       return function (error, response, body) {
       console.log(chalk.blue('statusCode for main PP call:', response && response.statusCode));
 
@@ -25,7 +25,7 @@ const seedOneCall = (pp1_id) => {
 
         ppCallResult = JSON.parse(body);
 
-        let mem = ppCallResult.results[0].members.filter(mem=>mem.id == pp1_id);
+        let mem = ppCallResult.results[0].members.filter(mem=>mem.id == target_pp_id);
 
         mem.forEach( mem => {
           corrections.corrections(mem);
@@ -42,17 +42,12 @@ const seedOneCall = (pp1_id) => {
             crp_id: mem.crp_id,
             crp: {},
             domain: mem.domain,
+            state: mem.state,
             next_election: mem.next_election,
-            total_votes: mem.total_votes,
-            missed_votes: mem.missed_votes,
-            total_present: mem.total_present,
             phone: mem.phone,
             fax: mem.fax,
             senate_class: mem.senate_class,
-            state: mem.state,
-            state_rank: mem.state_rank,
-            missed_votes_pct: mem.missed_votes_pct,
-            votes_with_party_pct: mem.votes_with_party_pct
+            state_rank: mem.state_rank
           });
         });
 
@@ -88,7 +83,7 @@ const seedOneCall = (pp1_id) => {
   };
 
 
-  request(callUrl, callback(pp1_id));
+  request(callUrl, callback(target_pp_id));
 };
 
 exports.seedOneCall = seedOneCall;

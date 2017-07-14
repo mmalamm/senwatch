@@ -38,17 +38,12 @@ let callback = function (error, response, body) {
         crp_id: mem.crp_id,
         crp: {},
         domain: mem.domain,
+        state: mem.state,
         next_election: mem.next_election,
-        total_votes: mem.total_votes,
-        missed_votes: mem.missed_votes,
-        total_present: mem.total_present,
         phone: mem.phone,
         fax: mem.fax,
         senate_class: mem.senate_class,
-        state: mem.state,
-        state_rank: mem.state_rank,
-        missed_votes_pct: mem.missed_votes_pct,
-        votes_with_party_pct: mem.votes_with_party_pct
+        state_rank: mem.state_rank
       });
     });
 
@@ -73,19 +68,19 @@ let callback = function (error, response, body) {
     //   dTweetsReq.dTweetsReq(sen, dTweetsi);
     // });
 
-    result.crpi = [];
-    const crpReq = require('./crpReq');
-    const crpi = result.crpi;
-    result.sens.forEach( (sen) => {
-      crpReq.crpReq(sen, crpi);
-    });
-
-    // result.wikii = [];
-    // const wikiReq = require('./wikiReq');
-    // const wikii = result.wikii;
+    // result.crpi = [];
+    // const crpReq = require('./crpReq');
+    // const crpi = result.crpi;
     // result.sens.forEach( (sen) => {
-    //   wikiReq.wikiReq(sen, wikii);
+    //   crpReq.crpReq(sen, crpi);
     // });
+
+    result.wikii = [];
+    const wikiReq = require('./wikiReq');
+    const wikii = result.wikii;
+    result.sens.forEach( (sen) => {
+      wikiReq.wikiReq(sen, wikii);
+    });
 
   } else {
 

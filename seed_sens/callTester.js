@@ -49,9 +49,10 @@ app.get('/', (req, res) => {
 
 
 app.get('/mongoDB', (req, res) => {
-
+  const sec = require('./secrets');
+  let mongodb = sec.secrets.mongodb;
   testObj.sens.forEach( sen => {
-    MongoClient.connect('mongodb://localhost:27017/sens', (err, db) => {
+    MongoClient.connect(mongodb, (err, db) => {
       if (err) {
         return console.log('Unable to connect to mongodb server');
       }
@@ -70,21 +71,14 @@ app.get('/mongoDB', (req, res) => {
         crp: sen.crp,
         domain: sen.domain,
         next_election: sen.next_election,
-        total_votes: sen.total_votes,
-        missed_votes: sen.missed_votes,
-        total_present: sen.total_present,
         phone: sen.phone,
         fax: sen.fax,
         state: sen.state,
         state_rank: sen.state_rank,
         senate_class: sen.senate_class,
-        missed_votes_pct: sen.missed_votes_pct,
-        votes_with_party_pct: sen.votes_with_party_pct,
         dob: sen.dob,
         gender: sen.gender,
         committees: sen.committees,
-        votes: sen.votes,
-        d_tweets: sen.d_tweets,
         img_url: sen.img_url
       });
       let DBstatus = `${sen.first_name} ${sen.last_name} committed to db!`;
