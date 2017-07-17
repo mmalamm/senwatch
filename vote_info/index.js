@@ -3,19 +3,17 @@ const fs = require ('fs'), os = require('os'), request = require('request'), cha
 const sec = require('../secrets');
 let ppHeadersObj = sec.secrets.ppHeader || 'nunya';
 
-const pp3update = (res, pp_id) => {
+const voteCall = (res, vote) => {
 
   let callUrl = {
-    url : `https://api.propublica.org/congress/v1/members/${pp_id}/votes.json`,
+    url : `https://api.propublica.org/congress/v1/115/senate/sessions/${vote.session}/votes/${vote.roll_call}`,
     headers : ppHeadersObj
   };
 
   let callback = (err, response, body) => {
     if (response.statusCode <= 200) {
-
       let data = JSON.parse(body);
-      let votes = data.results[0].votes;
-      res.json(votes);
+      res.json(data);
     } else {
 
     }
@@ -23,4 +21,4 @@ const pp3update = (res, pp_id) => {
   request(callUrl, callback);
 };
 
-exports.pp3update = pp3update;
+exports.voteCall = voteCall;

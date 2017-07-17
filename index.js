@@ -29,7 +29,25 @@ app.get('/dtweets/:twitter_account', (req, res) => {
 });
 
 const pp3update = require('./update_sens/pp3update');
-app.get('/votes/:pp_id', (req, res) => {
+app.get('/sens/:pp_id/votes', (req, res) => {
   let ppId = req.params.pp_id;
   pp3update.pp3update(res, ppId);
+});
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
+
+
+//next patch stuff
+const voteCall = require('./vote_info');
+app.get('/vote/:session/:roll_call', (req, res) => {
+  let roll_call = req.params.roll_call;
+  let session = req.params.session;
+  voteCall.voteCall(res, {roll_call, session});
+});
+
+const depthVote = require('./vote_info/depthvote');
+app.get('/bkw', (req, res) => {
+  depthVote.depthVote(res);
 });

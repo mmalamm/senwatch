@@ -2,11 +2,11 @@ const fs = require ('fs'), os = require('os'), request = require('request'), cha
 
 const sec = require('../secrets');
 let ppHeadersObj = sec.secrets.ppHeader || 'nunya';
-
-const pp3update = (res, pp_id) => {
+//gold mine for vote data
+const depthVote = (res) => {
 
   let callUrl = {
-    url : `https://api.propublica.org/congress/v1/members/${pp_id}/votes.json`,
+    url : `https://api.propublica.org/congress/v1/115/bills/s722.json`,
     headers : ppHeadersObj
   };
 
@@ -14,8 +14,7 @@ const pp3update = (res, pp_id) => {
     if (response.statusCode <= 200) {
 
       let data = JSON.parse(body);
-      let votes = data.results[0].votes;
-      res.json(votes);
+      res.json(data);
     } else {
 
     }
@@ -23,4 +22,4 @@ const pp3update = (res, pp_id) => {
   request(callUrl, callback);
 };
 
-exports.pp3update = pp3update;
+exports.depthVote = depthVote;
