@@ -1,9 +1,17 @@
 const fs = require ('fs'), os = require('os'), request = require('request'), chalk = require('chalk');
 
+const sec = require('../secrets');
+let ppHeadersObj = sec.secrets.ppHeader || 'nunya';
+
+let callUrl = {
+  url : 'https://api.propublica.org/congress/v1/115/senate/members.json',
+  headers : ppHeadersObj
+};
+
 const pp3update = (res, pp_id) => {
 
   let callUrl = {
-    url : `https://api.propublica.org/congress/v1/members/${sen.pp_id}/votes.json`,
+    url : `https://api.propublica.org/congress/v1/members/${pp_id}/votes.json`,
     headers : ppHeadersObj
   };
 

@@ -5,124 +5,31 @@ const sec = require('./secrets');
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.use(express.static(path.join(__dirname, 'public')));
-
+const MongoClient = require('mongodb').MongoClient;
+const mongodb = sec.secrets.mongodb;
 
 app.listen(port, () => console.log('Ayo big the server running on port ', port));
 
-let sens = [];
 
-let crpCallResult;
-const request = require('request');
-let crpKey = sec.secrets.crpKey || 'nunya';
-// request(`http://www.opensecrets.org/api/?method=candSummary&output=json&cid=N00007360&apikey=${crpKey}`, function (error, response, body) {
-//   // console.log('error:', error); // Print the error if one occurred
-//   // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-//   crpCallResult = JSON.parse(body);
-// });
-
-let ppCallResult;
-const curl = require('curlrequest');
-let ppHeadersObj = sec.secrets.ppHeader || 'nunya';
-
-curl.request(
-  {
-    url : 'https://api.propublica.org/congress/v1/115/senate/members.json',
-    headers : ppHeadersObj
-  }, (err, stdout) => {
-    ppCallResult = JSON.parse(stdout);
-    let mems = ppCallResult.results[0].members.filter(mem=>mem.in_office == 'true');
-    mems.forEach( mem => {
-      sens.push({
-        pp_id: mem.id,
-        first_name: mem.first_name,
-        middle_name: mem.middle_name,
-        last_name: mem.last_name,
-        party: mem.party,
-        twitter_account: mem.twitter_account,
-        facebook_account: mem.facebook_account,
-        crp_id: mem.crp_id,
-        domain: mem.domain,
-        next_election: mem.next_election,
-        total_votes: mem.total_votes,
-        missed_votes: mem.missed_votes,
-        total_present: mem.total_present,
-        phone: mem.phone,
-        fax: mem.fax,
-        state: mem.state,
-        rank: mem.state_rank,
-        senate_class: mem.senate_class,
-        missed_votes_pct: mem.missed_votes_pct,
-        votes_with_party_pct: mem.votes_with_party_pct
-      });
-    });
-
-    let i = 0;
-    sens.forEach( sen => {
-      if(sen.crp_id.length) {
-        request(`http://www.opensecrets.org/api/?method=candIndustry&output=json&cid=${sen.crp_id}&apikey=${crpKey}`, function (error, response, body) {
-          // console.log('error:', error); // Print the error if one occurred
-          // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-          if (error) {
-            console.log('///////ERROR/////////', error);
-          }
-          sen.candSummary = JSON.parse(body);
-        });
-      } else {
-        console.log(`${sen.first_name} ${sen.last_name} does not have a crp_id`);
-      }
-    });
-
-    sens.forEach( sen => {
-
-      if (sen.twitter_account == 'RepToddYoung') sen.twitter_account = 'SenToddYoung';
-      if (sen.twitter_account == 'SenFranken') sen.twitter_account = 'AlFranken';
-      if (sen.twitter_account == 'SenKamalaHarris') sen.twitter_account = 'KamalaHarris';
-      if (sen.twitter_account == 'SenJohnKennedy') sen.twitter_account = 'JohnKennedyLA';
-      if (sen.twitter_account == 'SenatorStrange') sen.twitter_account = 'LutherStrange';
-      if ((sen.first_name +' '+ sen.last_name) == 'Bill Cassidy') sen.twitter_account = 'BillCassidy';
-      if ((sen.first_name +' '+ sen.last_name) == 'Amy Klobuchar') sen.twitter_account = 'AmyKlobuchar';
-      if ((sen.first_name +' '+ sen.last_name) == 'Rand Paul') sen.twitter_account = 'RandPaul';
-
-      if (sen.twitter_account.length) {
-
-        request(`https://projects.propublica.org/politwoops/user/${sen.d_twitter_account}.json`, function(err, res, body) {
-          if (err) {
-            console.log('///////ERROR/////////', err);
-            return;
-          }
-          console.log(sen.twitter_account);
-          let d_tweets = JSON.parse(body);
-          // console.log(d_tweets);
-          console.log(sen.first_name, sen.last_name, sen.state, sen.party, ' good 2 go');
-          i++;
-          console.log(i);
-          d_tweets = d_tweets.tweets;
-          d_tweets = d_tweets.map( (tw) => {
-            return {
-              created_at: tw.created_at,
-              deleted_at: tw.updated_at,
-              body: tw.content,
-              profile_pic_url: tw.details.user.profile_image_url,
-              tw_user_name: tw.user_name
-            };
-          });
-          sen.d_tweets = d_tweets;
-        });
-      } else {
-        console.log(`${sen.first_name} ${sen.last_name} does not have a twitter_account`);
-      }
+app.get('/sens', (req, res) => {
+  MongoClient.connect(mongodb, (err, db) => {
+    if (err) {
+      return console.log('Unable to connect to mongodb server');
+    }
+    db.collection('Sens').find().toArray().then( (data) => {
+      res.json(data);
     });
   });
-
-
-
-
-
-app.get('/crp', (req, res) => {
-  res.json(crpCallResult);
 });
 
-app.get('/pp', (req, res) => {
-  res.json(sens);
+const dTweetsUpdate = require('./update_sens/dTweetsUpdate');
+app.get('/dtweets/:twitter_account', (req, res) => {
+  let twAccount = req.params.twitter_account;
+  dTweetsUpdate.dTweetsUpdate(res, twAccount);
+});
+
+const pp3update = require('./update_sens/pp3update');
+app.get('/votes/:pp_id', (req, res) => {
+  let ppId = req.params.pp_id;
+  pp3update.pp3update(res, ppId);
 });
