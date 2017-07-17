@@ -1,0 +1,124 @@
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}*/
+body {
+  background-color: #002b55;
+  justify-content: center;
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Arapey', serif;
+  margin: 0 auto;
+  width: 960px;
+  align-items: center;
+}
+
+nav {
+  font-size: 12px;
+}
+
+.nav_logo {
+  padding-right: 5px;
+  height: 15px;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#main {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+  align-items: center;
+}
+
+header img {
+  height: 150px;
+  width: auto;
+}
+
+.state-borders {
+  fill: none;
+  stroke: #002b55;
+  stroke-width: 3px;
+  stroke-linejoin: none;
+  stroke-linecap: none;
+  pointer-events: none;
+}
+
+.top-text {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#sen-info {
+  padding-right: 10px;
+}
+
+#buttons {
+  display: flex;
+}
+
+#buttons > div {
+  flex: auto;
+  display: block;
+  width: 1px;
+}
+
+.btn-contents {
+  display: flex;
+}
+
+#buttons > div > * {
+  margin: 10px;
+
+}
+
+.btnDiv0, .btnDiv1 {
+  box-sizing: border-box;
+  box-shadow: 3px 2px 2px #001E3B;
+}
+
+.mapnbuttons {
+  display: block;
+}
+
+.xtra-info {
+  padding: 0px 15px;
+}
