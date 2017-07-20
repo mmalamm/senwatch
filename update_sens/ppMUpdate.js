@@ -31,7 +31,10 @@ let callback = function (error, response, body) {
         }
         console.log('connected to mongo');
         db.collection('Sens').find({pp_id:mem.id}).toArray().then( (data) => {
-          console.log(data[0].last_name);
+          if (data[0].last_name == 'Schumer') {
+            let currSen = data[0];
+            console.log(Object.keys(currSen));
+          }
         });
         db.close();
       });
@@ -45,25 +48,12 @@ let callback = function (error, response, body) {
   }
 };
 
-request(callUrl, callback);
+const ppMUpdate = () => {
+  return request(callUrl, callback);
+};
 
-//
-// let mongodb = sec.secrets.mongodb;
-// let mongoSens;
-//
-// MongoClient.connect(mongodb, (err, db) => {
-//   if (err) {
-//     return console.log('Unable to connect to mongodb server');
-//   }
-//   console.log('Connected to MongoDB server');
-//   db.collection('Sens').find().toArray().then( (result) => {
-//     mongoSens = result;
-//   });
-//   db.close();
-// });
-//
-//
-//
+exports.ppMUpdate = ppMUpdate;
+
 // pp_id: mem.id,
 // first_name: mem.first_name,
 // middle_name: mem.middle_name,

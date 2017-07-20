@@ -1,5 +1,6 @@
 import stateHash from './state_map_hashes';
 const { state_ids_obj, state_hash } = stateHash;
+import renderBanner from '../banners/render_banner';
 
 let tooltip = d3.select('body')
                 .append('div')
@@ -39,11 +40,11 @@ const cursor_events = {
     document.getElementById('sens-info').scrollIntoView();
     let stateName = e.target.state_abbr;
     let sens = senators.filter( senator => senator.state === stateName );
-    let sen_names = sens.map( senator => senator.first_name + ' ' + senator.last_name );
     $('#heading').empty().append(`<h1 id='heading'>${state_hash[stateName]} Senators</h1>`);
-    console.log(sen_names);
+    renderBanner(0, sens.filter(sen => sen.state_rank == 'junior')[0]);
+    renderBanner(1, sens.filter(sen => sen.state_rank == 'senior')[0]);
   }
-  
+
 };
 
 export default cursor_events;

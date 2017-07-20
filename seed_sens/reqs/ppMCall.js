@@ -32,6 +32,7 @@ let callback = function (error, response, body) {
         middle_name: mem.middle_name,
         last_name: mem.last_name,
         party: mem.party,
+        office: mem.office,
         twitter_account: mem.twitter_account,
         facebook_account: mem.facebook_account,
         rss_url: mem.rss_url,

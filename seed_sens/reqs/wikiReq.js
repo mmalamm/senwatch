@@ -35,7 +35,7 @@ const formatName = (sen_name) => {
 
 const wikiReq = (sen, iter) => {
   let sen_name = formatName(`${sen.first_name} ${sen.last_name}`);
-  let defaultImg = `https://www.congress.gov/img/member/${sen.pp_id}.jpg`;
+  let defaultImg = `https://www.congress.gov/img/member/${sen.pp_id.toLowerCase()}.jpg`;
 
   let callUrl = `https://en.wikipedia.org/w/api.php?action=query&titles=${sen_name}&format=json&prop=pageimages&origin=*`;
   let callback = (err, response, body) => {

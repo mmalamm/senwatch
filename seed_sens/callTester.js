@@ -64,6 +64,7 @@ app.get('/mongoDB', (req, res) => {
         middle_name: sen.middle_name,
         last_name: sen.last_name,
         party: sen.party,
+        office: sen.office,
         twitter_account: sen.twitter_account,
         facebook_account: sen.facebook_account,
         rss_url: sen.rss_url,
