@@ -22,7 +22,6 @@ let callback = function (error, response, body) {
 
     ppCallResult = JSON.parse(body);
     mems = ppCallResult.results[0].members.filter(mem=>mem.in_office);
-    // console.log(mems.length);
     mems.forEach( mem => {
       corrections.corrections(mem);
 
@@ -32,7 +31,7 @@ let callback = function (error, response, body) {
         }
         console.log('connected to mongo');
         db.collection('Sens').find({pp_id:mem.id}).toArray().then( (data) => {
-          //incomplete
+          console.log(data[0].last_name);
         });
         db.close();
       });
