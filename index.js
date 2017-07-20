@@ -10,8 +10,12 @@ const mongodb = sec.secrets.mongodb;
 
 app.listen(port, () => console.log('Ayo big the server running on port ', port));
 
+app.use('/api', (req, res, next) => {
+  if (!req.headers.bovine) return res.send('access denied');
+  next();
+});
 
-app.get('/sens', (req, res) => {
+app.get('/api/sens', (req, res) => {
   MongoClient.connect(mongodb, (err, db) => {
     if (err) {
       return console.log('Unable to connect to mongodb server');
@@ -23,13 +27,13 @@ app.get('/sens', (req, res) => {
 });
 
 const dTweetsUpdate = require('./update_sens/dTweetsUpdate');
-app.get('/dtweets/:twitter_account', (req, res) => {
+app.get('/api/dtweets/:twitter_account', (req, res) => {
   let twAccount = req.params.twitter_account;
   dTweetsUpdate.dTweetsUpdate(res, twAccount);
 });
 
 const pp3update = require('./update_sens/pp3update');
-app.get('/sens/:pp_id/votes', (req, res) => {
+app.get('/api/sens/:pp_id/votes', (req, res) => {
   let ppId = req.params.pp_id;
   pp3update.pp3update(res, ppId);
 });
