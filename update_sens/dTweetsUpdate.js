@@ -13,6 +13,7 @@ const dTweetsUpdate = (res, tw_account) => {
           created_at: tw.created_at,
           deleted_at: tw.updated_at,
           body: tw.content,
+          name: tw.details.user.name,
           profile_pic_url: tw.details.user.profile_image_url,
           tw_user_name: tw.user_name
         };

@@ -33,6 +33,7 @@ let callback = function (error, response, body) {
         db.collection('Sens').find({pp_id:mem.id}).toArray().then( (data) => {
           if (data[0].last_name == 'Schumer') {
             let currSen = data[0];
+            ///incomplete
             console.log(Object.keys(currSen));
           }
         });

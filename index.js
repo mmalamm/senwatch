@@ -10,10 +10,10 @@ const mongodb = sec.secrets.mongodb;
 
 app.listen(port, () => console.log('Ayo big the server running on port ', port));
 
-app.use('/api', (req, res, next) => {
-  if (!req.headers.bovine) return res.send('access denied');
-  next();
-});
+// app.use('/api', (req, res, next) => {
+//   if (!req.headers.bovine) return res.send('access denied');
+//   next();
+// });
 
 app.get('/api/sens', (req, res) => {
   MongoClient.connect(mongodb, (err, db) => {

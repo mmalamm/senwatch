@@ -12,10 +12,13 @@ const renderDTweets = (num, twAcc) => {
             <div class "d-tweet-img-container">
               <br>
               <br>
-              <img class="d-tweet-img" src=${dTweet.profile_pic_url} />
+              <img class="d-tweet-img" src=${dTweet.profile_pic_url} alt=${dTweet.name}/>
             </div>
             <div>
-              <h6>${dTweet.tw_user_name}</h6>
+              <p>
+              <img class='nav_logo' src='images/twitter_logo.svg' />
+              ${dTweet.name} <span>@${dTweet.tw_user_name}</span>
+              </p>
               <p>${dTweet.body}</p>
               <p>${dTweet.created_at}, ${dTweet.deleted_at}</p>
             </div>
