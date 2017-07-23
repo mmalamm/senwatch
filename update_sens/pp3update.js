@@ -17,7 +17,7 @@ const pp3update = (res, pp_id) => {
       let votes = data.results[0].votes;
       res.json(votes);
     } else {
-
+      console.log(chalk.bgRed(response.statusCode));
     }
   };
   request(callUrl, callback);
