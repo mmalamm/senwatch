@@ -4,6 +4,8 @@ const svg = d3.select("svg");
 
 const path = d3.geoPath();
 
+import ppMCall from './ppM_call.js';
+
 import cursorEvents from './cursor_events';
 const { handleHoverOn, handleHoverOff, handleFocus, handleClick } = cursorEvents;
 
@@ -37,6 +39,6 @@ d3.json(statesGeoJSON, (error, us) => {
   svg.append("path")
       .attr("class", "state-borders")
       .attr("d", path(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; })));
-});
 
-import './ppM_call.js';
+  ppMCall();
+});

@@ -1,12 +1,10 @@
-$.ajax({
-  url: './api/sens',
-  beforeSend: function(xhr) {
-       xhr.setRequestHeader("bovine", "corvus");
-  },
-  success: (data) => {
-    // let thing = Array.from($(".states")[0]);
-    console.log(Array.from($(".states")));
-    if (Array.from($(".states")).length) {
+const ppMCall = () => {
+  return $.ajax({
+    url: './api/sens',
+    beforeSend: function(xhr) {
+         xhr.setRequestHeader("bovine", "corvus");
+    },
+    success: (data) => {
       var svg = d3.select("svg");
       svg.style('visibility', 'visible');
       window.senators = data;
@@ -43,8 +41,9 @@ $.ajax({
         state.style.transition = 'fill .5s ease';
         state.style.fill = state.color;
       });
-    } else {
-      location.reload();
     }
-  }
-});
+  });
+
+};
+
+export default ppMCall;
