@@ -21,9 +21,9 @@ const renderBanner = (num, sen) => {
     </div>
     `
   );
-  renderTwTimeline(num, sen.twitter_account);
+  // renderTwTimeline(num, sen.twitter_account);
   renderSenInfo(num, sen);
-  renderDTweets(num, sen.twitter_account);
+  // renderDTweets(num, sen.twitter_account);
 };
 
 export default renderBanner;

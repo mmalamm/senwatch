@@ -6,7 +6,7 @@ const dTweetsUpdate = (res, tw_account) => {
 
   let callback = (err, response, body) => {
     if (response.statusCode <= 200) {
-
+      console.log(tw_account, 'call successful');
       let result = JSON.parse(body);
       let d_tweets = result.tweets.map( (tw) => {
         return {
@@ -21,9 +21,11 @@ const dTweetsUpdate = (res, tw_account) => {
 
       res.json(d_tweets);
     } else {
-
+      console.log(tw_account, 'call failed');
+      res.json('sucks');
     }
   };
+  console.log('sending d_tweets call for:', tw_account);
   request(callUrl, callback);
 };
 

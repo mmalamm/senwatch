@@ -1,4 +1,5 @@
 import bannerColor from './banner_color';
+import personalInfo from './personal_info';
 
 const renderSenInfo = (num, sen) => {
   let commsStr = sen.committees.length ? '<div class="top-text"><strong>Committee Memberships:</strong></div>' : '';
@@ -24,7 +25,7 @@ const renderSenInfo = (num, sen) => {
         Senate Office Building
       <br>
       <br>
-        Place Holder for latest votes Link
+        ${personalInfo(sen)}
     </p>
   </div>
   <div class='xtra-info xtra-info-${num}'>
