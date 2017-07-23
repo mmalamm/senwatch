@@ -52,15 +52,11 @@ const _renderGender = (gender) => {
 };
 
 const personalInfo = (sen) => {
-
-  let senDOB = new Date(sen.dob);
-
+  let { dob, gender } = sen;
+  let senDOB = new Date(dob);
   let age = _calculateAge(senDOB);
-
   let zodiac = _calculateZodiac(senDOB);
-
-  let gender = _renderGender(sen.gender);
-
+  gender = _renderGender(gender);
   return `${age}${gender}${zodiac}`;
 };
 
