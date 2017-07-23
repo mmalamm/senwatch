@@ -3,6 +3,9 @@ import renderSenInfo from './render_sen_info';
 import renderDTweets from './render_d_tweets';
 import bannerColor from './banner_color';
 
+import cursorEvents from './cursor_events';
+const { personalInfoHover, personalInfoOff } = cursorEvents;
+
 const renderBanner = (num, sen) => {
   ///////////////
   sen.office = sen.office ? sen.office : '';
@@ -24,6 +27,13 @@ const renderBanner = (num, sen) => {
   // renderTwTimeline(num, sen.twitter_account);
   renderSenInfo(num, sen);
   // renderDTweets(num, sen.twitter_account);
+
+  // attach cursor events
+  let zods = Array.from($('.zodiac'));
+  zods.forEach( zod => {
+    zod.onmouseover = personalInfoHover;
+    zod.onmouseout = personalInfoOff;
+  });
 };
 
 export default renderBanner;

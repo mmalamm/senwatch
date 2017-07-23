@@ -4,7 +4,7 @@ const _calculateAge = (birthday) => { // birthday is a date
   return Math.abs(ageDate.getUTCFullYear() - 1970);
 };
 
-const zodiac = {
+const zodiacObj = {
   'scorpio':'♏',
   'libra':'♎',
   'virgo':'♍',
@@ -37,7 +37,7 @@ const _calculateZodiac = (birthday) => {
   if (month == 11 && date >=22 || month == 12 && date <=21) {value = "sagittarius";}
   if (month == 12 && date >=22 || month == 1 && date <=19) {value = "capricorn";}
 
-  return zodiac[value];
+  return value;
 };
 
 const _renderGender = (gender) => {
@@ -53,11 +53,11 @@ const _renderGender = (gender) => {
 
 const personalInfo = (sen) => {
   let { dob, gender } = sen;
-  let senDOB = new Date(dob);
+  let senDOB = new Date(dob + ' EST');
   let age = _calculateAge(senDOB);
   let zodiac = _calculateZodiac(senDOB);
-  gender = _renderGender(gender);
-  return `${age}${gender}${zodiac}`;
+  let genderSym = _renderGender(gender);
+  return `<span class='zodiac' zod=${zodiac[0].toUpperCase() + zodiac.slice(1)} gen=${gender} dob=${dob}>${age}${genderSym}${zodiacObj[zodiac]}</span>`;
 };
 
 export default personalInfo;
