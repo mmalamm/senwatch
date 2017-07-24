@@ -143,3 +143,17 @@ header img {
 svg {
   visibility: none;
 }
+
+
+/*crp viz stuff*/
+.bar {
+      fill: #0080FF
+    }
+
+    .bar:hover {
+      fill: #003366
+    }
+
+    .bar-label {
+      text-anchor:start;
+    }

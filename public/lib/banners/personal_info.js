@@ -57,7 +57,12 @@ const personalInfo = (sen) => {
   let age = _calculateAge(senDOB);
   let zodiac = _calculateZodiac(senDOB);
   let genderSym = _renderGender(gender);
-  return `<span class='zodiac' zod=${zodiac[0].toUpperCase() + zodiac.slice(1)} gen=${gender} dob=${dob}>${age}${genderSym}${zodiacObj[zodiac]}</span>`;
+  return `Gender:${genderSym} <span class='zodiac' zod=${zodiac[0].toUpperCase() + zodiac.slice(1)} gen=${gender} dob=${dob}>
+    Age: ${age} - ${zodiacObj[zodiac]}
+  </span>`;
 };
 
 export default personalInfo;
+
+
+// `<span class='zodiac' zod=${zodiac[0].toUpperCase() + zodiac.slice(1)} gen=${gender} dob=${dob}>${age}${genderSym}${zodiacObj[zodiac]}</span>`
