@@ -1,4 +1,5 @@
 const rendercrpViz = (num, crp) => {
+  if(!crp.candIndustry) return console.log('no crp on file');
   let data = crp.candIndustry.industry.map( ind => {
     let name = ind["@attributes"].industry_name;
     let total = Number(ind["@attributes"].total);

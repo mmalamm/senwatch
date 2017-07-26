@@ -43,7 +43,6 @@ const cursorEvents = {
 
     newTab[0].style.display = 'block';
     $(`#${newTabID}`).addClass(`active-${num}`);
-    console.log(newTab);
     e.currentTarget.className += ' active';
   }
 };

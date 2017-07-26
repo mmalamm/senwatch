@@ -6,6 +6,14 @@ const renderDTweets = (num, twAcc) => {
     },
     success: (data) => {
       let dTweetsList = '<div class="d-tweets">';
+      let heading = `
+        <div class='top-text'>
+          <strong>
+            Deleted Tweets
+          </strong>
+        </div>
+      `;
+      dTweetsList += heading;
       data.forEach( dTweet => {
         dTweetsList += `
           <div class="d-tweet">
