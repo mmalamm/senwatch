@@ -34,9 +34,17 @@ const cursorEvents = {
     oldTab[0].style.display = 'none';
     $(`#${oldTabID}`).removeClass(`active-${num}`);
 
+    ///refactor into jquery
+    let tablinks = document.getElementsByClassName("tablinks");
+    for (let i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    ///
+
     newTab[0].style.display = 'block';
     $(`#${newTabID}`).addClass(`active-${num}`);
     console.log(newTab);
+    e.currentTarget.className += ' active';
   }
 };
 

@@ -10,7 +10,7 @@ const rendercrpViz = (num, crp) => {
   let wits = data.map( ind => ind.total );
 //this appends svg el
 let w = 460;
-let h = 200;
+let h = 400;
 let svg = d3.select(`#crp-viz-container-${num}`).append('svg')
   .attr('id', 'chart')
   .attr('height', h)

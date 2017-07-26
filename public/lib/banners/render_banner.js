@@ -19,19 +19,22 @@ const renderBanner = (num, sen) => {
       <div id='sen-info-container-${num}'></div>
 
       <div class="tab">
-        <button id='crp-viz-tab-${num}' class="tablinks">$$$</button>
+        <button id='crp-viz-tab-${num}' class="tablinks active">$$$</button>
         <button id='twitter-timeline-tab-${num}' class="tablinks">Tweets</button>
         <button id='d-tweets-tab-${num}' class="tablinks">dTweets</button>
         <button id='votes-tab-${num}' class="tablinks">votes</button>
+        <button id='close-tab-${num}' class="tablinks">close X</button>
       </div>
 
       <div id='crp-viz-container-${num}' class='tab-content active-${num}'></div>
 
-      <div style='border: 10px solid ${bannerColor(sen.party)}'  id='twitter-timeline-container-${num}' class='tab-content '></div>
+      <div style='border: 10px solid ${bannerColor(sen.party)}'  id='twitter-timeline-container-${num}' class='tab-content'></div>
 
       <div id='d-tweets-container-${num}' class='tab-content'></div>
 
       <div id='votes-container-${num}' class='tab-content'></div>
+
+      <div id='close-container-${num}' class='tab-content'></div>
 
     </div>
     `
