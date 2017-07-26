@@ -47,7 +47,7 @@ const _renderGender = (gender) => {
     case 'F':
       return '♀';
     default:
-      return 'y/o';
+      return 'non-binary';
   }
 };
 

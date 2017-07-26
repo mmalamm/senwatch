@@ -22,6 +22,21 @@ const cursorEvents = {
   },
   personalInfoOff: (e) => {
     tooltip.transition().style('opacity',0);
+  },
+  openTab: (e) => {
+    let btnID = e.target.attributes.id.value;
+    let num = btnID[btnID.length - 1];
+    let newTabID = `${btnID.slice(0, -5)}container-${num}`;
+    let newTab = $(`#${newTabID}`);
+    let oldTab = $(`.active-${num}`);
+    let oldTabID = oldTab[0].id;
+
+    oldTab[0].style.display = 'none';
+    $(`#${oldTabID}`).removeClass(`active-${num}`);
+
+    newTab[0].style.display = 'block';
+    $(`#${newTabID}`).addClass(`active-${num}`);
+    console.log(newTab);
   }
 };
 

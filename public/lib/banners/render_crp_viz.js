@@ -1,5 +1,4 @@
 const rendercrpViz = (num, crp) => {
-  console.log(crp);
   let data = crp.candIndustry.industry.map( ind => {
     let name = ind["@attributes"].industry_name;
     let total = Number(ind["@attributes"].total);
@@ -7,13 +6,12 @@ const rendercrpViz = (num, crp) => {
     let indivs = Number(ind["@attributes"].indivs);
     return {name,total,pacs,indivs};
   });
-  console.log('yoyoyo data', data);
   // return $(`#crp-viz-${num}`).append($(`<h1>${data[0].name}</h1>`));
   let wits = data.map( ind => ind.total );
 //this appends svg el
 let w = 460;
 let h = 200;
-let svg = d3.select(`#crp-viz-${num}`).append('svg')
+let svg = d3.select(`#crp-viz-container-${num}`).append('svg')
   .attr('id', 'chart')
   .attr('height', h)
   .attr('width', w);
@@ -46,6 +44,7 @@ const plot = (params) => {
       .attr('x', /*d => x(d.total/5000)*/0 )
       .attr('y', (d, i) => y(i) )
       .attr('dy', () => y(1)/1.5+2 )
+      .attr('style', 'pointer-events:none')
       .text( d => d.name );
 };
 

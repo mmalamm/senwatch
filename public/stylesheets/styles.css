@@ -145,6 +145,16 @@ svg {
 }
 
 
+.tab-content {
+  display: none;
+}
+
+.active-0, .active-1 {
+  display: block;
+}
+
+
+
 /*crp viz stuff*/
 .bar {
       fill: #0080FF

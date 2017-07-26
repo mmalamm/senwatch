@@ -5,7 +5,7 @@ import rendercrpViz from './render_crp_viz';
 import bannerColor from './banner_color';
 
 import cursorEvents from './cursor_events';
-const { personalInfoHover, personalInfoOff } = cursorEvents;
+const { personalInfoHover, personalInfoOff, openTab } = cursorEvents;
 
 const renderBanner = (num, sen) => {
   ///////////////
@@ -15,15 +15,23 @@ const renderBanner = (num, sen) => {
   let btnDiv = $(`.btnDiv${num}`);
   btnDiv.empty().append(
     `
-    <div>
-      <div style='background-color: ${bannerColor(sen.party)}' id='sen-info-container-${num}'></div>
+    <div style='background-color: ${bannerColor(sen.party)}'>
+      <div id='sen-info-container-${num}'></div>
 
-      <div style='background-color: ${bannerColor(sen.party)}' id='crp-viz-${num}'></div>
+      <div class="tab">
+        <button id='crp-viz-tab-${num}' class="tablinks">$$$</button>
+        <button id='twitter-timeline-tab-${num}' class="tablinks">Tweets</button>
+        <button id='d-tweets-tab-${num}' class="tablinks">dTweets</button>
+        <button id='votes-tab-${num}' class="tablinks">votes</button>
+      </div>
 
-      <div style='border: 10px solid ${bannerColor(sen.party)};background-color:${bannerColor(sen.party)}'  id='twitter-timeline-container-${num}'></div>
+      <div id='crp-viz-container-${num}' class='tab-content active-${num}'></div>
 
-      <div style='background-color: ${bannerColor(sen.party)}' id='d-tweets-container-${num}'></div>
+      <div style='border: 10px solid ${bannerColor(sen.party)}'  id='twitter-timeline-container-${num}' class='tab-content '></div>
 
+      <div id='d-tweets-container-${num}' class='tab-content'></div>
+
+      <div id='votes-container-${num}' class='tab-content'></div>
 
     </div>
     `
@@ -32,13 +40,19 @@ const renderBanner = (num, sen) => {
   renderSenInfo(num, sen);
   rendercrpViz(num, sen.crp);
   renderTwTimeline(num, sen.twitter_account);
-  // renderDTweets(num, sen.twitter_account);
+  renderDTweets(num, sen.twitter_account);
 
   // attach cursor events
   let zods = Array.from($('.zodiac'));
   zods.forEach( zod => {
     zod.onmouseover = personalInfoHover;
     zod.onmouseout = personalInfoOff;
+  });
+
+  let tabs = Array.from($('.tablinks'));
+  console.log(tabs);
+  tabs.forEach( tab => {
+    tab.onclick = openTab;
   });
 };
 
