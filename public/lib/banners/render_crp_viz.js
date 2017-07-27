@@ -8,22 +8,36 @@ const rendercrpViz = (num, crp) => {
     return {name,total,pacs,indivs};
   });
   // return $(`#crp-viz-${num}`).append($(`<h1>${data[0].name}</h1>`));
-  let wits = data.map( ind => ind.total );
 //this appends svg el
 let w = 460;
 let h = 400;
+
+let margin = {
+  top: 20,
+  bottom: 20,
+  left:20,
+  right:20
+};
+
+let width = w - margin.left - margin.right;
+let height = h - margin.top - margin.bottom;
+
 let svg = d3.select(`#crp-viz-container-${num}`).append('svg')
   .attr('id', 'chart')
   .attr('height', h)
   .attr('width', w);
 
+let chart = svg.append('g')
+              .classed('display', true)
+              .attr('transform', `translate(${margin.left},${margin.top})`);
+
 // this creates the axis scales
 let x = d3.scaleLinear()
-  .domain([0, d3.max(wits)])
-  .range([0, w]);
+  .domain([0, d3.max(data, d => d.total)])
+  .range([0, width]);
 let y = d3.scaleLinear()
   .domain([0, data.length])
-  .range([0, h]);
+  .range([0, height]);
 
 // this makes the bars and labels
 const plot = (params) => {
@@ -43,6 +57,7 @@ const plot = (params) => {
       .append('text')
       .classed('bar-label', true)
       .attr('x', /*d => x(d.total/5000)*/0 )
+      .attr('dx', 5)
       .attr('y', (d, i) => y(i) )
       .attr('dy', () => y(1)/1.5+2 )
       .attr('style', 'pointer-events:none')
@@ -50,7 +65,7 @@ const plot = (params) => {
 };
 
 
- return plot({data, svg});
+  return plot({data, svg:chart});
 };
 
 export default rendercrpViz;
