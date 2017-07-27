@@ -2,6 +2,7 @@ import renderTwTimeline from './render_tw_timeline';
 import renderSenInfo from './render_sen_info';
 import renderDTweets from './render_d_tweets';
 import rendercrpViz from './render_crp_viz';
+import renderVotes from './render_votes';
 import bannerColor from './banner_color';
 
 import cursorEvents from './cursor_events';
@@ -44,6 +45,7 @@ const renderBanner = (num, sen) => {
   rendercrpViz(num, sen.crp);
   renderTwTimeline(num, sen.twitter_account);
   renderDTweets(num, sen.twitter_account);
+  renderVotes(num, sen.pp_id);
 
   // attach cursor events
   let zods = Array.from($('.zodiac'));
