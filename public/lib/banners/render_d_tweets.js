@@ -1,10 +1,11 @@
-const renderDTweets = (num, twAcc) => {
+const renderDTweets = (num, sen) => {
   $.ajax({
-    url: `./api/dtweets/${twAcc}`,
+    url: `./api/dtweets/${sen.twitter_account}`,
     beforeSend: (xhr) => {
       xhr.setRequestHeader('bovine', 'corvus');
     },
     success: (data) => {
+      sen.dTweets = data;
       let dTweetsList = '<div class="d-tweets">';
       let heading = `
         <div class='top-text'>

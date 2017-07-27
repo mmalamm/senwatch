@@ -123,7 +123,7 @@ header img {
   padding: 0px 15px;
 }
 
-.d-tweet {
+.d-tweet, .vote {
   margin: 10px 10px;
   display: flex;
   flex-direction:row;

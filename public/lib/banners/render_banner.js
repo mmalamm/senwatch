@@ -44,8 +44,8 @@ const renderBanner = (num, sen) => {
   renderSenInfo(num, sen);
   rendercrpViz(num, sen.crp);
   renderTwTimeline(num, sen.twitter_account);
-  renderDTweets(num, sen.twitter_account);
-  renderVotes(num, sen.pp_id);
+  renderDTweets(num, sen);
+  renderVotes(num, sen);
 
   // attach cursor events
   let zods = Array.from($('.zodiac'));
