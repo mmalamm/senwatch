@@ -124,9 +124,12 @@ header img {
 }
 
 .d-tweet {
-  margin: 0px 10px;
+  margin: 10px 10px;
   display: flex;
   flex-direction:row;
+  background-color: white;
+  color: black;
+  font-family: 'font133717', arial;
 }
 
 .d-tweet-img-container {
@@ -138,6 +141,7 @@ header img {
 .d-tweet-img {
   width: 50px;
   height: 50px;
+  padding: 10px;
 }
 
 svg {
@@ -188,7 +192,8 @@ div.tab button.active {
 
 /*crp viz stuff*/
 .bar {
-      fill: #0080FF
+      fill: #0080FF;
+      shape-rendering: crispEdges
     }
 
     .bar:hover {

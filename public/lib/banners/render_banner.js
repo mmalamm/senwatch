@@ -53,7 +53,6 @@ const renderBanner = (num, sen) => {
   });
 
   let tabs = Array.from($('.tablinks'));
-  console.log(tabs);
   tabs.forEach( tab => {
     tab.onclick = openTab;
   });

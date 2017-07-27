@@ -35,9 +35,9 @@ const cursorEvents = {
     $(`#${oldTabID}`).removeClass(`active-${num}`);
 
     ///refactor into jquery
-    let tablinks = document.getElementsByClassName("tablinks");
+    let tablinks = document.getElementsByClassName('tablinks');
     for (let i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
+      tablinks[i].className = tablinks[i].className.replace(' active', '');
     }
     ///
 
