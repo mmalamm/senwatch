@@ -22,7 +22,7 @@ let margin = {
 let width = w - margin.left - margin.right;
 let height = h - margin.top - margin.bottom;
 
-$(`#crp-viz-container-${num}`).append(`<h2 class="top-text">Top Donors by Industry</h2><div id='chart-container-${num}'></div>`);
+$(`#crp-viz-container-${num}`).append(`<div class="top-text"><strong>Top Donors by Industry</strong></div><div id='chart-container-${num}'></div>`);
 
 let svg = d3.select(`#chart-container-${num}`).append('svg')
   .attr('id', 'chart')

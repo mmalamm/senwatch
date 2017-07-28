@@ -202,4 +202,5 @@ div.tab button.active {
 
     .bar-label {
       text-anchor:start;
+      fill: white;
     }
