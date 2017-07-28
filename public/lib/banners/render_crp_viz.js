@@ -22,7 +22,9 @@ let margin = {
 let width = w - margin.left - margin.right;
 let height = h - margin.top - margin.bottom;
 
-let svg = d3.select(`#crp-viz-container-${num}`).append('svg')
+$(`#crp-viz-container-${num}`).append(`<h2 class="top-text">Top Donors by Industry</h2><div id='chart-container-${num}'></div>`);
+
+let svg = d3.select(`#chart-container-${num}`).append('svg')
   .attr('id', 'chart')
   .attr('height', h)
   .attr('width', w);
@@ -41,6 +43,7 @@ let y = d3.scaleLinear()
 
 // this makes the bars and labels
 const plot = (params) => {
+
   params.svg.selectAll('.bar')
     .data(params.data)
     .enter()
@@ -62,9 +65,12 @@ const plot = (params) => {
       .attr('dy', () => y(1)/1.5+2 )
       .attr('style', 'pointer-events:none')
       .text( d => d.name );
+
 };
 
-
+  $(`#crp-viz-container-${num}`).append(`<div class="top-text">
+    Sourced from <a href='https://www.opensecrets.org/'>Center For Responsive Politics</a>
+  </div>`);
   return plot({data, svg:chart});
 };
 
