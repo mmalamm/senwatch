@@ -204,3 +204,17 @@ div.tab button.active {
       text-anchor:start;
       fill: white;
     }
+
+.axis {
+  stroke: white;
+
+}
+
+.axis path {
+  stroke: white;
+}
+
+.tick line {
+  stroke: white;
+  fill: white;
+}
