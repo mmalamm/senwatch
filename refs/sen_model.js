@@ -37,7 +37,7 @@ senModel = {
   //propublica api call 3 [not in db]
   votes: array,
   vote_model: {
-
+    "{"member_id":"C001098","chamber":"Senate","congress":"115","session":"1","roll_call":"179","vote_uri":"https://api.propublica.org/congress/v1/115/senate/sessions/1/votes/179.json","bill":{"number":"H.R. 1628","bill_uri":"https://api.propublica.org/congress/v1/115/bills/hr1628.json","title":"American Health Care Act of 2017","latest_action":"Returned to the Calendar. Calendar No. 120."},"description":"American Health Care Act of 2017","question":"On the Amendment","result":"Amendment Rejected","date":"2017-07-28","time":"01:24:00","total":{"yes":49,"no":51,"present":0,"not_voting":0},"position":"Yes"}"
   },
 
   //polititwoops api call 4 [not in db]

@@ -1,4 +1,9 @@
+import bannerColor from './banner_color';
+
 const rendercrpViz = (num, crp) => {
+  let candName = crp.candIndustry['@attributes'].cand_name;
+  let party = candName[candName.length - 2];
+
   if(!crp.candIndustry) return console.log('no crp on file');
 
   $(`#crp-viz-container-${num}`).append(`<div class="top-text"><strong>Top Donors by Industry</strong></div><div id='chart-container-${num}'></div>`);
@@ -25,10 +30,13 @@ const rendercrpViz = (num, crp) => {
   let width = w - margin.left - margin.right;
   let height = h - margin.top - margin.bottom;
 
+  let colour = d3.color(bannerColor(party)).darker();
+
   let svg = d3.select(`#chart-container-${num}`).append('svg')
   .attr('id', 'chart')
   .attr('height', h)
   .attr('width', w);
+  // .attr('style', `background:${colour}`);
 
   let chart = svg.append('g')
               .classed('display', true)
@@ -36,14 +44,34 @@ const rendercrpViz = (num, crp) => {
 
 // this creates the axis scales
   let x = d3.scaleLinear()
-    .domain([0, d3.max(data, d => d.total)])
+    .domain([0, /*d3.max(data, d => d.total + 50000)]*/3000000])
     .range([0, width]);
   let y = d3.scaleLinear()
     .domain([0, data.length])
     .range([0, height]);
 
+  let xAxis = d3.axisBottom(x).ticks(10);
+  let xGridlines = d3.axisLeft(x).ticks(10);
 // this makes the bars and labels
   const plot = (params) => {
+
+    params.svg.append('g')
+              .attr('class', 'axis')
+              .call(xAxis)
+                .selectAll('text')
+                .style('text-anchor', 'middle')
+                .attr('dx', 200)
+                .attr('dy', -15)
+                .attr('transform', 'translate(0,0) rotate(90)');
+
+    function customXAxis(g) {
+      g.call(xAxis);
+      g.select(".domain").remove();
+      g.selectAll(".tick:not(:first-of-type) line").attr("stroke", "#777").attr("stroke-dasharray", "2,2");
+    }
+
+    params.svg.append('g')
+              .call(customXAxis);
 
     params.svg.selectAll('.bar')
       .data(params.data)
