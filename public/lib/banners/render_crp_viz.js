@@ -10,7 +10,7 @@ const rendercrpViz = (num, crp) => {
     let indivs = Number(ind["@attributes"].indivs);
     return {name,total,pacs,indivs};
   });
-  // return $(`#crp-viz-${num}`).append($(`<h1>${data[0].name}</h1>`));
+
   //this appends svg el
   let w = 460;
   let h = 400;
