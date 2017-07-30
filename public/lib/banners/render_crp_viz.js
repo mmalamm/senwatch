@@ -2,12 +2,17 @@ import bannerColor from './banner_color';
 
 const rendercrpViz = (num, crp) => {
   if (!crp.candIndustry) return $(`#crp-viz-container-${num}`).append(`<div class="top-text"><strong>No Donor Info on File :(</strong></div><div id='chart-container-${num}'></div>`);
-  let candName = crp.candIndustry['@attributes'].cand_name;
+  let attr = crp.candIndustry['@attributes'];
+  let candName = attr.cand_name;
   let party = candName[candName.length - 2];
 
-  if(!crp.candIndustry) return console.log('no crp on file');
-
-  $(`#crp-viz-container-${num}`).append(`<div class="top-text"><strong>Top Donors by Industry</strong></div><div id='chart-container-${num}'></div>`);
+  $(`#crp-viz-container-${num}`).append(`
+    <div class="top-text">
+      <strong>Top Donors by Industry</strong>
+    </div>
+    <div id='chart-container-${num}'>
+    </div>
+  `);
 
   let data = crp.candIndustry.industry.map( ind => {
     let name = ind["@attributes"].industry_name;
@@ -102,8 +107,12 @@ const rendercrpViz = (num, crp) => {
 
   };
 
+  let infoStr = `${candName} donation info for ${attr.cycle} cycle`;
   $(`#crp-viz-container-${num}`).append(`<div class="top-text">
-    Sourced from <a href='https://www.opensecrets.org/'>Center For Responsive Politics</a>
+      <div>${infoStr}</div>
+      <div>Last Updated: ${attr.last_updated}</div>
+      <br>
+        Sourced from <a href='https://www.opensecrets.org/'>Center For Responsive Politics</a>
   </div>`);
   return plot({data, svg:chart});
 };
