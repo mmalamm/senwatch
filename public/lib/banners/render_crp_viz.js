@@ -60,8 +60,13 @@ const rendercrpViz = (num, crp) => {
               .call(xAxis)
                 .selectAll('text')
                 .style('text-anchor', 'end')
+                .style('pointer-events', 'none')
+                .style('font-size', '24px')
+                .style('fill', d3.color(bannerColor(party)).darker())
+                .style('opacity', '0.3')
+                // .style('stroke', 'none')
                 .attr('dx', 350)
-                .attr('dy', -10)
+                .attr('dy', 13)
                 .attr('transform', 'translate(0,0) rotate(90)');
 
     params.svg.append("g")
@@ -91,7 +96,8 @@ const rendercrpViz = (num, crp) => {
         .attr('dx', 5)
         .attr('y', (d, i) => y(i) )
         .attr('dy', () => y(1)/1.5+2 )
-        .attr('style', 'pointer-events:none')
+        .style('pointer-events', 'none')
+        .style('font-size', '24px')
         .text( d => d.name );
 
   };
