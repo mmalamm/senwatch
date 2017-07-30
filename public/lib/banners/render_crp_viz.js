@@ -44,14 +44,14 @@ const rendercrpViz = (num, crp) => {
 
 // this creates the axis scales
   let x = d3.scaleLinear()
-    .domain([0, /*d3.max(data, d => d.total + 50000)]*/3000000])
+    .domain([0, d3.max(data, d => d.total + 50000)])
     .range([0, width]);
   let y = d3.scaleLinear()
     .domain([0, data.length])
     .range([0, height]);
 
   let xAxis = d3.axisBottom(x).ticks(10);
-  let xGridlines = d3.axisLeft(x).ticks(10);
+  let xGridlines = () => {return d3.axisBottom(x).ticks(10);};
 // this makes the bars and labels
   const plot = (params) => {
 
@@ -59,19 +59,18 @@ const rendercrpViz = (num, crp) => {
               .attr('class', 'axis')
               .call(xAxis)
                 .selectAll('text')
-                .style('text-anchor', 'middle')
-                .attr('dx', 200)
-                .attr('dy', -15)
+                .style('text-anchor', 'end')
+                .attr('dx', 350)
+                .attr('dy', -10)
                 .attr('transform', 'translate(0,0) rotate(90)');
 
-    function customXAxis(g) {
-      g.call(xAxis);
-      g.select(".domain").remove();
-      g.selectAll(".tick:not(:first-of-type) line").attr("stroke", "#777").attr("stroke-dasharray", "2,2");
-    }
-
-    params.svg.append('g')
-              .call(customXAxis);
+    params.svg.append("g")
+              .attr("class", "grid")
+              .attr("transform", "translate(0," + height + ")")
+              .call(xGridlines()
+                .tickSize(-height)
+                .tickFormat("")
+              );
 
     params.svg.selectAll('.bar')
       .data(params.data)
