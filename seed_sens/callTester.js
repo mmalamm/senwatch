@@ -77,10 +77,10 @@ app.get('/update_sens', (req, res) => {
       }
       console.log('Connected to MongoDB server');
 
-      db.collection('Sens').findOneAndUpdate({phone:mem.phone}, {$set:{office:mem.office}}, {returnNewDocument:true}).then((result) => {
+      db.collection('Sens').findOneAndUpdate({phone:mem.phone}, {$set:{votes_with_party_pct:mem.votes_with_party_pct}}, {returnNewDocument:true}).then((result) => {
         console.log(mem.last_name, 'Updated!!');
-      console.log(result);
-        // db.close();
+        console.log(result);
+        db.close();
       });
 
       let DBstatus = `${mem.first_name} ${mem.last_name} updated!`;

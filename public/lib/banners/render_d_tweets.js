@@ -14,6 +14,9 @@ const renderDTweets = (num, sen) => {
           </strong>
         </div>
       `;
+      if (data.length === 0) {
+        return $(`#d-tweets-container-${num}`).append($(`<div class='top-text'>No Deleted Tweets Found... maybe Senator ${sen.last_name} hasn't deleted any tweets?</div>`));
+      }
       dTweetsList += heading;
       data.forEach( dTweet => {
 

@@ -36,8 +36,8 @@ const rendercrpViz = (num, crp) => {
   let svg = d3.select(`#chart-container-${num}`).append('svg')
   .attr('id', 'chart')
   .attr('height', h)
-  .attr('width', w);
-  // .attr('style', `background:${colour}`);
+  .attr('width', w)
+  .attr('style', `background:${colour}`);
 
   let chart = svg.append('g')
               .classed('display', true)
@@ -63,7 +63,7 @@ const rendercrpViz = (num, crp) => {
                 .style('text-anchor', 'end')
                 .style('pointer-events', 'none')
                 .style('font-size', '24px')
-                .style('fill', d3.color(bannerColor(party)).darker())
+                .style('fill', colour)
                 .style('opacity', '0.3')
                 // .style('stroke', 'none')
                 .attr('dx', 350)
