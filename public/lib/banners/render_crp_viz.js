@@ -65,13 +65,11 @@ const rendercrpViz = (num, crp) => {
                 .style('font-size', '24px')
                 .style('fill', colour)
                 .style('opacity', '0.3')
-                // .style('stroke', 'none')
                 .attr('dx', 350)
                 .attr('dy', 13)
                 .attr('transform', 'translate(0,0) rotate(90)');
 
     params.svg.append("g")
-              .attr("class", "grid")
               .classed('gridline', true)
               .attr("transform", "translate(0," + height + ")")
               .call(xGridlines()

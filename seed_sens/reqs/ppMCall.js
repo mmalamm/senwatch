@@ -45,7 +45,6 @@ let callback = function (error, response, body) {
         fax: mem.fax,
         senate_class: mem.senate_class,
         state_rank: mem.state_rank,
-        votes_with_party_pct: mem.votes_with_party_pct
       });
     });
 

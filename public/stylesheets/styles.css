@@ -207,7 +207,7 @@ div.tab button.active {
 
 .axis {
   stroke: white;
-
+  shape-rendering: crispEdges;
 }
 
 .axis path {
@@ -217,9 +217,19 @@ div.tab button.active {
 .tick line {
   stroke: white;
   fill: white;
-  opacity: .5;
+  opacity: .3;
 }
 
 .tick:first-of-type {
   display: none;
+}
+
+.gridline {
+  stroke: white;
+  shape-rendering: crispEdges;
+}
+
+.domain {
+  stroke: white;
+  opacity: 0.3;
 }
