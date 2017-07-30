@@ -3,6 +3,7 @@ import renderSenInfo from './render_sen_info';
 import renderDTweets from './render_d_tweets';
 import rendercrpViz from './render_crp_viz';
 import renderVotes from './render_votes';
+import renderXtraInfo from './render_xtra_info';
 import bannerColor from './banner_color';
 
 import cursorEvents from './cursor_events';
@@ -18,6 +19,8 @@ const renderBanner = (num, sen) => {
     `
     <div style='background-color: ${bannerColor(sen.party)}'>
       <div id='sen-info-container-${num}'></div>
+
+      <div id='xtra-info-${num}' class='xtra-info xtra-info-${num}'></div>
 
       <div class="tab">
         <button id='crp-viz-tab-${num}' class="tablinks active">$$$</button>
@@ -46,6 +49,7 @@ const renderBanner = (num, sen) => {
   renderTwTimeline(num, sen.twitter_account);
   renderDTweets(num, sen);
   renderVotes(num, sen);
+  renderXtraInfo(num, sen);
 
   // attach cursor events
   let zods = Array.from($('.zodiac'));
