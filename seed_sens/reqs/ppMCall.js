@@ -55,12 +55,12 @@ let callback = function (error, response, body) {
       pp2req.pp2req(sen, pp2i);
     });
 
-    result.crpi = [];
-    const crpReq = require('./crpReq');
-    const crpi = result.crpi;
-    result.sens.forEach( (sen) => {
-      crpReq.crpReq(sen, crpi);
-    });
+    // result.crpi = [];
+    // const crpReq = require('./crpReq');
+    // const crpi = result.crpi;
+    // result.sens.forEach( (sen) => {
+    //   crpReq.crpReq(sen, crpi);
+    // });
 
     result.wikii = [];
     const wikiReq = require('./wikiReq');

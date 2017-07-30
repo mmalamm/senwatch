@@ -1,6 +1,7 @@
 import bannerColor from './banner_color';
 
 const rendercrpViz = (num, crp) => {
+  if (!crp.candIndustry) return $(`#crp-viz-container-${num}`).append(`<div class="top-text"><strong>No Donor Info on File :(</strong></div><div id='chart-container-${num}'></div>`);
   let candName = crp.candIndustry['@attributes'].cand_name;
   let party = candName[candName.length - 2];
 
@@ -71,6 +72,7 @@ const rendercrpViz = (num, crp) => {
 
     params.svg.append("g")
               .attr("class", "grid")
+              .classed('gridline', true)
               .attr("transform", "translate(0," + height + ")")
               .call(xGridlines()
                 .tickSize(-height)

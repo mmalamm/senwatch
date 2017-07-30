@@ -217,4 +217,9 @@ div.tab button.active {
 .tick line {
   stroke: white;
   fill: white;
+  opacity: .5;
+}
+
+.tick:first-of-type {
+  display: none;
 }

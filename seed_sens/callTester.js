@@ -47,6 +47,51 @@ app.get('/', (req, res) => {
   res.json(testObj.sens[52]);
 });
 
+app.get('/update_sens', (req, res) => {
+  const sec = require('./secrets');
+  let mongodb = sec.secrets.mongodb;
+  testObj.sens.forEach( mem => {
+    let updatedSen = {
+      pp_id: mem.id,
+      first_name: mem.first_name,
+      middle_name: mem.middle_name,
+      last_name: mem.last_name,
+      party: mem.party,
+      office: mem.office,
+      twitter_account: mem.twitter_account,
+      facebook_account: mem.facebook_account,
+      rss_url: mem.rss_url,
+      crp_id: mem.crp_id,
+      domain: mem.domain,
+      state: mem.state,
+      next_election: mem.next_election,
+      phone: mem.phone,
+      fax: mem.fax,
+      senate_class: mem.senate_class,
+      state_rank: mem.state_rank
+    };
+
+    MongoClient.connect(mongodb, (err, db) => {
+      if (err) {
+        return console.log('Unable to connect to mongodb server');
+      }
+      console.log('Connected to MongoDB server');
+
+      db.collection('Sens').findOneAndUpdate({phone:mem.phone}, {$set:{office:mem.office}}, {returnNewDocument:true}).then((result) => {
+        console.log(mem.last_name, 'Updated!!');
+      console.log(result);
+        // db.close();
+      });
+
+      let DBstatus = `${mem.first_name} ${mem.last_name} updated!`;
+      console.log(DBstatus);
+      testObj.mongoIter.push(DBstatus);
+      console.log(`${testObj.mongoIter.length}/100`);
+
+      // db.close();
+    });
+  });
+});
 
 app.get('/mongoDB', (req, res) => {
   const sec = require('./secrets');
