@@ -4,7 +4,7 @@ Senwatch is a full stack application which allows users to click on states on an
 
 ## Interface
 
-![D3 map](/refs/senwatch_map.jpeg)
+![D3 map](/refs/map_gif.gif)
 
 Users can click on a state to see detailed information about that state's senators. Information is laid out across two banners underneath the map, junior senator on the left and senior senator on the right.
 
@@ -12,7 +12,7 @@ Users can click on a state to see detailed information about that state's senato
 
 Under the senator's picture and basic contact and biographical information, users can select between several different tabs for content including visualizations for top donors by industry, twitter feed, deleted tweets and latest votes.
 
-![MO senators](/refs/missouri_sens_info_pic.jpeg)
+![OH senators](/refs/banner_gif.gif)
 
 ## Technical details
 
