@@ -154,7 +154,8 @@ svg {
 
 div.tab {
     overflow: hidden;
-    border: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Style the buttons inside the tab */
@@ -162,7 +163,6 @@ div.tab button {
     color: inherit;
     font-family: 'Arapey', serif;
     background-color: inherit;
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
@@ -244,14 +244,14 @@ div.tab button.active {
   background-color: white;
   color: black;
   font-family: 'font133717', arial;
+  padding: 10px;
 }
 
 .row {
   display: inline-flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
-.vote-result {
+.vote-viz {
   color: red;
 }

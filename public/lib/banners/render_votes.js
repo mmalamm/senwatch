@@ -21,13 +21,13 @@ const renderVotes = (num, sen) => {
             <div class='row'>
               <div>
                 <div><a href=${infoLink} target="_blank">Session: ${vote.session} Roll Call: ${vote.roll_call}</a></div>
-                <div>${new Date(vote.date+' '+vote.time+' EST')}</div>
+                <div>${new Date(vote.date+' '+vote.time+' EST').toLocaleString()}</div>
                 <div>
                   <h3>${vote.description}</h3>
                   <h6>${vote.question}</h6>
                 </div>
               </div>
-              <div class='vote-result'>
+              <div id='vote-result-${vote.roll_call}-${num}' class='vote-viz'>
                 <div>Result:</div>
                 <p>${vote.total.yes} Yea</p>
                 <p>${vote.total.no} Nay</p>
