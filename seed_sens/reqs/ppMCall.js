@@ -48,26 +48,26 @@ let callback = function (error, response, body) {
       });
     });
 
-    // result.pp2i = [];
-    // const pp2req = require('./pp2req');
-    // const pp2i = result.pp2i;
-    // result.sens.forEach( (sen) => {
-    //   pp2req.pp2req(sen, pp2i);
-    // });
+    result.pp2i = [];
+    const pp2req = require('./pp2req');
+    const pp2i = result.pp2i;
+    result.sens.forEach( (sen) => {
+      pp2req.pp2req(sen, pp2i);
+    });
 
-    // result.crpi = [];
-    // const crpReq = require('./crpReq');
-    // const crpi = result.crpi;
-    // result.sens.forEach( (sen) => {
-    //   crpReq.crpReq(sen, crpi);
-    // });
+    result.crpi = [];
+    const crpReq = require('./crpReq');
+    const crpi = result.crpi;
+    result.sens.forEach( (sen) => {
+      crpReq.crpReq(sen, crpi);
+    });
 
-    // result.wikii = [];
-    // const wikiReq = require('./wikiReq');
-    // const wikii = result.wikii;
-    // result.sens.forEach( (sen) => {
-    //   wikiReq.wikiReq(sen, wikii);
-    // });
+    result.wikii = [];
+    const wikiReq = require('./wikiReq');
+    const wikii = result.wikii;
+    result.sens.forEach( (sen) => {
+      wikiReq.wikiReq(sen, wikii);
+    });
 
   } else {
 

@@ -123,7 +123,7 @@ header img {
   padding: 0px 15px;
 }
 
-.d-tweet, .vote {
+.d-tweet {
   margin: 10px 10px;
   display: flex;
   flex-direction:row;
@@ -232,4 +232,26 @@ div.tab button.active {
 .domain {
   stroke: white;
   opacity: 0.3;
+}
+
+
+/*vote stuff*/
+
+.vote {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  font-family: 'font133717', arial;
+}
+
+.row {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.vote-result {
+  color: red;
 }

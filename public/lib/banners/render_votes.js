@@ -18,13 +18,24 @@ const renderVotes = (num, sen) => {
         let infoLink = `https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=${vote.congress}&session=${vote.session}&vote=00${vote.roll_call}`;
         voteList += `
           <div class="vote">
-            <h6>Roll Call ${vote.roll_call}:</h6>
-            <h4>${vote.description}</h4>
-            <p>${vote.question}</p>
-            <div>
+            <div class='row'>
+              <div>
+                <div><a href=${infoLink} target="_blank">Session: ${vote.session} Roll Call: ${vote.roll_call}</a></div>
+                <div>${new Date(vote.date+' '+vote.time+' EST')}</div>
+                <div>
+                  <h3>${vote.description}</h3>
+                  <h6>${vote.question}</h6>
+                </div>
+              </div>
+              <div class='vote-result'>
+                <div>Result:</div>
+                <p>${vote.total.yes} Yea</p>
+                <p>${vote.total.no} Nay</p>
+              </div>
+            </div>
+            <div class='row'>
               <p>Position: ${vote.position}</p>
               <p>Result: ${vote.result}</p>
-              <p><a href=${infoLink} target="_blank">Vote Info</a></p>
             </div>
           </div>
         `;
