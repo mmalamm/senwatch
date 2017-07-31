@@ -33,4 +33,16 @@ Senwatch leverages the following API's for data about senators:
 
 ## Acknowledgments
 
-* Many thanks to Derek Willis of Propublica for all his support throughout this project.
+ Many thanks to Derek Willis of Propublica for all his support throughout this project.
+
+### Todo's
+
+#### Next Patch
+* Add dashboard with changelog to backend mongo updater
+* Add spinners for async callbacks
+* Refactor deleted tweets to eliminate async bugs
+* Add click events with modal visualizations for all data on banners
+
+#### Future Direction
+* Add alternative data Sources
+* Refactor into React/Redux to avoid Frontend async issues and reduce data usage
