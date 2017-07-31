@@ -16,7 +16,7 @@ Under the senator's picture and basic contact and biographical information, user
 
 ## Technical details
 
-![Senwatch Stack](/refs/senwatch_stack.svg)
+![Senwatch Stack](/refs/senwatch_stack.png)
 
 Senwatch is built using a NodeJS backend with expressJS and mongoDB serving the API and storing data about senators. Frontend technologies used include jQuery and D3js, with plans to refactor to a full React/Redux app in the near future.
 
