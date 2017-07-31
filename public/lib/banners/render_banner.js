@@ -27,7 +27,7 @@ const renderBanner = (num, sen) => {
         <button id='twitter-timeline-tab-${num}' class="tablinks">Twitter<br>Feed</button>
         <button id='d-tweets-tab-${num}' class="tablinks">Deleted<br>Tweets</button>
         <button id='votes-tab-${num}' class="tablinks">Latest<br>Votes</button>
-        <button id='close-tab-${num}' class="tablinks">close<br>X</button>
+        <button id='close-tab-${num}' class="tablinks">Close<br>X</button>
       </div>
 
       <div id='crp-viz-container-${num}' class='tab-content active-${num}'></div>

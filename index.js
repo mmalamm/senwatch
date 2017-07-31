@@ -55,3 +55,5 @@ const depthVote = require('./vote_info/depthvote');
 app.get('/bkw', (req, res) => {
   depthVote.depthVote(res);
 });
+
+// https://www.propublica.org/datastore/api/campaign-finance-api
