@@ -52,23 +52,28 @@ app.get('/update_sens', (req, res) => {
   let mongodb = sec.secrets.mongodb;
   testObj.sens.forEach( mem => {
     let updatedSen = {
-      pp_id: mem.id,
-      first_name: mem.first_name,
-      middle_name: mem.middle_name,
-      last_name: mem.last_name,
-      party: mem.party,
-      office: mem.office,
-      twitter_account: mem.twitter_account,
-      facebook_account: mem.facebook_account,
-      rss_url: mem.rss_url,
-      crp_id: mem.crp_id,
-      domain: mem.domain,
-      state: mem.state,
-      next_election: mem.next_election,
-      phone: mem.phone,
-      fax: mem.fax,
-      senate_class: mem.senate_class,
-      state_rank: mem.state_rank
+      pp_id: mem.id, //1
+      first_name: mem.first_name, //2
+      middle_name: mem.middle_name, //3
+      last_name: mem.last_name, //4
+      party: mem.party, //5
+      twitter_account: mem.twitter_account, //7
+      facebook_account: mem.facebook_account, //8
+      rss_url: mem.rss_url, //9
+      crp_id: mem.crp_id, //10
+      crp: mem.crp, //18
+      domain: mem.domain, //11
+      next_election: mem.next_election, //13
+      phone: mem.phone, //14
+      fax: mem.fax, //15
+      state: mem.state, //12
+      state_rank: mem.state_rank, //17
+      senate_class: mem.senate_class, //16
+      dob: mem.dob, //19
+      gender: mem.gender, //20
+      committees: mem.committees, //21
+      img_url: mem.img_url, //22
+      office: mem.office, //6
     };
 
     MongoClient.connect(mongodb, (err, db) => {
@@ -80,23 +85,18 @@ app.get('/update_sens', (req, res) => {
       db.collection('Sens').findOneAndUpdate(
         {pp_id:mem.id},
         {$set:
-          {
-            votes_with_party_pct:mem.votes_with_party_pct
-          }
+          {crp:mem.crp}
         },
         {returnNewDocument:true}
       ).then((result) => {
-        console.log(mem.last_name, 'Updated!!');
+        let DBstatus = `${mem.first_name} ${mem.last_name} updated!`;
+        console.log(DBstatus);
+        testObj.mongoIter.push(DBstatus);
         console.log(result);
+        console.log(`${testObj.mongoIter.length}/100`);
         db.close();
       });
 
-      let DBstatus = `${mem.first_name} ${mem.last_name} updated!`;
-      console.log(DBstatus);
-      testObj.mongoIter.push(DBstatus);
-      console.log(`${testObj.mongoIter.length}/100`);
-
-      // db.close();
     });
   });
 });

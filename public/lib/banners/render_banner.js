@@ -23,11 +23,11 @@ const renderBanner = (num, sen) => {
       <div id='xtra-info-${num}' class='xtra-info xtra-info-${num}'></div>
 
       <div class="tab">
-        <button id='crp-viz-tab-${num}' class="tablinks active">$$$</button>
-        <button id='twitter-timeline-tab-${num}' class="tablinks">Tweets</button>
-        <button id='d-tweets-tab-${num}' class="tablinks">dTweets</button>
-        <button id='votes-tab-${num}' class="tablinks">votes</button>
-        <button id='close-tab-${num}' class="tablinks">close X</button>
+        <button id='crp-viz-tab-${num}' class="tablinks active">Campaign<br>Finances</button>
+        <button id='twitter-timeline-tab-${num}' class="tablinks">Twitter<br>Feed</button>
+        <button id='d-tweets-tab-${num}' class="tablinks">Deleted<br>Tweets</button>
+        <button id='votes-tab-${num}' class="tablinks">Latest<br>Votes</button>
+        <button id='close-tab-${num}' class="tablinks">close<br>X</button>
       </div>
 
       <div id='crp-viz-container-${num}' class='tab-content active-${num}'></div>

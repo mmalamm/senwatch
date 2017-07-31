@@ -14,7 +14,6 @@ const renderVotes = (num, sen) => {
       `;
       voteList += heading;
       data.forEach( (vote, idx) => {
-        if(idx===0||idx===1) console.log(vote);
         let infoLink = `https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=${vote.congress}&session=${vote.session}&vote=00${vote.roll_call}`;
         voteList += `
           <div class="vote">
@@ -33,9 +32,9 @@ const renderVotes = (num, sen) => {
                 <p>${vote.total.no} Nay</p>
               </div>
             </div>
-            <div class='row'>
+            <div class='row vote-bot'>
               <p>Position: ${vote.position}</p>
-              <p>Result: ${vote.result}</p>
+              <p class='vote-viz'>Result: ${vote.result}</p>
             </div>
           </div>
         `;
@@ -49,3 +48,6 @@ const renderVotes = (num, sen) => {
 };
 
 export default renderVotes;
+
+// http://blockbuilder.org/enjalot/1203641
+// use as reference for vote result chart

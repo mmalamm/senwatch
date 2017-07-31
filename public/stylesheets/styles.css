@@ -156,6 +156,7 @@ div.tab {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    padding: 5px;
 }
 
 /* Style the buttons inside the tab */
@@ -253,5 +254,13 @@ div.tab button.active {
 }
 
 .vote-viz {
-  color: red;
+  background-color: #999999;
+  color: white;
+  justify-content: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.vote-bot {
+  border-top: 1px #999999 solid;
 }
