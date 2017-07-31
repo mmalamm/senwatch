@@ -23,7 +23,11 @@
     "express": "^4.15.3",
     "mongodb": "^2.2.30",
     "request": "^2.81.0",
-    "serve-favicon": "^2.4.3"
+    "serve-favicon": "^2.4.3",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",

@@ -53,7 +53,8 @@ const _renderGender = (gender) => {
 
 const personalInfo = (sen) => {
   let { dob, gender } = sen;
-  let senDOB = new Date(dob + ' EST');
+  let formatDate = dob.replace(/-/g,'/');
+  let senDOB = new Date(formatDate + ' EST');
   let age = _calculateAge(senDOB);
   let zodiac = _calculateZodiac(senDOB);
   let genderSym = _renderGender(gender);
