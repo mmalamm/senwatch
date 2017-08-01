@@ -1,28 +1,30 @@
-const fs = require ('fs'),
+const fs = require('fs'),
   os = require('os'),
-  request = require('request'), chalk = require('chalk');
+  request = require('request'),
+  chalk = require('chalk');
 const MongoClient = require('mongodb').MongoClient;
 const sec = require('../secrets');
 let ppHeadersObj = sec.secrets.ppHeader || 'nunya';
 
 let mems;
 let callUrl = {
-  url : 'https://api.propublica.org/congress/v1/115/senate/members.json',
-  headers : ppHeadersObj
+  url: 'https://api.propublica.org/congress/v1/115/senate/members.json',
+  headers: ppHeadersObj
 };
 
 let mongodb = sec.secrets.mongodb;
 
 const corrections = require('../seed_sens/helpers/corrections');
 
-let callback = function (error, response, body) {
-  console.log(chalk.blue('statusCode for main PP call:', response && response.statusCode));
+let callback = function(error, response, body) {
+  console.log(
+    chalk.blue('statusCode for main PP call:', response && response.statusCode)
+  );
 
   if (response.statusCode <= 200) {
-
     ppCallResult = JSON.parse(body);
-    mems = ppCallResult.results[0].members.filter(mem=>mem.in_office);
-    mems.forEach( mem => {
+    mems = ppCallResult.results[0].members.filter(mem => mem.in_office);
+    mems.forEach(mem => {
       corrections.corrections(mem);
 
       MongoClient.connect(mongodb, (err, db) => {
@@ -30,7 +32,7 @@ let callback = function (error, response, body) {
           return console.log('Unable to connect to mongodb server');
         }
         console.log('connected to mongo');
-        db.collection('Sens').find({pp_id:mem.id}).toArray().then( (data) => {
+        db.collection('Sens').find({ pp_id: mem.id }).toArray().then(data => {
           if (data[0].last_name == 'Schumer') {
             let currSen = data[0];
             ///incomplete
@@ -40,12 +42,9 @@ let callback = function (error, response, body) {
         db.close();
       });
     });
-
   } else {
-
     const logError = require('../helpers/error_logger.js');
     logError.logError('ppMCall', null, response);
-
   }
 };
 

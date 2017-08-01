@@ -1,4 +1,4 @@
-const formatSec = (sec) => {
+const formatSec = sec => {
   let yearInSecs = 31536000,
     monthInSecs = 2592000,
     weekInSecs = 604800,
@@ -47,19 +47,22 @@ const formatSec = (sec) => {
   if (times[4]) return `${times[4]}h`;
   if (times[5]) return `${times[5]}min`;
   if (times[6]) return `${times[6]}s`;
-
 };
 
 const renderDTweets = (num, sen) => {
   $.ajax({
     url: `./api/dtweets/${sen.twitter_account}`,
-    beforeSend: (xhr) => {
+    beforeSend: xhr => {
       xhr.setRequestHeader('bovine', 'corvus');
     },
-    success: (data) => {
+    success: data => {
       sen.dTweets = data;
       if (data.length === 0) {
-        return $(`#d-tweets-container-${num}`).append($(`<div class='top-text'>No Deleted Tweets Found... maybe Senator ${sen.last_name} hasn't deleted any tweets?</div>`));
+        return $(`#d-tweets-container-${num}`).append(
+          $(
+            `<div class='top-text'>No Deleted Tweets Found... maybe Senator ${sen.last_name} hasn't deleted any tweets?</div>`
+          )
+        );
       }
       let dTweetsList = '<div class="d-tweets">';
       let heading = `
@@ -70,8 +73,7 @@ const renderDTweets = (num, sen) => {
         </div>
       `;
       dTweetsList += heading;
-      data.forEach( dTweet => {
-
+      data.forEach(dTweet => {
         let createdAtObj = new Date(dTweet.created_at);
         let createdAtDate = createdAtObj.toLocaleDateString();
         let createdAtTime = createdAtObj.toLocaleTimeString();
@@ -94,8 +96,12 @@ const renderDTweets = (num, sen) => {
               ${dTweet.name} <span>@${dTweet.tw_user_name}</span>
               </p>
               <p>${dTweet.body}</p>
-              <p>${createdAtTime} ${createdAtDate} (${formatSec((Date.now() - createdAtObj)/1000)} ago)</p>
-              <p style='color:red;'>Deleted: ${deletedAtTime} ${deletedAtDate} (lifespan: ${formatSec(lifespan)})</p>
+              <p>${createdAtTime} ${createdAtDate} (${formatSec(
+          (Date.now() - createdAtObj) / 1000
+        )} ago)</p>
+              <p style='color:red;'>Deleted: ${deletedAtTime} ${deletedAtDate} (lifespan: ${formatSec(
+          lifespan
+        )})</p>
             </div>
           </div>
         `;

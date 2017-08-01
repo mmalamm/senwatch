@@ -13,14 +13,16 @@ const renderVotes = (num, sen) => {
         </div>
       `;
       voteList += heading;
-      data.forEach( (vote, idx) => {
+      data.forEach((vote, idx) => {
         let infoLink = `https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=${vote.congress}&session=${vote.session}&vote=00${vote.roll_call}`;
         voteList += `
           <div class="vote">
             <div class='row'>
               <div>
                 <div><a href=${infoLink} target="_blank">Session: ${vote.session} Roll Call: ${vote.roll_call}</a></div>
-                <div>${new Date(vote.date+' '+vote.time+' EST').toLocaleString()}</div>
+                <div>${new Date(
+                  vote.date + ' ' + vote.time + ' EST'
+                ).toLocaleString()}</div>
                 <div>
                   <h3>${vote.description}</h3>
                   <h6>${vote.question}</h6>

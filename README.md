@@ -33,7 +33,8 @@ Senwatch leverages the following API's for data about senators:
 
 ## Acknowledgments
 
- Many thanks to Derek Willis of Propublica for all his support throughout this project.
+Thanks to Brian Wu for advice and suggestions while building the backend.
+Many thanks to Derek Willis of Propublica for all his support throughout this project.
 
 ### Todo's
 

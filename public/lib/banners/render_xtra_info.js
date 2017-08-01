@@ -1,5 +1,6 @@
 const renderXtraInfo = (num, sen) => {
-  let commsStr = sen.committees.length ? '<div class="top-text"><strong>Committee Memberships:</strong></div>' : '';
+  let commsStr = sen.committees.length ?
+    '<div class="top-text"><strong>Committee Memberships:</strong></div>' : '';
   sen.committees.forEach( (committee) => {
     commsStr += `<div>${committee.name}</div>`;
   });

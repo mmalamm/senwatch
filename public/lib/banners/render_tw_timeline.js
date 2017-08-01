@@ -1,5 +1,5 @@
 const renderTwTimeline = (num, twAcc) => {
-  let embedCode =  `
+  let embedCode = `
     <a class="twitter-timeline"
       href="https://twitter.com/${twAcc}"
       data-tweet-limit="5">

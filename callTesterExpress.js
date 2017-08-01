@@ -3,10 +3,8 @@ const app = express();
 const request = require('request');
 const port = process.env.PORT || 3000;
 
-
-let testObj = {pp_id:'B001288'};
+let testObj = { pp_id: 'B001288' };
 const pp3update = require('./update_sens/pp3update');
-
 
 app.listen(port, () => console.log('Ayo big server running on port ', port));
 

@@ -1,14 +1,16 @@
-const fs = require ('fs'), os = require('os'), request = require('request'), chalk = require('chalk');
+const fs = require('fs'),
+  os = require('os'),
+  request = require('request'),
+  chalk = require('chalk');
 
 const dTweetsUpdate = (res, tw_account) => {
-
   let callUrl = `https://projects.propublica.org/politwoops/user/${tw_account}.json`;
 
   let callback = (err, response, body) => {
     if (response.statusCode <= 200) {
       console.log(tw_account, 'call successful');
       let result = JSON.parse(body);
-      let d_tweets = result.tweets.map( (tw) => {
+      let d_tweets = result.tweets.map(tw => {
         return {
           created_at: tw.created_at,
           deleted_at: tw.updated_at,

@@ -8,7 +8,9 @@ const port = process.env.PORT || 3000;
 const MongoClient = require('mongodb').MongoClient;
 const mongodb = sec.secrets.mongodb;
 
-app.listen(port, () => console.log('Ayo big the server running on port ', port));
+app.listen(port, () =>
+  console.log('Ayo big the server running on port ', port)
+);
 
 // app.use('/api', (req, res, next) => {
 //   if (!req.headers.bovine) return res.send('access denied');
@@ -20,7 +22,7 @@ app.get('/api/sens', (req, res) => {
     if (err) {
       return console.log('Unable to connect to mongodb server');
     }
-    db.collection('Sens').find().toArray().then( (data) => {
+    db.collection('Sens').find().toArray().then(data => {
       res.json(data);
     });
   });
@@ -42,13 +44,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
-
 //next patch stuff
 const voteCall = require('./vote_info');
 app.get('/vote/:session/:roll_call', (req, res) => {
   let roll_call = req.params.roll_call;
   let session = req.params.session;
-  voteCall.voteCall(res, {roll_call, session});
+  voteCall.voteCall(res, { roll_call, session });
 });
 
 const depthVote = require('./vote_info/depthvote');

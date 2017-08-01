@@ -32,7 +32,9 @@ const renderBanner = (num, sen) => {
 
       <div id='crp-viz-container-${num}' class='tab-content active-${num}'></div>
 
-      <div style='border: 10px solid ${bannerColor(sen.party)}'  id='twitter-timeline-container-${num}' class='tab-content'></div>
+      <div style='border: 10px solid ${bannerColor(
+        sen.party
+      )}'  id='twitter-timeline-container-${num}' class='tab-content'></div>
 
       <div id='d-tweets-container-${num}' class='tab-content'></div>
 
@@ -53,13 +55,13 @@ const renderBanner = (num, sen) => {
 
   // attach cursor events
   let zods = Array.from($('.zodiac'));
-  zods.forEach( zod => {
+  zods.forEach(zod => {
     zod.onmouseover = personalInfoHover;
     zod.onmouseout = personalInfoOff;
   });
 
   let tabs = Array.from($('.tablinks'));
-  tabs.forEach( tab => {
+  tabs.forEach(tab => {
     tab.onclick = openTab;
   });
 };

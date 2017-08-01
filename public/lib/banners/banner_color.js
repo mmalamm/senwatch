@@ -1,4 +1,4 @@
-export default (party) => {
+export default party => {
   switch (party) {
     case 'R':
       return '#B24C63';

@@ -2,31 +2,35 @@ const ppMCall = () => {
   return $.ajax({
     url: './api/sens',
     beforeSend: function(xhr) {
-         xhr.setRequestHeader("bovine", "corvus");
+      xhr.setRequestHeader('bovine', 'corvus');
     },
-    success: (data) => {
-      var svg = d3.select("svg");
+    success: data => {
+      var svg = d3.select('svg');
       svg.style('visibility', 'visible');
       window.senators = data;
 
-      let mmm = Array.from($(".states")[0].children);
-      mmm.forEach( state => {
-        let sens = senators.filter(senator => senator.state === state.state_abbr);
-        const partyColor = (sens) => {
-          let repub = 0, dem = 0, othr = 0;
+      let mmm = Array.from($('.states')[0].children);
+      mmm.forEach(state => {
+        let sens = senators.filter(
+          senator => senator.state === state.state_abbr
+        );
+        const partyColor = sens => {
+          let repub = 0,
+            dem = 0,
+            othr = 0;
           sens.forEach(sen => {
             switch (sen.party) {
-              case "R":
+              case 'R':
                 repub++;
                 break;
-              case "D":
+              case 'D':
                 dem++;
                 break;
               default:
                 othr++;
             }
           });
-          switch ([repub,dem].toString()) {
+          switch ([repub, dem].toString()) {
             case '2,0':
               return '#B24C63';
             case '1,1':
@@ -43,7 +47,6 @@ const ppMCall = () => {
       });
     }
   });
-
 };
 
 export default ppMCall;

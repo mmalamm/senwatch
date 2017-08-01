@@ -3,7 +3,6 @@ const app = express();
 const request = require('request');
 const port = process.env.PORT || 3000;
 
-
 const MongoClient = require('mongodb').MongoClient;
 
 /*******/
@@ -50,7 +49,7 @@ app.get('/', (req, res) => {
 app.get('/update_sens', (req, res) => {
   const sec = require('./secrets');
   let mongodb = sec.secrets.mongodb;
-  testObj.sens.forEach( mem => {
+  testObj.sens.forEach(mem => {
     let updatedSen = {
       pp_id: mem.id, //1
       first_name: mem.first_name, //2
@@ -73,7 +72,7 @@ app.get('/update_sens', (req, res) => {
       gender: mem.gender, //20
       committees: mem.committees, //21
       img_url: mem.img_url, //22
-      office: mem.office, //6
+      office: mem.office //6
     };
 
     MongoClient.connect(mongodb, (err, db) => {
@@ -82,21 +81,23 @@ app.get('/update_sens', (req, res) => {
       }
       console.log('Connected to MongoDB server');
 
-      db.collection('Sens').findOneAndUpdate(
-        {pp_id:mem.id},
-        {$set:
-          {crp:mem.crp}
-        },
-        {returnNewDocument:true}
-      ).then((result) => {
-        let DBstatus = `${mem.first_name} ${mem.last_name} updated!`;
-        console.log(DBstatus);
-        testObj.mongoIter.push(DBstatus);
-        console.log(result);
-        console.log(`${testObj.mongoIter.length}/100`);
-        db.close();
-      });
-
+      db
+        .collection('Sens')
+        .findOneAndUpdate(
+          { pp_id: mem.id },
+          {
+            $set: { crp: mem.crp }
+          },
+          { returnNewDocument: true }
+        )
+        .then(result => {
+          let DBstatus = `${mem.first_name} ${mem.last_name} updated!`;
+          console.log(DBstatus);
+          testObj.mongoIter.push(DBstatus);
+          console.log(result);
+          console.log(`${testObj.mongoIter.length}/100`);
+          db.close();
+        });
     });
   });
 });
@@ -104,7 +105,7 @@ app.get('/update_sens', (req, res) => {
 app.get('/mongoDB', (req, res) => {
   const sec = require('./secrets');
   let mongodb = sec.secrets.mongodb;
-  testObj.sens.forEach( sen => {
+  testObj.sens.forEach(sen => {
     MongoClient.connect(mongodb, (err, db) => {
       if (err) {
         return console.log('Unable to connect to mongodb server');
@@ -142,18 +143,19 @@ app.get('/mongoDB', (req, res) => {
 
       db.close();
     });
-
   });
 });
 
-
 const fs = require('fs');
 app.get('/submit', (req, res) => {
-
-  fs.writeFile('sens.json', JSON.stringify({created_at:Date(Date.now()),sens:testObj.sens}), (err) => {
-    if (err) throw err;
-    console.log('The file has been saved!');
-  });
+  fs.writeFile(
+    'sens.json',
+    JSON.stringify({ created_at: Date(Date.now()), sens: testObj.sens }),
+    err => {
+      if (err) throw err;
+      console.log('The file has been saved!');
+    }
+  );
 
   res.send('Check the file');
 });
