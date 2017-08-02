@@ -95,7 +95,7 @@ const renderDTweets = (num, sen) => {
               <img class='nav_logo' src='images/twitter_logo_blue.svg' />
               ${dTweet.name} <span>@${dTweet.tw_user_name}</span>
               </p>
-              <p>${dTweet.body}</p>
+              <p class='tweet-body'>${dTweet.body}</p>
               <p>${createdAtTime} ${createdAtDate} (${formatSec(
           (Date.now() - createdAtObj) / 1000
         )} ago)</p>

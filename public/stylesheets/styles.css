@@ -129,7 +129,13 @@ header img {
   flex-direction:row;
   background-color: white;
   color: black;
+  padding: 10px;
   font-family: 'font133717', arial;
+  font-weight: bolder;
+}
+
+.tweet-body {
+  font-size: 21px;
 }
 
 .d-tweet-img-container {
@@ -244,7 +250,7 @@ div.tab button.active {
   flex-direction: column;
   background-color: white;
   color: black;
-  font-family: 'font133717', arial;
+  font-family: 'font133718', arial;
   padding: 10px;
 }
 
