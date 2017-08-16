@@ -126,22 +126,11 @@ header img {
 .d-tweet {
   margin: 10px 10px;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   background-color: white;
   color: black;
-  padding: 10px;
-  font-family: 'font133717', arial;
-  font-weight: bolder;
-}
-
-.tweet-body {
-  font-size: 21px;
-}
-
-.d-tweet-img-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 0px 5px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .d-tweet-img {

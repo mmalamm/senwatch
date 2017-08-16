@@ -88,7 +88,7 @@ const renderDTweets = (num, sen) => {
           <div class="d-tweet">
             <div class "d-tweet-img-container">
               <br>
-              <img class="d-tweet-img" src=${dTweet.profile_pic_url} alt=${dTweet.name}/>
+              <img class="d-tweet-img" src=${dTweet.profile_pic_url} alt="${dTweet.name}"/>
             </div>
             <div>
               <p>
