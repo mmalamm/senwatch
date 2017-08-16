@@ -58,3 +58,7 @@ app.get('/bkw', (req, res) => {
 });
 
 // https://www.propublica.org/datastore/api/campaign-finance-api
+const ampStuff = require('./amp/amp-data');
+app.get('/amp-data', (req, res) => {
+  ampStuff.ampStuff(res);
+});
