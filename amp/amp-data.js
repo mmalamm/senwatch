@@ -2,8 +2,6 @@ const sec = require('../secrets');
 const MongoClient = require('mongodb').MongoClient;
 const mongodb = sec.secrets.mongodb;
 
-let nySens, njSens, ctSens;
-
 const ampStuff = (res) => {
   MongoClient.connect(mongodb, (err, db) => {
     if (err) {
