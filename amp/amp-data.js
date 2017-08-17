@@ -9,7 +9,7 @@ const ampStuff = (res) => {
     }
     db.collection('Sens').find({
       $or: [ { state: "NY" }, { state: "NJ" }, { state: "CT" } ]
-    }).toArray().then( data => res.send(data) );
+    }).toArray().then( data => res.send({items:data}) );
   });
 
 };

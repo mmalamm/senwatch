@@ -1,0 +1,166 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+  <meta charset="utf-8">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <title>Hello, AMPs</title>
+  <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Open-source framework for publishing content",
+      "datePublished": "2015-10-07T12:02:41Z",
+      "image": [
+        "logo.jpg"
+      ]
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    }
+
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+
+    @keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+      to {
+        visibility: visible
+      }
+    }
+  </style>
+  <noscript>
+    <style amp-boilerplate>
+      body {-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
+    </style>
+  </noscript>
+  <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+  <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+  <!-- ... and the `amp-mustache` component in the header -->
+  <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+</head>
+<body>
+  <style>
+    body {
+      background-color: #002b55;
+      justify-content: center;
+      color: white;
+      letter-spacing: 1px;
+      font-family: 'Arapey', serif;
+      margin: 0 auto;
+      align-items: center;
+      margin: 10px 20px;
+      padding: 15px;
+    }
+
+    .name-tab {
+      background-color: inherit;
+      margin: 0px 20px;
+      padding: 15px;
+      font-weight: bold;
+      display: flex;
+      width: auto;
+    }
+
+    .tab-content {
+      background-color: inherit;
+      margin: 0px 20px;
+      padding: 15px;
+      padding-bottom: 25px;
+    }
+
+    .name-tab amp-img {
+      padding: 15px 12px;
+    }
+
+    .top-text {
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .sen-name {
+      position: relative;
+      font-size: 24px;
+    }
+
+    .sec > * {
+      border: none;
+      background-color: #001933;
+      margin: 0px 20px;
+      padding: 15px;
+      padding-bottom: 25px;
+    }
+
+  </style>
+  <h1 class="top-text">Tristate Area Senators</h1>
+  <amp-list width="auto" height="1000" layout="fixed-height" src="http://localhost:3000/amp-data" class="m1">
+    <template type="amp-mustache" id="amp-template-id">
+      <amp-accordion disable-session-states>
+        <section>
+          <div class="name-tab">
+            <amp-img src="{{img_url}}" alt="{{last_name}}" height="24" width="19"></amp-img>
+            <span class="sen-name">{{first_name}} {{last_name}} ({{state}}-{{party}})</span>
+          </div>
+          <amp-accordion class="nested-accordian">
+            <section class="sec">
+              <h6>Contact Info</h6>
+              <div>
+                ({{state}}-{{party}})
+              </div>
+            </section>
+            <section class="sec">
+              <h6>{{dob}}</h6>
+              <p>{{gender}}</p>
+            </section>
+          </amp-accordion>
+        </section>
+      </amp-accordion>
+    </template>
+  </amp-list>
+</body>
+
+</html>

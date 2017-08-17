@@ -1,0 +1,857 @@
+[{
+  "_id": "59705689392334118a72c334",
+  "pp_id": "B001288",
+  "first_name": "Cory",
+  "middle_name": null,
+  "last_name": "Booker",
+  "party": "D",
+  "twitter_account": "CoryBooker",
+  "facebook_account": "",
+  "rss_url": "https://www.booker.senate.gov/rss/",
+  "crp_id": "N00035267",
+  "crp": {
+    "candIndustry": {
+      "@attributes": {
+        "cand_name": "Cory Booker (D)",
+        "cid": "N00035267",
+        "cycle": "2016",
+        "origin": "Center for Responsive Politics",
+        "source": "http://www.opensecrets.org/politicians/industries.php?cid=N00035267&cycle=2010",
+        "last_updated": "05/16/2017"
+      },
+      "industry": [{
+        "@attributes": {
+          "industry_code": "K01",
+          "industry_name": "Lawyers/Law Firms",
+          "indivs": "2314675",
+          "pacs": "184500",
+          "total": "2499175"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F07",
+          "industry_name": "Securities & Investment",
+          "indivs": "2269477",
+          "pacs": "61200",
+          "total": "2330677"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F10",
+          "industry_name": "Real Estate",
+          "indivs": "1172760",
+          "pacs": "29000",
+          "total": "1201760"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "B02",
+          "industry_name": "TV/Movies/Music",
+          "indivs": "728162",
+          "pacs": "32000",
+          "total": "760162"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F13",
+          "industry_name": "Misc Finance",
+          "indivs": "505825",
+          "pacs": "15000",
+          "total": "520825"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "N05",
+          "industry_name": "Business Services",
+          "indivs": "478856",
+          "pacs": "10500",
+          "total": "489356"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "Q05",
+          "industry_name": "Pro-Israel",
+          "indivs": "397599",
+          "pacs": "36527",
+          "total": "434126"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "H04",
+          "industry_name": "Pharmaceuticals/Health Products",
+          "indivs": "173841",
+          "pacs": "218500",
+          "total": "392341"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "W06",
+          "industry_name": "Retired",
+          "indivs": "376988",
+          "pacs": "0",
+          "total": "376988"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F09",
+          "industry_name": "Insurance",
+          "indivs": "249035",
+          "pacs": "124000",
+          "total": "373035"
+        }
+      }]
+    }
+  },
+  "domain": "www.booker.senate.gov/",
+  "next_election": "2020",
+  "phone": "202-224-3224",
+  "fax": "202-224-8378",
+  "state": "NJ",
+  "state_rank": "junior",
+  "senate_class": "2",
+  "dob": "1969-04-27",
+  "gender": "M",
+  "committees": [{
+    "name": "Committee on Commerce, Science, and Transportation",
+    "code": "SSCM",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSCM.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Environment and Public Works",
+    "code": "SSEV",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSEV.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Foreign Relations",
+    "code": "SSFR",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSFR.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Small Business and Entrepreneurship",
+    "code": "SSSB",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSSB.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }],
+  "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cory_Booker%2C_official_portrait%2C_114th_Congress.jpg/500px-Cory_Booker%2C_official_portrait%2C_114th_Congress.jpg",
+  "office": "359 Dirksen Senate Office Building",
+  "votes_with_party_pct": 83.71
+}, {
+  "_id": "59705689392334118a72c347",
+  "pp_id": "M000639",
+  "first_name": "Robert",
+  "middle_name": null,
+  "last_name": "Menendez",
+  "party": "D",
+  "twitter_account": "SenatorMenendez",
+  "facebook_account": "senatormenendez",
+  "rss_url": "https://www.menendez.senate.gov/rss/feeds/?press",
+  "crp_id": "N00000699",
+  "crp": {
+    "candIndustry": {
+      "@attributes": {
+        "cand_name": "Robert Menendez (D)",
+        "cid": "N00000699",
+        "cycle": "2016",
+        "origin": "Center for Responsive Politics",
+        "source": "http://www.opensecrets.org/politicians/industries.php?cid=N00000699&cycle=2010",
+        "last_updated": "05/16/2017"
+      },
+      "industry": [{
+        "@attributes": {
+          "industry_code": "K01",
+          "industry_name": "Lawyers/Law Firms",
+          "indivs": "1370765",
+          "pacs": "193049",
+          "total": "1563814"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F10",
+          "industry_name": "Real Estate",
+          "indivs": "910279",
+          "pacs": "88265",
+          "total": "998544"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F07",
+          "industry_name": "Securities & Investment",
+          "indivs": "541801",
+          "pacs": "112700",
+          "total": "654501"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "H01",
+          "industry_name": "Health Professionals",
+          "indivs": "555185",
+          "pacs": "98000",
+          "total": "653185"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "W06",
+          "industry_name": "Retired",
+          "indivs": "533972",
+          "pacs": "0",
+          "total": "533972"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "K02",
+          "industry_name": "Lobbyists",
+          "indivs": "468207",
+          "pacs": "18860",
+          "total": "487067"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "Q05",
+          "industry_name": "Pro-Israel",
+          "indivs": "254170",
+          "pacs": "98100",
+          "total": "352270"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "Q03",
+          "industry_name": "Leadership PACs",
+          "indivs": "0",
+          "pacs": "346244",
+          "total": "346244"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F09",
+          "industry_name": "Insurance",
+          "indivs": "178650",
+          "pacs": "144100",
+          "total": "322750"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "N05",
+          "industry_name": "Business Services",
+          "indivs": "274858",
+          "pacs": "24500",
+          "total": "299358"
+        }
+      }]
+    }
+  },
+  "domain": "menendez.senate.gov",
+  "next_election": "2018",
+  "phone": "202-224-4744",
+  "fax": "202-228-2197",
+  "state": "NJ",
+  "state_rank": "senior",
+  "senate_class": "1",
+  "dob": "1954-01-01",
+  "gender": "M",
+  "committees": [{
+    "name": "Committee on Banking, Housing, and Urban Affairs",
+    "code": "SSBK",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSBK.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Finance",
+    "code": "SSFI",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSFI.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Foreign Relations",
+    "code": "SSFR",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSFR.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }],
+  "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Robert_Menendez_official_Senate_portrait.jpg/500px-Robert_Menendez_official_Senate_portrait.jpg",
+  "office": "528 Hart Senate Office Building",
+  "votes_with_party_pct": 93.79
+}, {
+  "_id": "59705689392334118a72c348",
+  "pp_id": "B001277",
+  "first_name": "Richard",
+  "middle_name": null,
+  "last_name": "Blumenthal",
+  "party": "D",
+  "twitter_account": "SenBlumenthal",
+  "facebook_account": "SenBlumenthal",
+  "rss_url": "https://www.blumenthal.senate.gov/rss/feeds/?type=press",
+  "crp_id": "N00031685",
+  "crp": {
+    "candIndustry": {
+      "@attributes": {
+        "cand_name": "Richard Blumenthal (D)",
+        "cid": "N00031685",
+        "cycle": "2016",
+        "origin": "Center for Responsive Politics",
+        "source": "http://www.opensecrets.org/politicians/industries.php?cid=N00031685&cycle=2010",
+        "last_updated": "05/16/2017"
+      },
+      "industry": [{
+        "@attributes": {
+          "industry_code": "K01",
+          "industry_name": "Lawyers/Law Firms",
+          "indivs": "1109221",
+          "pacs": "138841",
+          "total": "1248062"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F07",
+          "industry_name": "Securities & Investment",
+          "indivs": "801978",
+          "pacs": "68500",
+          "total": "870478"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F10",
+          "industry_name": "Real Estate",
+          "indivs": "397601",
+          "pacs": "33000",
+          "total": "430601"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "W06",
+          "industry_name": "Retired",
+          "indivs": "375550",
+          "pacs": "0",
+          "total": "375550"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "Q03",
+          "industry_name": "Leadership PACs",
+          "indivs": "0",
+          "pacs": "336500",
+          "total": "336500"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "K02",
+          "industry_name": "Lobbyists",
+          "indivs": "287802",
+          "pacs": "15550",
+          "total": "303352"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "H01",
+          "industry_name": "Health Professionals",
+          "indivs": "118323",
+          "pacs": "143250",
+          "total": "261573"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "B09",
+          "industry_name": "Telecom Services",
+          "indivs": "147750",
+          "pacs": "106250",
+          "total": "254000"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "B02",
+          "industry_name": "TV/Movies/Music",
+          "indivs": "167041",
+          "pacs": "42500",
+          "total": "209541"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F09",
+          "industry_name": "Insurance",
+          "indivs": "41835",
+          "pacs": "126600",
+          "total": "168435"
+        }
+      }]
+    }
+  },
+  "domain": null,
+  "next_election": "2022",
+  "phone": "202-224-2823",
+  "fax": "202-224-9673",
+  "state": "CT",
+  "state_rank": "senior",
+  "senate_class": "3",
+  "dob": "1946-02-13",
+  "gender": "M",
+  "committees": [{
+    "name": "Special Committee on Aging",
+    "code": "SPAG",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SPAG.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Armed Services",
+    "code": "SSAS",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSAS.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Commerce, Science, and Transportation",
+    "code": "SSCM",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSCM.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on the Judiciary",
+    "code": "SSJU",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSJU.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Veterans&#39; Affairs",
+    "code": "SSVA",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSVA.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }],
+  "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Richard_Blumenthal_Official_Portrait.jpg/500px-Richard_Blumenthal_Official_Portrait.jpg",
+  "office": "706 Hart Senate Office Building",
+  "votes_with_party_pct": 91.57
+}, {
+  "_id": "59705689392334118a72c358",
+  "pp_id": "G000555",
+  "first_name": "Kirsten",
+  "middle_name": "E.",
+  "last_name": "Gillibrand",
+  "party": "D",
+  "twitter_account": "SenGillibrand",
+  "facebook_account": "KirstenGillibrand",
+  "rss_url": null,
+  "crp_id": "N00027658",
+  "crp": {
+    "candIndustry": {
+      "@attributes": {
+        "cand_name": "Kirsten Gillibrand (D)",
+        "cid": "N00027658",
+        "cycle": "2016",
+        "origin": "Center for Responsive Politics",
+        "source": "http://www.opensecrets.org/politicians/industries.php?cid=N00027658&cycle=2010",
+        "last_updated": "05/16/2017"
+      },
+      "industry": [{
+        "@attributes": {
+          "industry_code": "K01",
+          "industry_name": "Lawyers/Law Firms",
+          "indivs": "2310873",
+          "pacs": "174700",
+          "total": "2485573"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F07",
+          "industry_name": "Securities & Investment",
+          "indivs": "1501722",
+          "pacs": "189500",
+          "total": "1691222"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "W06",
+          "industry_name": "Retired",
+          "indivs": "771581",
+          "pacs": "0",
+          "total": "771581"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F10",
+          "industry_name": "Real Estate",
+          "indivs": "694956",
+          "pacs": "76500",
+          "total": "771456"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "Q08",
+          "industry_name": "Women's Issues",
+          "indivs": "571105",
+          "pacs": "14500",
+          "total": "585605"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "B02",
+          "industry_name": "TV/Movies/Music",
+          "indivs": "476434",
+          "pacs": "58500",
+          "total": "534934"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "K02",
+          "industry_name": "Lobbyists",
+          "indivs": "388130",
+          "pacs": "17845",
+          "total": "405975"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "N05",
+          "industry_name": "Business Services",
+          "indivs": "368358",
+          "pacs": "31000",
+          "total": "399358"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F09",
+          "industry_name": "Insurance",
+          "indivs": "172867",
+          "pacs": "213116",
+          "total": "385983"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F13",
+          "industry_name": "Misc Finance",
+          "indivs": "341428",
+          "pacs": "10100",
+          "total": "351528"
+        }
+      }]
+    }
+  },
+  "domain": "www.gillibrand.senate.gov",
+  "next_election": "2018",
+  "phone": "202-224-4451",
+  "fax": "202-228-0282",
+  "state": "NY",
+  "state_rank": "junior",
+  "senate_class": "1",
+  "dob": "1966-12-09",
+  "gender": "F",
+  "committees": [{
+    "name": "Special Committee on Aging",
+    "code": "SPAG",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SPAG.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Agriculture, Nutrition, and Forestry",
+    "code": "SSAF",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSAF.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Armed Services",
+    "code": "SSAS",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSAS.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Environment and Public Works",
+    "code": "SSEV",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSEV.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }],
+  "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Kirsten_Gillibrand%2C_official_portrait%2C_112th_Congress.jpg/500px-Kirsten_Gillibrand%2C_official_portrait%2C_112th_Congress.jpg",
+  "office": "478 Russell Senate Office Building",
+  "votes_with_party_pct": 81.01
+}, {
+  "_id": "59705689392334118a72c360",
+  "pp_id": "M001169",
+  "first_name": "Christopher",
+  "middle_name": "S.",
+  "last_name": "Murphy",
+  "party": "D",
+  "twitter_account": "ChrisMurphyCT",
+  "facebook_account": "chrismurphyct",
+  "rss_url": "https://www.murphy.senate.gov/rss/feeds/?press",
+  "crp_id": "N00027566",
+  "crp": {
+    "candIndustry": {
+      "@attributes": {
+        "cand_name": "Christopher S Murphy (D)",
+        "cid": "N00027566",
+        "cycle": "2016",
+        "origin": "Center for Responsive Politics",
+        "source": "http://www.opensecrets.org/politicians/industries.php?cid=N00027566&cycle=2010",
+        "last_updated": "05/16/2017"
+      },
+      "industry": [{
+        "@attributes": {
+          "industry_code": "W06",
+          "industry_name": "Retired",
+          "indivs": "1439255",
+          "pacs": "0",
+          "total": "1439255"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "K01",
+          "industry_name": "Lawyers/Law Firms",
+          "indivs": "957882",
+          "pacs": "56150",
+          "total": "1014032"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F07",
+          "industry_name": "Securities & Investment",
+          "indivs": "659460",
+          "pacs": "99000",
+          "total": "758460"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F09",
+          "industry_name": "Insurance",
+          "indivs": "124387",
+          "pacs": "280000",
+          "total": "404387"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F10",
+          "industry_name": "Real Estate",
+          "indivs": "316685",
+          "pacs": "62500",
+          "total": "379185"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "H01",
+          "industry_name": "Health Professionals",
+          "indivs": "193279",
+          "pacs": "162410",
+          "total": "355689"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "Q03",
+          "industry_name": "Leadership PACs",
+          "indivs": "15000",
+          "pacs": "295000",
+          "total": "310000"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "K02",
+          "industry_name": "Lobbyists",
+          "indivs": "272209",
+          "pacs": "8424",
+          "total": "280633"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "N05",
+          "industry_name": "Business Services",
+          "indivs": "265377",
+          "pacs": "15000",
+          "total": "280377"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "W04",
+          "industry_name": "Education",
+          "indivs": "278399",
+          "pacs": "0",
+          "total": "278399"
+        }
+      }]
+    }
+  },
+  "domain": "murphy.senate.gov",
+  "next_election": "2018",
+  "phone": "202-224-4041",
+  "fax": "202-225-5933",
+  "state": "CT",
+  "state_rank": "junior",
+  "senate_class": "1",
+  "dob": "1973-08-03",
+  "gender": "M",
+  "committees": [{
+    "name": "Committee on Appropriations",
+    "code": "SSAP",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSAP.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Foreign Relations",
+    "code": "SSFR",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSFR.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Health, Education, Labor, and Pensions",
+    "code": "SSHR",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSHR.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }],
+  "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Chris_Murphy%2C_official_portrait%2C_113th_Congress.jpg/500px-Chris_Murphy%2C_official_portrait%2C_113th_Congress.jpg",
+  "office": "136 Hart Senate Office Building",
+  "votes_with_party_pct": 95.48
+}, {
+  "_id": "59705689392334118a72c381",
+  "pp_id": "S000148",
+  "first_name": "Charles",
+  "middle_name": "E.",
+  "last_name": "Schumer",
+  "party": "D",
+  "twitter_account": "SenSchumer",
+  "facebook_account": "senschumer",
+  "rss_url": null,
+  "crp_id": "N00001093",
+  "crp": {
+    "candIndustry": {
+      "@attributes": {
+        "cand_name": "Charles E Schumer (D)",
+        "cid": "N00001093",
+        "cycle": "2016",
+        "origin": "Center for Responsive Politics",
+        "source": "http://www.opensecrets.org/politicians/industries.php?cid=N00001093&cycle=2010",
+        "last_updated": "05/16/2017"
+      },
+      "industry": [{
+        "@attributes": {
+          "industry_code": "F07",
+          "industry_name": "Securities & Investment",
+          "indivs": "2925606",
+          "pacs": "258700",
+          "total": "3184306"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "K01",
+          "industry_name": "Lawyers/Law Firms",
+          "indivs": "1821992",
+          "pacs": "250551",
+          "total": "2072543"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F10",
+          "industry_name": "Real Estate",
+          "indivs": "1737622",
+          "pacs": "90500",
+          "total": "1828122"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F09",
+          "industry_name": "Insurance",
+          "indivs": "341100",
+          "pacs": "378000",
+          "total": "719100"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "W06",
+          "industry_name": "Retired",
+          "indivs": "673096",
+          "pacs": "0",
+          "total": "673096"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "K02",
+          "industry_name": "Lobbyists",
+          "indivs": "560727",
+          "pacs": "20400",
+          "total": "581127"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "F13",
+          "industry_name": "Misc Finance",
+          "indivs": "510392",
+          "pacs": "69100",
+          "total": "579492"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "B02",
+          "industry_name": "TV/Movies/Music",
+          "indivs": "455157",
+          "pacs": "84500",
+          "total": "539657"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "B12",
+          "industry_name": "Electronics Mfg & Equip",
+          "indivs": "410245",
+          "pacs": "122034",
+          "total": "532279"
+        }
+      }, {
+        "@attributes": {
+          "industry_code": "H02",
+          "industry_name": "Hospitals/Nursing Homes",
+          "indivs": "360278",
+          "pacs": "158200",
+          "total": "518478"
+        }
+      }]
+    }
+  },
+  "domain": "www.schumer.senate.gov",
+  "next_election": "2022",
+  "phone": "202-224-6542",
+  "fax": "202-228-3027",
+  "state": "NY",
+  "state_rank": "senior",
+  "senate_class": "3",
+  "dob": "1950-11-23",
+  "gender": "M",
+  "committees": [{
+    "name": "Caucus on International Narcotics Control",
+    "code": "SCNC",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SCNC.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Select Committee on Intelligence",
+    "code": "SLIN",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SLIN.json",
+    "rank_in_party": null,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }, {
+    "name": "Committee on Rules and Administration",
+    "code": "SSRA",
+    "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSRA.json",
+    "rank_in_party": 1,
+    "begin_date": "2017-01-03",
+    "end_date": "2019-01-03"
+  }],
+  "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Chuck_Schumer_official_photo.jpg/500px-Chuck_Schumer_official_photo.jpg",
+  "office": "322 Hart Senate Office Building",
+  "votes_with_party_pct": 94.41
+}]
