@@ -140,7 +140,7 @@
     }
   </style>
   <h1 class="top-text">Tristate Area Senators</h1>
-  <amp-list width="auto" height="1000" layout="fixed-height" src="http://localhost:3000/amp-data" class="m1">
+  <amp-list width="auto" height="2000" layout="fixed-height" src="http://localhost:3000/amp-data" class="m1">
     <template type="amp-mustache" id="amp-template-id">
       <amp-accordion disable-session-states>
         <section>
@@ -152,10 +152,11 @@
             <section class="sec">
               <h4>Bio</h4>
               <div>
-                {{first_name}} {{last_name}}, {{state-rank}} senator from {{state}}<br>
+                {{first_name}} {{middle_name}} {{last_name}}, {{state_rank}} senator from {{state}}<br>
                 Party: {{party}}<br>
                 DOB: {{dob}}<br>
-                Next Election: {{next_election}}
+                Next Election: {{next_election}}<br>
+                Votes with Party {{votes_with_party_pct}}% of the time
               </div>
             </section>
             <section class="sec">
