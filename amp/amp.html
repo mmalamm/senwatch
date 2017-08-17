@@ -124,7 +124,7 @@
 
     .sen-name {
       position: relative;
-      font-size: 24px;
+      font-size: 20px;
     }
 
     .sec > * {
@@ -135,6 +135,9 @@
       padding-bottom: 25px;
     }
 
+    h4 {
+      text-decoration: underline;
+    }
   </style>
   <h1 class="top-text">Tristate Area Senators</h1>
   <amp-list width="auto" height="1000" layout="fixed-height" src="http://localhost:3000/amp-data" class="m1">
@@ -147,14 +150,42 @@
           </div>
           <amp-accordion class="nested-accordian">
             <section class="sec">
-              <h6>Contact Info</h6>
+              <h4>Bio</h4>
               <div>
-                ({{state}}-{{party}})
+                {{first_name}} {{last_name}}, {{state-rank}} senator from {{state}}<br>
+                Party: {{party}}<br>
+                DOB: {{dob}}<br>
+                Next Election: {{next_election}}
               </div>
             </section>
             <section class="sec">
-              <h6>{{dob}}</h6>
-              <p>{{gender}}</p>
+              <h4>Contact Info</h4>
+              <div>
+                <amp-img src="images/twitter_logo_blue.svg" alt='@' height="15" width="15"></amp-img>
+                {{twitter_account}}
+                <br>
+                <amp-img height="15px" width="15px" src="./images/site_logo.svg" alt=""></amp-img>
+                {{domain}}
+                <br>
+                <amp-img height="15px" width="15px" src="./images/phone_logo.svg" alt=""></amp-img>
+                {{phone}}
+                <br>
+                <amp-img height="15px" width="15px" src="./images/office_logo.svg" alt=""></amp-img>
+                {{office}}
+              </div>
+            </section>
+            <section class="sec">
+              <h4>Twitter Feed</h4>
+              <div class="">
+                <a class="twitter-timeline"
+                  href="https://twitter.com/{{twitter_account}}"
+                  data-tweet-limit="5">
+                  Tweets by {{twitter_account}}
+                </a>
+                <script async
+                  src="https://platform.twitter.com/widgets.js"
+                  charset="utf-8"></script>
+              </div>
             </section>
           </amp-accordion>
         </section>
