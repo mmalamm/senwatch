@@ -17,22 +17,18 @@
   },
   "homepage": "https://github.com/mmalamm/senwatch#readme",
   "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
     "body-parser": "^1.17.2",
     "chalk": "^2.0.1",
     "curlrequest": "^1.0.1",
+    "d3": "^4.10.0",
     "express": "^4.15.3",
+    "jsdom": "^11.1.0",
     "mongodb": "^2.2.30",
     "request": "^2.81.0",
     "serve-favicon": "^2.4.3",
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
-    "babel-preset-env": "^1.6.0",
-    "webpack": "^3.3.0"
-  },
-  "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
-    "babel-preset-env": "^1.6.0",
     "webpack": "^3.3.0"
   }
 }
