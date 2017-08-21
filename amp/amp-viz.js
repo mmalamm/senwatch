@@ -107,7 +107,8 @@ const produceSVG = (sen, res) => {
           .attr('x', 0)
           .attr('y', (d, i) => y(i))
           .attr('width', d => x(d.total))
-          .attr('height', () => y(1) - 1);
+          .attr('height', () => y(1) - 1)
+          .style('fill', '#0080FF');
 
         params.svg
           .selectAll('.bar-label')
@@ -134,6 +135,8 @@ const produceSVG = (sen, res) => {
       let out = window.d3.select("body").html();
       out = out.replace('svg id="chart"', `svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' id="chart"`);
       out = out.replace('<script class="jsdom" src="https://d3js.org/d3.v4.min.js"></script>', '');
+      out = out.replace('<text fill="#000" y="9" dy="13" style="text-anchor: end; pointer-events: none; font-size: 24px; fill: white; opacity: 0.3;" dx="350" transform="translate(0,0) rotate(90)">0</text>', '');
+      out = out.replace(/#000/g, '#fff');
       console.log(out);
       fs.writeFileSync(`amp/amp_viz_files/${sen.pp_id}-viz.svg`, out);
       res.sendFile(path.join(__dirname + `/amp_viz_files/${sen.pp_id}-viz.svg`));
