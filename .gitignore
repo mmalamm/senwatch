@@ -38,3 +38,7 @@ error_log.txt
 
 #Ignore huge sens json file
 sens.json
+
+#Ignore sev-viz-svg files
+amp/amp_viz_files/*
+!amp/amp_viz_files/post

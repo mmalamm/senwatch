@@ -1,4 +1,7 @@
-const ampStuff = require('./amp/amp-data');
+const express = require('express');
+const app = express();
+const path = require('path');
+const ampStuff = require('./amp-data');
 app.get('/amp-data', (req, res) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
