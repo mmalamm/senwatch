@@ -4,6 +4,7 @@ import "./Map.css";
 import { geoPath, json } from "d3";
 import { feature } from "topojson-client";
 import stateHash from "./statesInfo.js";
+import Eyeball from "../Eyeball/Eyeball";
 const { stateId2CodeMap } = stateHash;
 
 class StateSVG extends Component {
@@ -31,11 +32,12 @@ class Map extends Component {
     const path = geoPath();
     const { loaded, us } = this.state;
     const { features } = feature(us, us.objects.states);
-    return (
-      <svg className="map-svg">
+    return !loaded ? (
+      <Eyeball />
+    ) : (
+      <svg className="map-svg" viewBox="0 0 960 600">
         <g className="states">
-          {loaded &&
-            features.map(path).map((p, i) => <StateSVG key={i} i={i} d={p} />)}
+          {features.map(path).map((p, i) => <StateSVG key={i} i={i} d={p} />)}
         </g>
       </svg>
     );
