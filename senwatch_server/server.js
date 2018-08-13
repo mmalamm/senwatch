@@ -4,5 +4,12 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-app.use(express.static(path.join(__dirname, "..", "senwatch_react", "build")));
+// backend
+
+
+// frontend
+const publicPath = path.join(__dirname, "..", "senwatch_react", "build");
+app.use(express.static(publicPath));
+
+// listen
 app.listen(port, () => console.log("server running on port", port));
