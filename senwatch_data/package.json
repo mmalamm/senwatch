@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build-gui": "npm install --prefix ./gui/ && npm run build --prefix ./gui/",
+    "start": "npm run build --prefix ./gui/ && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
