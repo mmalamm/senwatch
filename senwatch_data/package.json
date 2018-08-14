@@ -1,0 +1,22 @@
+{
+  "name": "senwatch_data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "senwatch.js",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "dev": "nodemon ts-node ./src",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
+    "trying": "npm run build --prefix gui/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  }
+}

@@ -32,6 +32,7 @@ bundle.js.map
 
 # Ignore secret files
 keys.js
+keys.ts
 
 # Ignore local error logs
 error_log.txt
@@ -42,3 +43,31 @@ sens.json
 #Ignore sev-viz-svg files
 amp/amp_viz_files/*
 !amp/amp_viz_files/post
+
+
+# include senwatch_react ignores:
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+senwatch_react/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ignore build files:
+**/build
