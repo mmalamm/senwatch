@@ -25,7 +25,7 @@ class Sen extends React.Component {
     return (
       <div className={`Sen ${getPartyClass(sen.party)}`}>
         {img && <img src={img} alt="" />}
-        {sen.first_name} {sen.last_name} ({sen.party})
+        {sen.first_name} {sen.last_name} ({sen.party}) - {sen.state}
         <button onClick={this.handleClick}>Get Image</button>
       </div>
     );

@@ -1,15 +1,7 @@
 import axios from "axios";
 
-export const getPartyClass = party => {
-  switch (party) {
-    case "D":
-      return "Democratic";
-    case "R":
-      return "Republican";
-    default:
-      return "Other";
-  }
-};
+export const getPartyClass = party =>
+  party === "D" ? "Democratic" : party === "R" ? "Republican" : "Other";
 
 export const getImage = sen => {
   const sen_name = formatName(`${sen.first_name} ${sen.last_name}`);
