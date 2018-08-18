@@ -1,12 +1,35 @@
 import React from "react";
-import { getPartyClass } from "./lib";
+import { getPartyClass, getImage } from "./lib";
 
-const Sen = ({ sen }) => {
-  return (
-    <div className={`Sen ${getPartyClass(sen.party)}`}>
-      {sen.first_name} {sen.last_name} ({sen.party})
-    </div>
-  );
-};
+class Sen extends React.Component {
+  state = {
+    sen: this.props.sen
+  };
+  handleClick = e => {
+    getImage(this.props.sen).then(d => {
+      console.log(d);
+      this.setState(prevState => {
+        return {
+          sen: {
+            ...prevState.sen,
+            image_url: d
+          }
+        };
+      });
+    });
+  };
+  render() {
+    const { sen } = this.props;
+    const img = this.state.sen.image_url;
+    console.log(img);
+    return (
+      <div className={`Sen ${getPartyClass(sen.party)}`}>
+        {img && <img src={img} alt="" />}
+        {sen.first_name} {sen.last_name} ({sen.party})
+        <button onClick={this.handleClick}>Get Image</button>
+      </div>
+    );
+  }
+}
 
 export default Sen;

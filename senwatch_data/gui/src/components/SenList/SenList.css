@@ -9,16 +9,19 @@
 .Sen {
   width: 20rem;
   text-align: center;
+  color: white;
+  padding: 0.5rem;
+  margin: 0.2rem 0;
 }
 
 .Democratic {
-  color: blue;
+  background-color: #2b5cce;
 }
 
 .Republican {
-  color: red;
+  background-color: #b24c63;
 }
 
 .Other {
-  color: green;
+  background-color: #267543;
 }
