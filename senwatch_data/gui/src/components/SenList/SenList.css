@@ -1,0 +1,24 @@
+.SenList {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Sen {
+  width: 20rem;
+  text-align: center;
+}
+
+.Democratic {
+  color: blue;
+}
+
+.Republican {
+  color: red;
+}
+
+.Other {
+  color: green;
+}
