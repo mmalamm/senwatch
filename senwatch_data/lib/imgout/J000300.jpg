@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <title>Congress.gov | Library of Congress</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="canonical" content="https://www.congress.gov/img/member/j000300.jpg/">
+    <meta name="dc.identifier" content="https://www.congress.gov/img/member/j000300.jpg/">
+    <meta name="dc.language" content="eng">
+    <meta name="dc.rights" content="Text is government work">
+    <meta name="dc.subject" content="Legislative Data">
+    <meta name="dc.subject" content="Congress">
+    <meta name="dc.title" content="Congress.gov | Library of Congress">
+    <meta name="dc.type" content="legislation">
+    <meta name="dc.type" content="webpage">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:image" content="https://www.congress.gov/img/FB_opengraph1200by630.jpg">
+    <meta property="og:title" content="Congress.gov | Library of Congress">
+    <meta property="og:url" content="https://www.congress.gov/img/member/j000300.jpg/">
+    <link href="/apple-touch-icon-precomposed.png" rel="image_src">
+    <link href="https://www.congress.gov" rel="dc.relation.isPartOf" title="Congress.gov">
+    <link href="https://www.congress.gov" rel="dc.relation.isPartOf" title="Legislation">
+    <link href="/css/cache/2d9957f1815d69e55d89a43a2f11c4ef.css" media="all" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        var CDN_URL = 'https://cdn.loc.gov',
+            LAB_URL = 'https://cdn.loc.gov/js/LAB-2.0.3.min.js',
+            MEDIA_URL = 'https://media.loc.gov';
+    </script>
+    <script type="text/javascript" src="/js/cache/f8e3dabef2163930580067b383ab3f7e.js"></script>
+    <script type="text/javascript" src="https://assets.adobedtm.com/dac62e20b491e735c6b56e64c39134d8ee93f9cf/satelliteLib-2b0167cca1e45644bd67a3b7c1325a52d6d3e835.js"></script>
+</head>
+<body>
+    <p class="alert_homepage" tabindex="0" role="heading" aria-level="1" style="display:none;"></p>
+    <noscript>
+        <div class="js-message" tabindex="0" role="heading" aria-level="1">
+            <span class="hide_fromsighted">Alert: </span>For a better experience on congress.gov, please enable JavaScript in
+            your browser.
+        </div>
+    </noscript>
+    <div id="container" class="container">
+        <div class="container_shadow">
+            <span class="lac" data-lac="lis"></span><header id="home" role="banner">
+    <div class="header-wrapper">
+        <div class="header-menu">
+            <button class="nav-links-toggle" id="label-nav-global" aria-controls="nav-links-clone-wrapper"><span class="hide_fromsighted">Navigation</span><i class="fa fa-bars"></i></button>
+            <nav class="nav-links-clone-wrapper" id="nav-links-clone-wrapper" aria-labelledby="label-nav-global"></nav>
+        </div>
+        <div class="header-logo">
+        	<a href="https://www.congress.gov"><img src="/img/svg/congress-gov-logo.svg" alt="Congress.gov" width="302" height="28"></a>
+        </div>
+        <div class="header-search-links">
+            <ul class="nav-links nav-links-search">
+                <li class="advanced-search-link "><a href="/advanced-search/legislation">Advanced Searches</a></li>
+                <li class="browse-link "><a href="/browse">Browse</a></li>
+            </ul>
+        </div>
+        <div class="header-portal-links">
+        	<ul class="nav-links nav-links-main">
+                <li><a href="/legislation?q=%7B%22congress%22%3A%22115%22%7D">Legislation</a></li>
+                <li><a href="/congressional-record">Congressional Record</a></li>
+                <li><a href="/committees">Committees</a></li>
+                <li><a href="/members?q=%7B%22congress%22%3A%22115%22%7D">Members</a></li>
+            </ul>
+        </div>
+        <div class="header-search-tools">
+            <ul class="nav-links nav-links-tertiary">
+            	<li><a href="/help/search-tools-overview">Search Tools</a></li>
+                <li class="tertiary-more">
+                    <a href="#" role="button" class="tertiary-more-toggle" id="tertiary-more-toggle" aria-controls="more-tertiary-links">Support <i class="fa fa-caret-down"></i></a>
+                    <ul class="more-tertiary-links" id="more-tertiary-links" aria-labelledby="tertiary-more-toggle" style="display: none;">
+                        <li class="tertiary"><a href="/help/legislative-glossary">Glossary</a></li>
+                        <li class="tertiary"><a href="/resources/" target="_blank">Resources</a></li>
+                        <li class="tertiary"><a href="/help">Help</a></li>
+                        <li class="tertiary"><a href="/contact-us">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-account">        <div class="h_account"></div>
+        <script>
+        $(document).ready(function() {
+            $('.h_account').congress_AccountLink({
+                accountLandingUrl:  '/account',
+                accountRegisterUrl: '/account/register',
+                accountSignInUrl:   '/account/signin',
+                alertsUrl:          '/alerts',
+                checkForUserUrl:    '/account/check-for-user',
+                debugging:          false,
+                logoutUrl:          '/account/logout',
+                passwordResetUrl:   '/account/password-reset-request',
+                savedSearchesUrl:   '/saved-searches'
+            });
+        });
+        </script>
+        </div>
+    </div>
+        <div id="search_main" class="search-main">
+        <div id="search-panel-container">
+            <div id="basic-search-panel" aria-labelledby="basic-search-button" class="basic-search-panel">
+                <div id="search-within-results-inputs" class="search-within-results-inputs" style="display:none;">
+                                </div>
+                <form method="get" class="search-main-form" target="_top" role="search" action="/search">
+                    <div id="search-wrapper" class="search-wrapper">
+                        <div class="search-formats">
+                            <select id="search-format" name="search-source" aria-label="Search">
+                            <option value="current-legislation" selected="selected">Current Legislation</option><option value="legislation">All Legislation</option><option value="all-sources">All Sources</option><option value="--" disabled="disabled">--</option><option value="comreports">Committee Reports</option><option value="congrecord">Congressional Record</option><option value="members">Members</option><option value="nominations">Nominations</option><option value="house-communications">House Communications</option><option value="senate-communications">Senate Communications</option><option value="treaties">Treaty Documents</option>                            </select>
+                        </div>
+                        <div class="search-input noSearchWithin">
+                            <input id="search" type="text" class="locsuggest" name="q" placeholder="Examples: hr5, sres9, &quot;health care&quot;" value="">
+                            <div id="search-within-results-container" class="search-within-results-container" style="display:none;">
+                                <label>Search Within <input type="checkbox" id="search-within-results" name="search-within" /></label>
+                            </div>
+                        </div>
+                        <div class="search-button">
+                            <button class="search-submit" id="search-submit" type="submit"><span class="hide_fromsighted">GO</span><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="quick-search-panel" aria-labelledby="quick-search-button" class="quick-search-panel" style="display:none;">
+                <div id="quick-search-tabui" class="quick-search-tabui">
+                    <nav role='navigation' class="quick-search-tabui-tabs">
+                        <ul>
+                            <li><a href="#legislation" id="legislation-tab" aria-controls="legislation" aria-expanded="true" class="active">Legislation</a></li>
+                            <li><a href="#legislation-text" id="legislation-text-tab" aria-controls="legislation-text" aria-expanded="false">Legislation Text</a></li>
+                            <li><a href="#committee-reports" id="committee-reports-tab" aria-controls="committee-reports" aria-expanded="false">Committee Reports</a></li>
+                            <li><a href="#congressional-record" id="congressional-record-tab" aria-controls="congressional-record" aria-expanded="false">Congressional Record</a></li>
+                            <li><a href="#nominations" id="nominations-tab" aria-controls="nominations" aria-expanded="false">Nominations</a></li>
+                            <li><a href="#house-communications" id="house-communications-tab" aria-controls="house-communications" aria-expanded="false">House Communications</a></li>
+                            <li><a href="#senate-communications" id="senate-communications-tab" aria-controls="senate-communications" aria-expanded="false">Senate Communications</a></li>
+                            <li><a href="#treaty-documents" id="treaty-documents-tab" aria-controls="treaty-documents" aria-expanded="false">Treaty Documents</a></li>
+                        </ul>
+                    </nav>
+                    <div class="quick-search-tabui-tab-panels">
+                        <div id="legislation" aria-labelledby="legislation-tab" class="quick-search-tabui-tab-panel active">
+                            <form class="quick-search" action="/quick-search/legislation" aria-labelledby="quick-search">
+    <div class="quick-search-form-row-words-and-phrases">
+        <textarea aria-label="Words and Phrases" row="1" class="expand80-2000 words-and-phrases" name="wordsPhrases" id="legislation-wordsPhrases" placeholder="Examples: &quot;Trade Relations&quot;, &quot;Export Control&quot;" ></textarea>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-after-words-and-phrases">
+        <div class="quick-search-group">
+            <div>
+                <label class="quick-search-label-checkradio" for="legislation-include"><input type="checkbox" name="include" id="legislation-include"> Include bill text in this search</label>
+            </div>
+            <div>
+                <label class="quick-search-label-checkradio" for="legislation-wordVariants"><input type="checkbox" name="wordVariants" id="legislation-wordVariants"  value="on"  checked="checked" /> Word Variants</label>
+                <label class="quick-search-label-checkradio" for="legislation-caseSensitive"><input type="checkbox" name="caseSensitive" id="legislation-caseSensitive"  value="on"  /> Case Sensitive</label>
+            </div>
+            <div>
+                <span class="quick-search-group-title">Search Only:</span>
+                <label class="quick-search-label-checkradio" for="legislation-titles"><input type="checkbox" name="titles" id="legislation-titles"  value="on"  /> Titles</label>
+                <label class="quick-search-label-checkradio" for="legislation-summaries"><input type="checkbox" name="summaries" id="legislation-summaries"  value="on"  /> Summaries</label>
+                <label class="quick-search-label-checkradio" for="legislation-actions"><input type="checkbox" name="actions" id="legislation-actions"  value="on"  /> Actions</label>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-column-wrapper">
+        <div class="quick-search-two-column">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="legislation-congresses">Congress</label>
+                <select name="congresses[]" id="legislation-congresses" multiple size="5">
+                <option value="all">All Congresses 93-115 (1973-2018)</option><option value="115" selected="selected">115 (2017-2018)</option><option value="114">114 (2015-2016)</option><option value="113">113 (2013-2014)</option><option value="112">112 (2011-2012)</option><option value="111">111 (2009-2010)</option><option value="110">110 (2007-2008)</option><option value="109">109 (2005-2006)</option><option value="108">108 (2003-2004)</option><option value="107">107 (2001-2002)</option><option value="106">106 (1999-2000)</option><option value="105">105 (1997-1998)</option><option value="104">104 (1995-1996)</option><option value="103">103 (1993-1994)</option><option value="102">102 (1991-1992)</option><option value="101">101 (1989-1990)</option><option value="100">100 (1987-1988)</option><option value="99">99 (1985-1986)</option><option value="98">98 (1983-1984)</option><option value="97">97 (1981-1982)</option><option value="96">96 (1979-1980)</option><option value="95">95 (1977-1978)</option><option value="94">94 (1975-1976)</option><option value="93">93 (1973-1974)</option>                </select>
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="legislation-legislationNumbers">Legislation and Law Numbers</label>
+                <input type="text" name="legislationNumbers" id="legislation-legislationNumbers" placeholder="Examples: hr5, h.r.5, sjres 8, sa2, pl114-4" value="" />
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="legislation-legislativeActions">Legislative Actions</label>
+                <select name="legislativeAction" id="legislation-legislativeActions" class="need-margin-bottom">
+                    <option value="">Any Legislative Action</option>
+                <option value="100">Introduced (Bills and Resolutions)</option><option value="101">Committee or floor actions</option><option value="102">Reported to House/Committee discharged</option><option value="103">Reported to Senate/Committee discharged</option><option value="104">House floor actions</option><option value="105">Senate floor actions</option><option value="106">Failed of passage/not agreed to in House</option><option value="107">Failed of passage/not agreed to in Senate</option><option value="108">Passed/agreed to in House</option><option value="109">Passed/agreed to in Senate</option><option value="110">Passed/agreed to in House and Senate</option><option value="111">Resolving differences including conferences</option><option value="113">Conference report agreed to in House and Senate</option><option value="114">Vetoes and pocket vetoes</option><option value="115">Laws</option>                </select>
+            </div>
+        </div>
+        <div class="quick-search-two-column">
+            <div class="quick-search-form-row">
+                <fieldset class="quick-search-fieldset">
+                    <legend class="quick-search-legend">Sponsors/Cosponsors</legend>
+                    <div class="quick-search-inline-block"><label class="quick-search-label-checkradio" for="legislation-sponsor"><input type="checkbox" name="sponsor" id="legislation-sponsor" checked="checked"> Sponsor</label></div>
+                    <div class="quick-search-inline-block"><label class="quick-search-label-checkradio" for="legislation-co-sponsor"><input type="checkbox" name="cosponsor" id="legislation-co-sponsor"> Cosponsor</label></div>
+                    <select name="representative" id="legislation-representatives" class="need-margin-bottom">
+                        <option value="">Any Representative</option>
+                    <option value="A000374">Abraham, Ralph Lee [R-LA] (114th-115th)</option><option value="A000370">Adams, Alma S. [D-NC] (113th-115th)</option><option value="A000055">Aderholt, Robert B. [R-AL] (105th-115th)</option><option value="A000371">Aguilar, Pete [D-CA] (114th-115th)</option><option value="A000372">Allen, Rick W. [R-GA] (114th-115th)</option><option value="A000367">Amash, Justin [R-MI] (112th-115th)</option><option value="A000369">Amodei, Mark E. [R-NV] (112th-115th)</option><option value="A000375">Arrington, Jodey C. [R-TX] (115th)</option><option value="B001291">Babin, Brian [R-TX] (114th-115th)</option><option value="B001298">Bacon, Don [R-NE] (115th)</option><option value="B001299">Banks, Jim [R-IN] (115th)</option><option value="B001269">Barletta, Lou [R-PA] (112th-115th)</option><option value="B001282">Barr, Andy [R-KY] (113th-115th)</option><option value="B001300">Barragan, Nanette Diaz [D-CA] (115th)</option><option value="B000213">Barton, Joe [R-TX] (99th-115th)</option><option value="B001270">Bass, Karen [D-CA] (112th-115th)</option><option value="B001281">Beatty, Joyce [D-OH] (113th-115th)</option><option value="B000287">Becerra, Xavier [D-CA] (103rd-115th)</option><option value="B001287">Bera, Ami [D-CA] (113th-115th)</option><option value="B001301">Bergman, Jack [R-MI] (115th)</option><option value="B001292">Beyer, Donald S., Jr. [D-VA] (114th-115th)</option><option value="B001302">Biggs, Andy [R-AZ] (115th)</option><option value="B001257">Bilirakis, Gus M. [R-FL] (110th-115th)</option><option value="B001293">Bishop, Mike [R-MI] (114th-115th)</option><option value="B001250">Bishop, Rob [R-UT] (108th-115th)</option><option value="B000490">Bishop, Sanford D., Jr. [D-GA] (103rd-115th)</option><option value="B001273">Black, Diane [R-TN] (112th-115th)</option><option value="B001243">Blackburn, Marsha [R-TN] (108th-115th)</option><option value="B001294">Blum, Rod [R-IA] (114th-115th)</option><option value="B000574">Blumenauer, Earl [D-OR] (104th-115th)</option><option value="B001303">Blunt Rochester, Lisa [D-DE] (115th)</option><option value="B001278">Bonamici, Suzanne [D-OR] (112th-115th)</option><option value="B001245">Bordallo, Madeleine Z. [D-GU] (108th-115th)</option><option value="B001295">Bost, Mike [R-IL] (114th-115th)</option><option value="B001296">Boyle, Brendan F. [D-PA] (114th-115th)</option><option value="B000755">Brady, Kevin [R-TX] (105th-115th)</option><option value="B001227">Brady, Robert A. [D-PA] (105th-115th)</option><option value="B001290">Brat, Dave [R-VA] (113th-115th)</option><option value="B001283">Bridenstine, Jim [R-OK] (113th-115th)</option><option value="B001274">Brooks, Mo [R-AL] (112th-115th)</option><option value="B001284">Brooks, Susan W. [R-IN] (113th-115th)</option><option value="B001304">Brown, Anthony G. [D-MD] (115th)</option><option value="B001285">Brownley, Julia [D-CA] (113th-115th)</option><option value="B001260">Buchanan, Vern [R-FL] (110th-115th)</option><option value="B001297">Buck, Ken [R-CO] (114th-115th)</option><option value="B001275">Bucshon, Larry [R-IN] (112th-115th)</option><option value="B001305">Budd, Ted [R-NC] (115th)</option><option value="B001248">Burgess, Michael C. [R-TX] (108th-115th)</option><option value="B001286">Bustos, Cheri [D-IL] (113th-115th)</option><option value="B001251">Butterfield, G. K. [D-NC] (108th-115th)</option><option value="B001289">Byrne, Bradley [R-AL] (113th-115th)</option><option value="C000059">Calvert, Ken [R-CA] (103rd-115th)</option><option value="C001037">Capuano, Michael E. [D-MA] (106th-115th)</option><option value="C001112">Carbajal, Salud O. [D-CA] (115th)</option><option value="C001097">Cardenas, Tony [D-CA] (113th-115th)</option><option value="C001072">Carson, Andre [D-IN] (110th-115th)</option><option value="C001103">Carter, Earl L. "Buddy" [R-GA] (114th-115th)</option><option value="C001051">Carter, John R. [R-TX] (108th-115th)</option><option value="C001090">Cartwright, Matt [D-PA] (113th-115th)</option><option value="C001066">Castor, Kathy [D-FL] (110th-115th)</option><option value="C001091">Castro, Joaquin [D-TX] (113th-115th)</option><option value="C000266">Chabot, Steve [R-OH] (104th-110th,112th-115th)</option><option value="C001076">Chaffetz, Jason [R-UT] (111th-115th)</option><option value="C001109">Cheney, Liz [R-WY] (115th)</option><option value="C001080">Chu, Judy [D-CA] (111th-115th)</option><option value="C001084">Cicilline, David N. [D-RI] (112th-115th)</option><option value="C001101">Clark, Katherine M. [D-MA] (113th-115th)</option><option value="C001067">Clarke, Yvette D. [D-NY] (110th-115th)</option><option value="C001049">Clay, Wm. Lacy [D-MO] (107th-115th)</option><option value="C001061">Cleaver, Emanuel [D-MO] (109th-115th)</option><option value="C001115">Cloud, Michael [R-TX] (115th)</option><option value="C000537">Clyburn, James E. [D-SC] (103rd-115th)</option><option value="C001077">Coffman, Mike [R-CO] (111th-115th)</option><option value="C001068">Cohen, Steve [D-TN] (110th-115th)</option><option value="C001053">Cole, Tom [R-OK] (108th-115th)</option><option value="C001092">Collins, Chris [R-NY] (113th-115th)</option><option value="C001093">Collins, Doug [R-GA] (113th-115th)</option><option value="C001108">Comer, James [R-KY] (114th-115th)</option><option value="C001105">Comstock, Barbara [R-VA] (114th-115th)</option><option value="C001062">Conaway, K. Michael [R-TX] (109th-115th)</option><option value="C001078">Connolly, Gerald E. [D-VA] (111th-115th)</option><option value="C000714">Conyers, John, Jr. [D-MI] (89th-115th)</option><option value="C001094">Cook, Paul [R-CA] (113th-115th)</option><option value="C000754">Cooper, Jim [D-TN] (98th-103rd,108th-115th)</option><option value="C001110">Correa, J. Luis [D-CA] (115th)</option><option value="C001059">Costa, Jim [D-CA] (109th-115th)</option><option value="C001106">Costello, Ryan A. [R-PA] (114th-115th)</option><option value="C001069">Courtney, Joe [D-CT] (110th-115th)</option><option value="C001096">Cramer, Kevin [R-ND] (113th-115th)</option><option value="C001087">Crawford, Eric A. "Rick" [R-AR] (112th-115th)</option><option value="C001111">Crist, Charlie [D-FL] (115th)</option><option value="C001038">Crowley, Joseph [D-NY] (106th-115th)</option><option value="C001063">Cuellar, Henry [D-TX] (109th-115th)</option><option value="C001048">Culberson, John Abney [R-TX] (107th-115th)</option><option value="C000984">Cummings, Elijah E. [D-MD] (104th-115th)</option><option value="C001107">Curbelo, Carlos [R-FL] (114th-115th)</option><option value="C001114">Curtis, John R. [R-UT] (115th)</option><option value="D000626">Davidson, Warren [R-OH] (114th-115th)</option><option value="D000096">Davis, Danny K. [D-IL] (105th-115th)</option><option value="D000619">Davis, Rodney [R-IL] (113th-115th)</option><option value="D000598">Davis, Susan A. [D-CA] (107th-115th)</option><option value="D000191">DeFazio, Peter A. [D-OR] (100th-115th)</option><option value="D000197">DeGette, Diana [D-CO] (105th-115th)</option><option value="D000620">Delaney, John K. [D-MD] (113th-115th)</option><option value="D000216">DeLauro, Rosa L. [D-CT] (102nd-115th)</option><option value="D000617">DelBene, Suzan K. [D-WA] (112th-115th)</option><option value="D000627">Demings, Val Butler [D-FL] (115th)</option><option value="D000612">Denham, Jeff [R-CA] (112th-115th)</option><option value="D000604">Dent, Charles W. [R-PA] (109th-115th)</option><option value="D000621">DeSantis, Ron [R-FL] (113th-115th)</option><option value="D000623">DeSaulnier, Mark [D-CA] (114th-115th)</option><option value="D000616">DesJarlais, Scott [R-TN] (112th-115th)</option><option value="D000610">Deutch, Theodore E. [D-FL] (111th-115th)</option><option value="D000600">Diaz-Balart, Mario [R-FL] (108th-115th)</option><option value="D000624">Dingell, Debbie [D-MI] (114th-115th)</option><option value="D000399">Doggett, Lloyd [D-TX] (104th-115th)</option><option value="D000625">Donovan, Daniel M., Jr. [R-NY] (114th-115th)</option><option value="D000482">Doyle, Michael F. [D-PA] (104th-115th)</option><option value="D000614">Duffy, Sean P. [R-WI] (112th-115th)</option><option value="D000615">Duncan, Jeff [R-SC] (112th-115th)</option><option value="D000533">Duncan, John J., Jr. [R-TN] (100th-115th)</option><option value="D000628">Dunn, Neal P. [R-FL] (115th)</option><option value="E000288">Ellison, Keith [D-MN] (110th-115th)</option><option value="E000294">Emmer, Tom [R-MN] (114th-115th)</option><option value="E000179">Engel, Eliot L. [D-NY] (101st-115th)</option><option value="E000215">Eshoo, Anna G. [D-CA] (103rd-115th)</option><option value="E000297">Espaillat, Adriano [D-NY] (115th)</option><option value="E000298">Estes, Ron [R-KS] (115th)</option><option value="E000293">Esty, Elizabeth H. [D-CT] (113th-115th)</option><option value="E000296">Evans, Dwight [D-PA] (114th-115th)</option><option value="F000460">Farenthold, Blake [R-TX] (112th-115th)</option><option value="F000464">Faso, John J. [R-NY] (115th)</option><option value="F000465">Ferguson, A. Drew, IV [R-GA] (115th)</option><option value="F000466">Fitzpatrick, Brian K. [R-PA] (115th)</option><option value="F000459">Fleischmann, Charles J. "Chuck" [R-TN] (112th-115th)</option><option value="F000461">Flores, Bill [R-TX] (112th-115th)</option><option value="F000449">Fortenberry, Jeff [R-NE] (109th-115th)</option><option value="F000454">Foster, Bill [D-IL] (110th-111th,113th-115th)</option><option value="F000450">Foxx, Virginia [R-NC] (109th-115th)</option><option value="F000462">Frankel, Lois [D-FL] (113th-115th)</option><option value="F000448">Franks, Trent [R-AZ] (108th-115th)</option><option value="F000372">Frelinghuysen, Rodney P. [R-NJ] (104th-115th)</option><option value="F000455">Fudge, Marcia L. [D-OH] (110th-115th)</option><option value="G000571">Gabbard, Tulsi [D-HI] (113th-115th)</option><option value="G000578">Gaetz, Matt [R-FL] (115th)</option><option value="G000579">Gallagher, Mike [R-WI] (115th)</option><option value="G000574">Gallego, Ruben [D-AZ] (114th-115th)</option><option value="G000559">Garamendi, John [D-CA] (111th-115th)</option><option value="G000580">Garrett, Thomas A., Jr. [R-VA] (115th)</option><option value="G000584">Gianforte, Greg [R-MT] (115th)</option><option value="G000563">Gibbs, Bob [R-OH] (112th-115th)</option><option value="G000552">Gohmert, Louie [R-TX] (109th-115th)</option><option value="G000585">Gomez, Jimmy [D-CA] (115th)</option><option value="G000581">Gonzalez, Vicente [D-TX] (115th)</option><option value="G000582">Gonzalez-Colon, Jenniffer [R-PR] (115th)</option><option value="G000289">Goodlatte, Bob [R-VA] (103rd-115th)</option><option value="G000565">Gosar, Paul A. [R-AZ] (112th-115th)</option><option value="G000583">Gottheimer, Josh [D-NJ] (115th)</option><option value="G000566">Gowdy, Trey [R-SC] (112th-115th)</option><option value="G000377">Granger, Kay [R-TX] (105th-115th)</option><option value="G000577">Graves, Garret [R-LA] (114th-115th)</option><option value="G000546">Graves, Sam [R-MO] (107th-115th)</option><option value="G000560">Graves, Tom [R-GA] (111th-115th)</option><option value="G000553">Green, Al [D-TX] (109th-115th)</option><option value="G000410">Green, Gene [D-TX] (103rd-115th)</option><option value="G000568">Griffith, H. Morgan [R-VA] (112th-115th)</option><option value="G000551">Grijalva, Raul M. [D-AZ] (108th-115th)</option><option value="G000576">Grothman, Glenn [R-WI] (114th-115th)</option><option value="G000558">Guthrie, Brett [R-KY] (111th-115th)</option><option value="G000535">Gutierrez, Luis V. [D-IL] (103rd-115th)</option><option value="H001050">Hanabusa, Colleen [D-HI] (112th-115th)</option><option value="H001078">Handel, Karen C. [R-GA] (115th)</option><option value="H001045">Harper, Gregg [R-MS] (111th-115th)</option><option value="H001052">Harris, Andy [R-MD] (112th-115th)</option><option value="H001053">Hartzler, Vicky [R-MO] (112th-115th)</option><option value="H000324">Hastings, Alcee L. [D-FL] (103rd-115th)</option><option value="H001064">Heck, Denny [D-WA] (113th-115th)</option><option value="H001036">Hensarling, Jeb [R-TX] (108th-115th)</option><option value="H001056">Herrera Beutler, Jaime [R-WA] (112th-115th)</option><option value="H001071">Hice, Jody B. [R-GA] (114th-115th)</option><option value="H001038">Higgins, Brian [D-NY] (109th-115th)</option><option value="H001077">Higgins, Clay [R-LA] (115th)</option><option value="H001072">Hill, J. French [R-AR] (114th-115th)</option><option value="H001047">Himes, James A. [D-CT] (111th-115th)</option><option value="H001065">Holding, George [R-NC] (113th-115th)</option><option value="H001074">Hollingsworth, Trey [R-IN] (115th)</option><option value="H000874">Hoyer, Steny H. [D-MD] (97th-115th)</option><option value="H001067">Hudson, Richard [R-NC] (113th-115th)</option><option value="H001068">Huffman, Jared [D-CA] (113th-115th)</option><option value="H001058">Huizenga, Bill [R-MI] (112th-115th)</option><option value="H001059">Hultgren, Randy [R-IL] (112th-115th)</option><option value="H001048">Hunter, Duncan D. [R-CA] (111th-115th)</option><option value="H001073">Hurd, Will [R-TX] (114th-115th)</option><option value="I000056">Issa, Darrell E. [R-CA] (107th-115th)</option><option value="J000032">Jackson Lee, Sheila [D-TX] (104th-115th)</option><option value="J000298">Jayapal, Pramila [D-WA] (115th)</option><option value="J000294">Jeffries, Hakeem S. [D-NY] (113th-115th)</option><option value="J000297">Jenkins, Evan H. [R-WV] (114th-115th)</option><option value="J000290">Jenkins, Lynn [R-KS] (111th-115th)</option><option value="J000292">Johnson, Bill [R-OH] (112th-115th)</option><option value="J000126">Johnson, Eddie Bernice [D-TX] (103rd-115th)</option><option value="J000288">Johnson, Henry C. "Hank," Jr. [D-GA] (110th-115th)</option><option value="J000299">Johnson, Mike [R-LA] (115th)</option><option value="J000174">Johnson, Sam [R-TX] (102nd-115th)</option><option value="J000255">Jones, Walter B., Jr. [R-NC] (104th-115th)</option><option value="J000289">Jordan, Jim [R-OH] (110th-115th)</option><option value="J000295">Joyce, David P. [R-OH] (113th-115th)</option><option value="K000009">Kaptur, Marcy [D-OH] (98th-115th)</option><option value="K000386">Katko, John [R-NY] (114th-115th)</option><option value="K000375">Keating, William R. [D-MA] (112th-115th)</option><option value="K000376">Kelly, Mike [R-PA] (112th-115th)</option><option value="K000385">Kelly, Robin L. [D-IL] (113th-115th)</option><option value="K000388">Kelly, Trent [R-MS] (114th-115th)</option><option value="K000379">Kennedy, Joseph P., III [D-MA] (113th-115th)</option><option value="K000389">Khanna, Ro [D-CA] (115th)</option><option value="K000390">Kihuen, Ruben J. [D-NV] (115th)</option><option value="K000380">Kildee, Daniel T. [D-MI] (113th-115th)</option><option value="K000381">Kilmer, Derek [D-WA] (113th-115th)</option><option value="K000188">Kind, Ron [D-WI] (105th-115th)</option><option value="K000210">King, Peter T. [R-NY] (103rd-115th)</option><option value="K000362">King, Steve [R-IA] (108th-115th)</option><option value="K000378">Kinzinger, Adam [R-IL] (112th-115th)</option><option value="K000387">Knight, Stephen [R-CA] (114th-115th)</option><option value="K000391">Krishnamoorthi, Raja [D-IL] (115th)</option><option value="K000382">Kuster, Ann M. [D-NH] (113th-115th)</option><option value="K000392">Kustoff, David [R-TN] (115th)</option><option value="L000573">Labrador, Raul R. [R-ID] (112th-115th)</option><option value="L000585">LaHood, Darin [R-IL] (114th-115th)</option><option value="L000578">LaMalfa, Doug [R-CA] (113th-115th)</option><option value="L000588">Lamb, Conor [D-PA] (115th)</option><option value="L000564">Lamborn, Doug [R-CO] (110th-115th)</option><option value="L000567">Lance, Leonard [R-NJ] (111th-115th)</option><option value="L000559">Langevin, James R. [D-RI] (107th-115th)</option><option value="L000560">Larsen, Rick [D-WA] (107th-115th)</option><option value="L000557">Larson, John B. [D-CT] (106th-115th)</option><option value="L000566">Latta, Robert E. [R-OH] (110th-115th)</option><option value="L000581">Lawrence, Brenda L. [D-MI] (114th-115th)</option><option value="L000586">Lawson, Al, Jr. [D-FL] (115th)</option><option value="L000551">Lee, Barbara [D-CA] (105th-115th)</option><option value="L000589">Lesko, Debbie [R-AZ] (115th)</option><option value="L000263">Levin, Sander M. [D-MI] (98th-115th)</option><option value="L000587">Lewis, Jason [R-MN] (115th)</option><option value="L000287">Lewis, John [D-GA] (100th-115th)</option><option value="L000582">Lieu, Ted [D-CA] (114th-115th)</option><option value="L000563">Lipinski, Daniel [D-IL] (109th-115th)</option><option value="L000554">LoBiondo, Frank A. [R-NJ] (104th-115th)</option><option value="L000565">Loebsack, David [D-IA] (110th-115th)</option><option value="L000397">Lofgren, Zoe [D-CA] (104th-115th)</option><option value="L000576">Long, Billy [R-MO] (112th-115th)</option><option value="L000583">Loudermilk, Barry [R-GA] (114th-115th)</option><option value="L000584">Love, Mia B. [R-UT] (114th-115th)</option><option value="L000579">Lowenthal, Alan S. [D-CA] (113th-115th)</option><option value="L000480">Lowey, Nita M. [D-NY] (101st-115th)</option><option value="L000491">Lucas, Frank D. [R-OK] (103rd-115th)</option><option value="L000569">Luetkemeyer, Blaine [R-MO] (111th-115th)</option><option value="L000570">Lujan, Ben Ray [D-NM] (111th-115th)</option><option value="L000580">Lujan Grisham, Michelle [D-NM] (113th-115th)</option><option value="L000562">Lynch, Stephen F. [D-MA] (107th-115th)</option><option value="M001193">MacArthur, Thomas [R-NJ] (114th-115th)</option><option value="M000087">Maloney, Carolyn B. [D-NY] (103rd-115th)</option><option value="M001185">Maloney, Sean Patrick [D-NY] (113th-115th)</option><option value="M001158">Marchant, Kenny [R-TX] (109th-115th)</option><option value="M001179">Marino, Tom [R-PA] (112th-115th)</option><option value="M001198">Marshall, Roger W. [R-KS] (115th)</option><option value="M001184">Massie, Thomas [R-KY] (112th-115th)</option><option value="M001199">Mast, Brian J. [R-FL] (115th)</option><option value="M001163">Matsui, Doris O. [D-CA] (109th-115th)</option><option value="M001165">McCarthy, Kevin [R-CA] (110th-115th)</option><option value="M001157">McCaul, Michael T. [R-TX] (109th-115th)</option><option value="M001177">McClintock, Tom [R-CA] (111th-115th)</option><option value="M001143">McCollum, Betty [D-MN] (107th-115th)</option><option value="M001200">McEachin, A. Donald [D-VA] (115th)</option><option value="M000312">McGovern, James P. [D-MA] (105th-115th)</option><option value="M001156">McHenry, Patrick T. [R-NC] (109th-115th)</option><option value="M001180">McKinley, David B. [R-WV] (112th-115th)</option><option value="M001159">McMorris Rodgers, Cathy [R-WA] (109th-115th)</option><option value="M001166">McNerney, Jerry [D-CA] (110th-115th)</option><option value="M001197">McSally, Martha [R-AZ] (114th-115th)</option><option value="M001187">Meadows, Mark [R-NC] (113th-115th)</option><option value="M001181">Meehan, Patrick [R-PA] (112th-115th)</option><option value="M001137">Meeks, Gregory W. [D-NY] (105th-115th)</option><option value="M001188">Meng, Grace [D-NY] (113th-115th)</option><option value="M001189">Messer, Luke [R-IN] (113th-115th)</option><option value="M001201">Mitchell, Paul [R-MI] (115th)</option><option value="M001194">Moolenaar, John R. [R-MI] (114th-115th)</option><option value="M001195">Mooney, Alexander X. [R-WV] (114th-115th)</option><option value="M001160">Moore, Gwen [D-WI] (109th-115th)</option><option value="M001196">Moulton, Seth [D-MA] (114th-115th)</option><option value="M001190">Mullin, Markwayne [R-OK] (113th-115th)</option><option value="M001182">Mulvaney, Mick [R-SC] (112th-115th)</option><option value="M001202">Murphy, Stephanie N. [D-FL] (115th)</option><option value="M001151">Murphy, Tim [R-PA] (108th-115th)</option><option value="N000002">Nadler, Jerrold [D-NY] (102nd-115th)</option><option value="N000179">Napolitano, Grace F. [D-CA] (106th-115th)</option><option value="N000015">Neal, Richard E. [D-MA] (101st-115th)</option><option value="N000189">Newhouse, Dan [R-WA] (114th-115th)</option><option value="N000184">Noem, Kristi L. [R-SD] (112th-115th)</option><option value="N000127">Nolan, Richard M. [D-MN] (94th-96th,113th-115th)</option><option value="N000188">Norcross, Donald [D-NJ] (113th-115th)</option><option value="N000190">Norman, Ralph [R-SC] (115th)</option><option value="N000147">Norton, Eleanor Holmes [D-DC] (102nd-115th)</option><option value="N000181">Nunes, Devin [R-CA] (108th-115th)</option><option value="O000171">O'Halleran, Tom [D-AZ] (115th)</option><option value="O000170">O'Rourke, Beto [D-TX] (113th-115th)</option><option value="O000168">Olson, Pete [R-TX] (111th-115th)</option><option value="P000601">Palazzo, Steven M. [R-MS] (112th-115th)</option><option value="P000034">Pallone, Frank, Jr. [D-NJ] (100th-115th)</option><option value="P000609">Palmer, Gary J. [R-AL] (114th-115th)</option><option value="P000613">Panetta, Jimmy [D-CA] (115th)</option><option value="P000096">Pascrell, Bill, Jr. [D-NJ] (105th-115th)</option><option value="P000594">Paulsen, Erik [R-MN] (111th-115th)</option><option value="P000604">Payne, Donald M., Jr. [D-NJ] (112th-115th)</option><option value="P000588">Pearce, Stevan [R-NM] (108th-110th,112th-115th)</option><option value="P000197">Pelosi, Nancy [D-CA] (100th-115th)</option><option value="P000593">Perlmutter, Ed [D-CO] (110th-115th)</option><option value="P000605">Perry, Scott [R-PA] (113th-115th)</option><option value="P000608">Peters, Scott H. [D-CA] (113th-115th)</option><option value="P000258">Peterson, Collin C. [D-MN] (102nd-115th)</option><option value="P000597">Pingree, Chellie [D-ME] (111th-115th)</option><option value="P000606">Pittenger, Robert [R-NC] (113th-115th)</option><option value="P000610">Plaskett, Stacey E. [D-VI] (114th-115th)</option><option value="P000607">Pocan, Mark [D-WI] (113th-115th)</option><option value="P000592">Poe, Ted [R-TX] (109th-115th)</option><option value="P000611">Poliquin, Bruce [R-ME] (114th-115th)</option><option value="P000598">Polis, Jared [D-CO] (111th-115th)</option><option value="P000602">Pompeo, Mike [R-KS] (112th-115th)</option><option value="P000599">Posey, Bill [R-FL] (111th-115th)</option><option value="P000523">Price, David E. [D-NC] (100th-103rd,105th-115th)</option><option value="P000591">Price, Tom [R-GA] (109th-115th)</option><option value="Q000023">Quigley, Mike [D-IL] (111th-115th)</option><option value="R000600">Radewagen, Aumua Amata Coleman [R-AS] (114th-115th)</option><option value="R000606">Raskin, Jamie [D-MD] (115th)</option><option value="R000601">Ratcliffe, John [R-TX] (114th-115th)</option><option value="R000585">Reed, Tom [R-NY] (111th-115th)</option><option value="R000578">Reichert, David G. [R-WA] (109th-115th)</option><option value="R000586">Renacci, James B. [R-OH] (112th-115th)</option><option value="R000602">Rice, Kathleen M. [D-NY] (114th-115th)</option><option value="R000597">Rice, Tom [R-SC] (113th-115th)</option><option value="R000588">Richmond, Cedric L. [D-LA] (112th-115th)</option><option value="R000591">Roby, Martha [R-AL] (112th-115th)</option><option value="R000582">Roe, David P. [R-TN] (111th-115th)</option><option value="R000395">Rogers, Harold [R-KY] (97th-115th)</option><option value="R000575">Rogers, Mike D. [R-AL] (108th-115th)</option><option value="R000409">Rohrabacher, Dana [R-CA] (101st-115th)</option><option value="R000592">Rokita, Todd [R-IN] (112th-115th)</option><option value="R000607">Rooney, Francis [R-FL] (115th)</option><option value="R000583">Rooney, Thomas J. [R-FL] (111th-115th)</option><option value="R000435">Ros-Lehtinen, Ileana [R-FL] (101st-115th)</option><option value="R000608">Rosen, Jacky [D-NV] (115th)</option><option value="R000580">Roskam, Peter J. [R-IL] (110th-115th)</option><option value="R000593">Ross, Dennis A. [R-FL] (112th-115th)</option><option value="R000598">Rothfus, Keith J. [R-PA] (113th-115th)</option><option value="R000603">Rouzer, David [R-NC] (114th-115th)</option><option value="R000486">Roybal-Allard, Lucille [D-CA] (103rd-115th)</option><option value="R000487">Royce, Edward R. [R-CA] (103rd-115th)</option><option value="R000599">Ruiz, Raul [D-CA] (113th-115th)</option><option value="R000576">Ruppersberger, C. A. Dutch [D-MD] (108th-115th)</option><option value="R000515">Rush, Bobby L. [D-IL] (103rd-115th)</option><option value="R000604">Russell, Steve [R-OK] (114th-115th)</option><option value="R000609">Rutherford, John H. [R-FL] (115th)</option><option value="R000570">Ryan, Paul D. [R-WI] (106th-115th)</option><option value="R000577">Ryan, Tim [D-OH] (108th-115th)</option><option value="S001177">Sablan, Gregorio Kilili Camacho [D-MP] (111th-115th)</option><option value="S001156">Sanchez, Linda T. [D-CA] (108th-115th)</option><option value="S000051">Sanford, Mark [R-SC] (104th-106th,113th-115th)</option><option value="S001168">Sarbanes, John P. [D-MD] (110th-115th)</option><option value="S001176">Scalise, Steve [R-LA] (110th-115th)</option><option value="S001145">Schakowsky, Janice D. [D-IL] (106th-115th)</option><option value="S001150">Schiff, Adam B. [D-CA] (107th-115th)</option><option value="S001190">Schneider, Bradley Scott [D-IL] (113th,115th)</option><option value="S001180">Schrader, Kurt [D-OR] (111th-115th)</option><option value="S001183">Schweikert, David [R-AZ] (112th-115th)</option><option value="S001189">Scott, Austin [R-GA] (112th-115th)</option><option value="S001157">Scott, David [D-GA] (108th-115th)</option><option value="S000185">Scott, Robert C. "Bobby" [D-VA] (103rd-115th)</option><option value="S000244">Sensenbrenner, F. James, Jr. [R-WI] (96th-115th)</option><option value="S000248">Serrano, Jose E. [D-NY] (101st-115th)</option><option value="S000250">Sessions, Pete [R-TX] (105th-115th)</option><option value="S001185">Sewell, Terri A. [D-AL] (112th-115th)</option><option value="S001170">Shea-Porter, Carol [D-NH] (110th-111th,113th,115th)</option><option value="S000344">Sherman, Brad [D-CA] (105th-115th)</option><option value="S000364">Shimkus, John [R-IL] (105th-115th)</option><option value="S001154">Shuster, Bill [R-PA] (107th-115th)</option><option value="S001148">Simpson, Michael K. [R-ID] (106th-115th)</option><option value="S001191">Sinema, Kyrsten [D-AZ] (113th-115th)</option><option value="S001165">Sires, Albio [D-NJ] (109th-115th)</option><option value="S000480">Slaughter, Louise McIntosh [D-NY] (100th-115th)</option><option value="S000510">Smith, Adam [D-WA] (105th-115th)</option><option value="S001172">Smith, Adrian [R-NE] (110th-115th)</option><option value="S000522">Smith, Christopher H. [R-NJ] (97th-115th)</option><option value="S001195">Smith, Jason [R-MO] (113th-115th)</option><option value="S000583">Smith, Lamar [R-TX] (100th-115th)</option><option value="S001199">Smucker, Lloyd [R-PA] (115th)</option><option value="S001200">Soto, Darren [D-FL] (115th)</option><option value="S001175">Speier, Jackie [D-CA] (110th-115th)</option><option value="S001196">Stefanik, Elise M. [R-NY] (114th-115th)</option><option value="S001192">Stewart, Chris [R-UT] (113th-115th)</option><option value="S001187">Stivers, Steve [R-OH] (112th-115th)</option><option value="S001201">Suozzi, Thomas R. [D-NY] (115th)</option><option value="S001193">Swalwell, Eric [D-CA] (113th-115th)</option><option value="T000472">Takano, Mark [D-CA] (113th-115th)</option><option value="T000477">Taylor, Scott [R-VA] (115th)</option><option value="T000478">Tenney, Claudia [R-NY] (115th)</option><option value="T000193">Thompson, Bennie G. [D-MS] (103rd-115th)</option><option value="T000467">Thompson, Glenn [R-PA] (111th-115th)</option><option value="T000460">Thompson, Mike [D-CA] (106th-115th)</option><option value="T000238">Thornberry, Mac [R-TX] (104th-115th)</option><option value="T000462">Tiberi, Patrick J. [R-OH] (107th-115th)</option><option value="T000470">Tipton, Scott  R. [R-CO] (112th-115th)</option><option value="T000468">Titus, Dina [D-NV] (111th,113th-115th)</option><option value="T000469">Tonko, Paul [D-NY] (111th-115th)</option><option value="T000474">Torres, Norma J. [D-CA] (114th-115th)</option><option value="T000475">Trott, David A. [R-MI] (114th-115th)</option><option value="T000465">Tsongas, Niki [D-MA] (110th-115th)</option><option value="T000463">Turner, Michael R. [R-OH] (108th-115th)</option><option value="U000031">Upton, Fred [R-MI] (100th-115th)</option><option value="V000129">Valadao, David G. [R-CA] (113th-115th)</option><option value="V000130">Vargas, Juan [D-CA] (113th-115th)</option><option value="V000131">Veasey, Marc A. [D-TX] (113th-115th)</option><option value="V000132">Vela, Filemon [D-TX] (113th-115th)</option><option value="V000081">Velazquez, Nydia M. [D-NY] (103rd-115th)</option><option value="V000108">Visclosky, Peter J. [D-IN] (99th-115th)</option><option value="W000812">Wagner, Ann [R-MO] (113th-115th)</option><option value="W000798">Walberg, Tim [R-MI] (110th,112th-115th)</option><option value="W000791">Walden, Greg [R-OR] (106th-115th)</option><option value="W000819">Walker, Mark [R-NC] (114th-115th)</option><option value="W000813">Walorski, Jackie [R-IN] (113th-115th)</option><option value="W000820">Walters, Mimi [R-CA] (114th-115th)</option><option value="W000799">Walz, Timothy J. [D-MN] (110th-115th)</option><option value="W000797">Wasserman Schultz, Debbie [D-FL] (109th-115th)</option><option value="W000187">Waters, Maxine [D-CA] (102nd-115th)</option><option value="W000822">Watson Coleman, Bonnie [D-NJ] (114th-115th)</option><option value="W000814">Weber, Randy K., Sr. [R-TX] (113th-115th)</option><option value="W000806">Webster, Daniel [R-FL] (112th-115th)</option><option value="W000800">Welch, Peter [D-VT] (110th-115th)</option><option value="W000815">Wenstrup, Brad R. [R-OH] (113th-115th)</option><option value="W000821">Westerman, Bruce [R-AR] (114th-115th)</option><option value="W000816">Williams, Roger [R-TX] (113th-115th)</option><option value="W000808">Wilson, Frederica S. [D-FL] (112th-115th)</option><option value="W000795">Wilson, Joe [R-SC] (107th-115th)</option><option value="W000804">Wittman, Robert J. [R-VA] (110th-115th)</option><option value="W000809">Womack, Steve [R-AR] (112th-115th)</option><option value="W000810">Woodall, Rob [R-GA] (112th-115th)</option><option value="Y000062">Yarmuth, John A. [D-KY] (110th-115th)</option><option value="Y000063">Yoder, Kevin [R-KS] (112th-115th)</option><option value="Y000065">Yoho, Ted S. [R-FL] (113th-115th)</option><option value="Y000066">Young, David [R-IA] (114th-115th)</option><option value="Y000033">Young, Don [R-AK] (93rd-115th)</option><option value="Z000017">Zeldin, Lee M. [R-NY] (114th-115th)</option><option value="Z000018">Zinke, Ryan K. [R-MT] (114th-115th)</option>                    </select>
+                    <select name="senator" id="legislation-senators">
+                        <option value="">Any Senator</option>
+                    <option value="A000360">Alexander, Lamar [R-TN] (108th-115th)</option><option value="B001230">Baldwin, Tammy [D-WI] (106th-115th)</option><option value="B001261">Barrasso, John [R-WY] (110th-115th)</option><option value="B001267">Bennet, Michael F. [D-CO] (111th-115th)</option><option value="B001277">Blumenthal, Richard [D-CT] (112th-115th)</option><option value="B000575">Blunt, Roy [R-MO] (105th-115th)</option><option value="B001288">Booker, Cory A. [D-NJ] (113th-115th)</option><option value="B001236">Boozman, John [R-AR] (107th-115th)</option><option value="B000944">Brown, Sherrod [D-OH] (103rd-115th)</option><option value="B001135">Burr, Richard [R-NC] (104th-115th)</option><option value="C000127">Cantwell, Maria [D-WA] (103rd,107th-115th)</option><option value="C001047">Capito, Shelley Moore [R-WV] (107th-115th)</option><option value="C000141">Cardin, Benjamin L. [D-MD] (100th-115th)</option><option value="C000174">Carper, Thomas R. [D-DE] (98th-102nd,107th-115th)</option><option value="C001070">Casey, Robert P., Jr. [D-PA] (110th-115th)</option><option value="C001075">Cassidy, Bill [R-LA] (111th-115th)</option><option value="C000567">Cochran, Thad [R-MS] (93rd-115th)</option><option value="C001035">Collins, Susan M. [R-ME] (105th-115th)</option><option value="C001088">Coons, Christopher A. [D-DE] (111th-115th)</option><option value="C001071">Corker, Bob [R-TN] (110th-115th)</option><option value="C001056">Cornyn, John [R-TX] (107th-115th)</option><option value="C001113">Cortez Masto, Catherine  [D-NV] (115th)</option><option value="C001095">Cotton, Tom [R-AR] (113th-115th)</option><option value="C000880">Crapo, Mike [R-ID] (103rd-115th)</option><option value="C001098">Cruz, Ted [R-TX] (113th-115th)</option><option value="D000618">Daines, Steve [R-MT] (113th-115th)</option><option value="D000607">Donnelly, Joe [D-IN] (110th-115th)</option><option value="D000622">Duckworth, Tammy [D-IL] (113th-115th)</option><option value="D000563">Durbin, Richard J. [D-IL] (98th-115th)</option><option value="E000285">Enzi, Michael B. [R-WY] (105th-115th)</option><option value="E000295">Ernst, Joni  [R-IA] (114th-115th)</option><option value="F000062">Feinstein, Dianne [D-CA] (102nd-115th)</option><option value="F000463">Fischer, Deb [R-NE] (113th-115th)</option><option value="F000444">Flake, Jeff [R-AZ] (107th-115th)</option><option value="F000457">Franken, Al [D-MN] (111th-115th)</option><option value="G000562">Gardner, Cory [R-CO] (112th-115th)</option><option value="G000555">Gillibrand, Kirsten E. [D-NY] (110th-115th)</option><option value="G000359">Graham, Lindsey [R-SC] (104th-115th)</option><option value="G000386">Grassley, Chuck [R-IA] (94th-115th)</option><option value="H001075">Harris, Kamala D. [D-CA] (115th)</option><option value="H001076">Hassan, Margaret Wood [D-NH] (115th)</option><option value="H000338">Hatch, Orrin G. [R-UT] (95th-115th)</option><option value="H001046">Heinrich, Martin [D-NM] (111th-115th)</option><option value="H001069">Heitkamp, Heidi [D-ND] (113th-115th)</option><option value="H001041">Heller, Dean [R-NV] (110th-115th)</option><option value="H001042">Hirono, Mazie K. [D-HI] (110th-115th)</option><option value="H001061">Hoeven, John [R-ND] (112th-115th)</option><option value="H001079">Hyde-Smith, Cindy [R-MS] (115th)</option><option value="I000024">Inhofe, James M. [R-OK] (100th-115th)</option><option value="I000055">Isakson, Johnny [R-GA] (106th-115th)</option><option value="J000293">Johnson, Ron [R-WI] (112th-115th)</option><option value="J000300">Jones, Doug  [D-AL] (115th)</option><option value="K000384">Kaine, Tim [D-VA] (113th-115th)</option><option value="K000393">Kennedy, John [R-LA] (115th)</option><option value="K000383">King, Angus S., Jr. [I-ME] (113th-115th)</option><option value="K000367">Klobuchar, Amy [D-MN] (110th-115th)</option><option value="L000575">Lankford, James [R-OK] (112th-115th)</option><option value="L000174">Leahy, Patrick J. [D-VT] (94th-115th)</option><option value="L000577">Lee, Mike [R-UT] (112th-115th)</option><option value="M001183">Manchin, Joe, III [D-WV] (111th-115th)</option><option value="M000133">Markey, Edward J. [D-MA] (95th-115th)</option><option value="M000303">McCain, John [R-AZ] (98th-115th)</option><option value="M001170">McCaskill, Claire [D-MO] (110th-115th)</option><option value="M000355">McConnell, Mitch [R-KY] (99th-115th)</option><option value="M000639">Menendez, Robert [D-NJ] (103rd-115th)</option><option value="M001176">Merkley, Jeff [D-OR] (111th-115th)</option><option value="M000934">Moran, Jerry [R-KS] (105th-115th)</option><option value="M001153">Murkowski, Lisa [R-AK] (108th-115th)</option><option value="M001169">Murphy, Christopher [D-CT] (110th-115th)</option><option value="M001111">Murray, Patty [D-WA] (103rd-115th)</option><option value="N000032">Nelson, Bill [D-FL] (96th-101st,107th-115th)</option><option value="P000603">Paul, Rand [R-KY] (112th-115th)</option><option value="P000612">Perdue, David [R-GA] (114th-115th)</option><option value="P000595">Peters, Gary C. [D-MI] (111th-115th)</option><option value="P000449">Portman, Rob [R-OH] (103rd-109th,112th-115th)</option><option value="R000122">Reed, Jack [D-RI] (102nd-115th)</option><option value="R000584">Risch, James E. [R-ID] (111th-115th)</option><option value="R000307">Roberts, Pat [R-KS] (97th-115th)</option><option value="R000605">Rounds, Mike  [R-SD] (114th-115th)</option><option value="R000595">Rubio, Marco [R-FL] (112th-115th)</option><option value="S000033">Sanders, Bernard [I-VT] (102nd-115th)</option><option value="S001197">Sasse, Ben  [R-NE] (114th-115th)</option><option value="S001194">Schatz, Brian [D-HI] (112th-115th)</option><option value="S000148">Schumer, Charles E. [D-NY] (97th-115th)</option><option value="S001184">Scott, Tim [R-SC] (112th-115th)</option><option value="S001141">Sessions, Jeff [R-AL] (105th-115th)</option><option value="S001181">Shaheen, Jeanne [D-NH] (111th-115th)</option><option value="S000320">Shelby, Richard C. [R-AL] (96th-115th)</option><option value="S001203">Smith, Tina  [D-MN] (115th)</option><option value="S000770">Stabenow, Debbie [D-MI] (105th-115th)</option><option value="S001202">Strange, Luther [R-AL] (115th)</option><option value="S001198">Sullivan, Dan  [R-AK] (114th-115th)</option><option value="T000464">Tester, Jon [D-MT] (110th-115th)</option><option value="T000250">Thune, John [R-SD] (105th-107th,109th-115th)</option><option value="T000476">Tillis, Thom [R-NC] (114th-115th)</option><option value="T000461">Toomey, Pat [R-PA] (106th-108th,112th-115th)</option><option value="U000039">Udall, Tom [D-NM] (106th-115th)</option><option value="V000128">Van Hollen, Chris [D-MD] (108th-115th)</option><option value="W000805">Warner, Mark R. [D-VA] (111th-115th)</option><option value="W000817">Warren, Elizabeth [D-MA] (113th-115th)</option><option value="W000802">Whitehouse, Sheldon [D-RI] (110th-115th)</option><option value="W000437">Wicker, Roger F. [R-MS] (104th-115th)</option><option value="W000779">Wyden, Ron [D-OR] (97th-115th)</option><option value="Y000064">Young, Todd C. [R-IN] (112th-115th)</option>                    </select>
+                </fieldset>
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="legislation-houseCommittees">Committees</label>
+                <select name="houseCommittee" id="legislation-houseCommittees" class="need-margin-bottom">
+                    <option value="">Any House Committees</option>
+                <option value="hsag00">Agriculture (70th-115th)</option><option value="hsap00">Appropriations (70th-115th)</option><option value="hsas00">Armed Services (79th-115th)</option><option value="hsbu00">Budget (93rd-115th)</option><option value="hsed00">Education and the Workforce (70th-115th)</option><option value="hsif00">Energy and Commerce (70th-115th)</option><option value="hsso00">Ethics (90th-115th)</option><option value="hsba00">Financial Services (70th-115th)</option><option value="hsfa00">Foreign Affairs (70th-115th)</option><option value="hshm00">Homeland Security (107th-115th)</option><option value="hsha00">House Administration (79th-115th)</option><option value="hlig00">Intelligence (Permanent Select) (94th-115th)</option><option value="hsju00">Judiciary (70th-115th)</option><option value="hsii00">Natural Resources (70th-115th)</option><option value="hsgo00">Oversight and Government Reform (70th-115th)</option><option value="hsru00">Rules (70th-115th)</option><option value="hssy00">Science, Space, and Technology (86th-115th)</option><option value="hssm00">Small Business (77th-115th)</option><option value="hsvr11">Technology Modernization Subcommittee (115th)</option><option value="hspw00">Transportation and Infrastructure (79th-115th)</option><option value="hsvr00">Veterans' Affairs (79th-115th)</option><option value="hswm00">Ways and Means (70th-115th)</option>                </select>
+                <select name="senateCommittee" id="legislation-senateCommittees">
+                    <option value="">Any Senate Committees</option>
+                <option value="spag00">Aging (Special) (87th-115th)</option><option value="ssaf00">Agriculture, Nutrition, and Forestry (70th-115th)</option><option value="ssap00">Appropriations (70th-115th)</option><option value="ssas00">Armed Services (79th-115th)</option><option value="ssbk00">Banking, Housing, and Urban Affairs (70th-115th)</option><option value="ssbu00">Budget (93rd-115th)</option><option value="sscm00">Commerce, Science, and Transportation (79th-115th)</option><option value="sseg00">Energy and Natural Resources (70th-115th)</option><option value="ssev00">Environment and Public Works (79th-115th)</option><option value="slet00">Ethics (Select) (88th-115th)</option><option value="ssfi00">Finance (70th-115th)</option><option value="ssfr00">Foreign Relations (70th-115th)</option><option value="sshr00">Health, Education, Labor, and Pensions (70th-115th)</option><option value="ssga00">Homeland Security and Governmental Affairs (70th-115th)</option><option value="slia00">Indian Affairs (95th-115th)</option><option value="slin00">Intelligence (Select) (94th-115th)</option><option value="ssju00">Judiciary (70th-115th)</option><option value="ssra00">Rules and Administration (79th-115th)</option><option value="sssb00">Small Business and Entrepreneurship (81st-115th)</option><option value="ssva00">Veterans' Affairs (91st-115th)</option>                </select>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-buttons">
+        
+        <input type="hidden" name="searchResultViewType" value="compact"/>
+        <button type="button" class="button tertiary2 reset">Reset</button>
+        <button type="button" class="button primary2 submit">Search</button>
+    </div>
+
+    <div class="quick-search-form-row quick-search-form-row-intro">
+    <a target="_blank" href="/legislation/about">About Legislation</a> | <a href="/browse#browse_actions">Browse Legislation by Actions</a>    </div>
+</form>
+<script>
+$('#legislation form.quick-search').congress_QuickSearchLegislation({
+    defaults: {"congresses":["115"],"legislationNumbers":"","include":"","wordsPhrases":"","wordVariants":"on","caseSensitive":"","titles":"","summaries":"","actions":"","sponsor":"on","cosponsor":"","representative":"","senator":"","houseCommittee":"","senateCommittee":"","legislativeAction":""},
+    getOptionsUrl: '/quick-search/get-options',
+    resetFormUrl: '/quick-search/reset-form-selections',
+    qs_expand: null});
+</script>
+                        </div>
+                        <div id="legislation-text" aria-labelledby="legislation-text-tab" class="quick-search-tabui-tab-panel">
+                            <form class="quick-search" action="/quick-search/legislation-text" method="GET" aria-labelledby="quick-search">
+    <div class="quick-search-form-row-words-and-phrases">
+        <textarea aria-label="Words and Phrases" row="1" class="expand80-2000 words-and-phrases" name="wordsPhrases" id="legislation-text-wordsPhrases" placeholder="Examples: trade sanctions reform, small modular reactor" ></textarea>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-after-words-and-phrases">
+        <div class="quick-search-group">
+            <div>
+                <label class="quick-search-label-checkradio" for="legislation-text-booleanOperators"><input type="checkbox" name="booleanOperators" id="legislation-text-booleanOperators"  value="on"  checked="checked" /> Allow quotes and boolean operators</label>
+            </div>
+            <div>
+                <label class="quick-search-label-checkradio" for="legislation-text-wordVariants"><input type="checkbox" name="wordVariants" id="legislation-text-wordVariants"  value="on"  /> Word Variants</label>
+                <label class="quick-search-label-checkradio" for="legislation-text-caseSensitive"><input type="checkbox" name="caseSensitive" id="legislation-text-caseSensitive"  value="on"  /> Case Sensitive</label>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-column-wrapper">
+        <div class="quick-search-two-column quick-search-two-column-left quick-search-form-left">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="legislation-text-congresses">Congress</label>
+                <select name="congresses[]" id="legislation-text-congresses" multiple size="5" class="congresses">
+                <option value="all">All Congresses 101-115 (1989-2018)</option><option value="115" selected="selected">115 (2017-2018)</option><option value="114">114 (2015-2016)</option><option value="113">113 (2013-2014)</option><option value="112">112 (2011-2012)</option><option value="111">111 (2009-2010)</option><option value="110">110 (2007-2008)</option><option value="109">109 (2005-2006)</option><option value="108">108 (2003-2004)</option><option value="107">107 (2001-2002)</option><option value="106">106 (1999-2000)</option><option value="105">105 (1997-1998)</option><option value="104">104 (1995-1996)</option><option value="103">103 (1993-1994)</option><option value="102">102 (1991-1992)</option><option value="101">101 (1989-1990)</option>                </select>
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="legislation-text-legislationNumbers">Legislation Numbers</label>
+                                <input type="text" name="legislationNumbers" id="legislation-text-legislationNumbers" placeholder="Examples: hr5, h.r.5, sjres 8, s2" value="" />
+            </div>
+            <div class="quick-search-form-row">
+                <fieldset class="quick-search-fieldset">
+                <legend class="quick-search-legend">Chamber of Origin</legend>
+                    <div class="quick-search-inline-block"><label class="quick-search-label-checkradio" for="legislation-text-chamberOfOriginHouse"><input name="chamberOfOriginHouse" id="legislation-text-chamberOfOriginHouse" type="checkbox" value="on" checked="checked"> House</label></div>
+                    <div class="quick-search-inline-block"><label class="quick-search-label-checkradio" for="legislation-text-chamberOfOriginSenate"><input name="chamberOfOriginSenate" id="legislation-text-chamberOfOriginSenate" type="checkbox" value="on" checked="checked"> Senate</label></div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="quick-search-two-column quick-search-two-column-right quick-search-form-right">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="legislation-text-versions">Versions Published</label>
+                <select name="billTextVersionTypes[]" id="legislation-text-versions" multiple size="16">
+                <option value="all" selected="selected">Any Version of Legislation</option><option value="AS">AS - Amendment Ordered to be Printed</option><option value="ATH">ATH - Agreed to House</option><option value="ATS">ATS - Agreed to Senate</option><option value="CDH">CDH - Committee Discharged House</option><option value="CDS">CDS - Committee Discharged Senate</option><option value="CPH">CPH - Considered and Passed House</option><option value="CPS">CPS - Considered and Passed Senate</option><option value="EAH">EAH - Engrossed Amendment House</option><option value="EAS">EAS - Engrossed Amendment Senate</option><option value="EH">EH - Engrossed in House</option><option value="ENR">ENR - Enrolled</option><option value="ES">ES - Engrossed in Senate</option><option value="FPH">FPH - Failed Passage House</option><option value="HDS">HDS - Held at Desk Senate</option><option value="IH">IH - Introduced in House</option><option value="IPS">IPS - Indefinitely Postponed Senate</option><option value="IS">IS - Introduced in Senate</option><option value="LTH">LTH - Laid on Table in House</option><option value="LTS">LTS - Laid on Table in Senate</option><option value="PAP">PAP - Printed as Passed</option><option value="PCS">PCS - Placed on Calendar Senate</option><option value="PCS2">PCS2 - Placed on Calendar Senate</option><option value="PP">PP - Public Print</option><option value="RCH">RCH - Reference Change House</option><option value="RCS">RCS - Reference Change Senate</option><option value="RDS">RDS - Received in Senate</option><option value="RFH">RFH - Referred in House</option><option value="RFS">RFS - Referred in Senate</option><option value="RH">RH - Reported in House</option><option value="RIH">RIH - Referral Instructions House</option><option value="RS">RS - Reported to Senate</option><option value="RTH">RTH - Referred to Committee House</option><option value="RTS">RTS - Referred to Committee Senate</option>                </select>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-buttons">
+        
+        <button type="button" class="button tertiary2 reset">Reset</button>
+        <button type="button" class="button primary2 submit">Search</button>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-intro">
+    <a target="_blank" href="/legislation/about-legislation-text">About Legislation Text</a> | <a href="/browse#browse_legislation">Browse Legislation by Number</a>    </div>
+</form>
+<script>
+$('#legislation-text form.quick-search').congress_QuickSearchLegislationText({
+    defaults: {"congresses":["115"],"legislationNumbers":"","wordsPhrases":"","wordVariants":"","caseSensitive":"","billTextVersionTypes":["all"],"chamberOfOriginHouse":"on","chamberOfOriginSenate":"on","startAt":1,"pageSize":500,"pageSort":"relevancy","booleanOperators":"on"},
+    resetFormUrl: '/quick-search/reset-form-selections',
+    qs_expand: null});
+</script>
+                        </div>
+                        <div id="committee-reports" aria-labelledby="committee-reports-tab" class="quick-search-tabui-tab-panel">
+                            <form class="quick-search" action="/quick-search/committee-reports" aria-labelledby="quick-search">
+    <div class="quick-search-form-row-words-and-phrases">
+        <textarea aria-label="Words and Phrases" row="1" class="expand80-2000 words-and-phrases" name="wordsPhrases" id="committee-reports-wordsPhrases" placeholder="Examples: baseball, &quot;standing rules&quot;" ></textarea>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-after-words-and-phrases">
+        <div class="quick-search-group">
+            <div>
+                <label class="quick-search-label-checkradio" for="committee-reports-wordVariants"><input type="checkbox" name="wordVariants" id="committee-reports-wordVariants"  value="on"  checked="checked" /> Word Variants</label>
+                <label class="quick-search-label-checkradio" for="committee-reports-caseSensitive"><input type="checkbox" name="caseSensitive" id="committee-reports-caseSensitive"  value="on"  /> Case Sensitive</label>
+            </div>
+            <div>
+                <label class="quick-search-label-checkradio" for="committee-reports-fullText"><input name="searchIn" id="committee-reports-fullText" value="fullText" checked="checked" type="radio" checked="checked" /> Full Text</label>
+                <label class="quick-search-label-checkradio" for="committee-reports-titlesOnly" ><input name="searchIn" id="committee-reports-titlesOnly" value="titlesOnly" type="radio"  /> Titles Only</label>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-column-wrapper">
+        <div class="quick-search-two-column">
+
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="committee-reports-congresses">Congress</label>
+                <select name="congresses[]" id="committee-reports-congresses" multiple size="5">
+                <option value="all">All Congresses 104-115 (1995-2018)</option><option value="115" selected="selected">115 (2017-2018)</option><option value="114">114 (2015-2016)</option><option value="113">113 (2013-2014)</option><option value="112">112 (2011-2012)</option><option value="111">111 (2009-2010)</option><option value="110">110 (2007-2008)</option><option value="109">109 (2005-2006)</option><option value="108">108 (2003-2004)</option><option value="107">107 (2001-2002)</option><option value="106">106 (1999-2000)</option><option value="105">105 (1997-1998)</option><option value="104">104 (1995-1996)</option>                </select>
+            </div>
+
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="committee-reports-reportNumbers">Report Numbers</label>
+                <input type="text" name="reportNumbers" id="committee-reports-reportNumbers" placeholder="Examples: 5, 20" value="" />
+            </div>
+
+
+            <div class="quick-search-form-row checkradio-only">
+                <fieldset class="quick-search-fieldset">
+                    <legend class="quick-search-legend">Report Types</legend>
+                    <div class="quick-search-inline-block"><label class="quick-search-label-checkradio" for="committee-reports-executiveRpt"><input name="executiveRpt" id="committee-reports-executiveRpt" value="on" type="checkbox" checked="checked"> Executive</label></div>
+                    <div class="quick-search-inline-block"><label class="quick-search-label-checkradio" for="committee-reports-houseRpt"><input name="houseRpt" id="committee-reports-houseRpt" value="on"  type="checkbox" checked="checked"> House</label></div>
+                    <div class="quick-search-inline-block"><label class="quick-search-label-checkradio" for="committee-reports-senateRpt"><input name="senateRpt" id="committee-reports-senateRpt" value="on" type="checkbox" checked="checked"> Senate</label></div>
+               </fieldset>
+           </div>
+            <div class="quick-search-form-row checkradio-only">
+                <label class="quick-search-label quick-search-block">Conference Reports</label>
+                <div class="quick-search-inline-block"><label class="quick-search-label-checkradio" for="committee-reports-conferenceReports"><input type="checkbox" name="conferenceReports" id="committee-reports-conferenceReports"  value="on"  /> Conference Reports Only</label></div>
+            </div>
+        </div>
+        <div class="quick-search-two-column quick-search-two-column-right quick-search-form-right active">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="committee-reports-legislationNumbers">Legislation and Law Numbers</label>
+                <input type="text" name="legislationNumbers" id="committee-reports-legislationNumbers" placeholder="Examples: hres583, H.Res.583, s782, s. 782" value="" />
+            </div>
+
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="committee-reports-houseCommittees">Committees</label>
+                <select name="houseCommittee[]" id="committee-reports-houseCommittees" multiple class="need-margin-bottom">
+                    <option value=""  selected="selected">Any House Committees</option>
+                    <option value="hsag00">Agriculture (70th-115th)</option><option value="hsap00">Appropriations (70th-115th)</option><option value="hsas00">Armed Services (79th-115th)</option><option value="hsbu00">Budget (93rd-115th)</option><option value="hsed00">Education and the Workforce (70th-115th)</option><option value="hsif00">Energy and Commerce (70th-115th)</option><option value="hsso00">Ethics (90th-115th)</option><option value="hsba00">Financial Services (70th-115th)</option><option value="hsfa00">Foreign Affairs (70th-115th)</option><option value="hshm00">Homeland Security (107th-115th)</option><option value="hsha00">House Administration (79th-115th)</option><option value="hlig00">Intelligence (Permanent Select) (94th-115th)</option><option value="hsju00">Judiciary (70th-115th)</option><option value="hsii00">Natural Resources (70th-115th)</option><option value="hsgo00">Oversight and Government Reform (70th-115th)</option><option value="hlhk00">Response to Hurricane Katrina (109th-115th)</option><option value="hsru00">Rules (70th-115th)</option><option value="hssy00">Science, Space, and Technology (86th-115th)</option><option value="hspw00">Transportation and Infrastructure (79th-115th)</option><option value="hsvr00">Veterans' Affairs (79th-115th)</option><option value="hswm00">Ways and Means (70th-115th)</option>                </select>
+                <select name="senateCommittee[]" id="committee-reports-senateCommittees" multiple class="need-margin-bottom">
+                    <option value=""  selected="selected">Any Senate Committees</option>
+                    <option value="spag00">Aging (Special) (87th-115th)</option><option value="ssaf00">Agriculture, Nutrition, and Forestry (70th-115th)</option><option value="ssap00">Appropriations (70th-115th)</option><option value="ssas00">Armed Services (79th-115th)</option><option value="ssbk00">Banking, Housing, and Urban Affairs (70th-115th)</option><option value="ssbu00">Budget (93rd-115th)</option><option value="sscm00">Commerce, Science, and Transportation (79th-115th)</option><option value="sseg00">Energy and Natural Resources (70th-115th)</option><option value="ssev00">Environment and Public Works (79th-115th)</option><option value="slet00">Ethics (Select) (88th-115th)</option><option value="ssfi00">Finance (70th-115th)</option><option value="ssfr00">Foreign Relations (70th-115th)</option><option value="sshr00">Health, Education, Labor, and Pensions (70th-115th)</option><option value="ssga00">Homeland Security and Governmental Affairs (70th-115th)</option><option value="slia00">Indian Affairs (95th-115th)</option><option value="slin00">Intelligence (Select) (94th-115th)</option><option value="ssju00">Judiciary (70th-115th)</option><option value="sssb00">Small Business and Entrepreneurship (81st-115th)</option><option value="ssva00">Veterans' Affairs (91st-115th)</option>                </select>
+                <select name="jointCommittee[]" id="committee-reports-jointCommittees" multiple class="need-margin-bottom">
+                    <option value=""  selected="selected">Any Joint Committees or Commissions</option>
+                    <option value="jsba00">Joint Budget and Appropriations (115th)</option><option value="jsec00">Joint Economic (79th-115th)</option><option value="jspp00">Joint Pension Plan Solvency (115th)</option>                </select>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-buttons">
+        
+        <input type="hidden" name="searchResultViewType" value="compact"/>
+        <button type="button" class="button tertiary2 reset">Reset</button>
+        <button type="button" class="button primary2 submit">Search</button>
+
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-intro">
+    <a target="_blank" href="/congressional-reports/about">About Committee Reports</a> | <a href="/browse#browse_committees">Browse Committee Publications</a>    </div>
+</form>
+<script>
+$('#committee-reports form.quick-search').congress_QuickSearchCommitteeReports({
+    defaults: {"congresses":["115"],"reportNumbers":"","executiveRpt":"on","houseRpt":"on","senateRpt":"on","conferenceReports":"","legislationNumbers":"","wordsPhrases":"","wordVariants":"on","caseSensitive":"","searchIn":"fullText","houseCommittee":"","senateCommittee":"","jointCommittee":""},
+    getOptionsUrl: '/quick-search/get-options',
+    resetFormUrl: '/quick-search/reset-form-selections',
+    qs_expand: null});
+</script>
+                        </div>
+                        <div id="congressional-record" aria-labelledby="congressional-record-tab" class="quick-search-tabui-tab-panel">
+                            <form class="quick-search" aria-labelledby="quick-search" action="/quick-search/congressional-record" >
+    <div class="quick-search-form-row-words-and-phrases">
+        <textarea aria-label="Words and Phrases" row="1" class="expand80-2000 words-and-phrases" name="wordsPhrases" id="congressional-record-wordsPhrases" placeholder="Examples: homeland security, title:medicare"></textarea>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-after-words-and-phrases">
+        <div class="quick-search-group">
+            <div><span class="quick-search-group-title">Enter words separated by spaces. Do not use quotes or operators.</span></div>
+            <div>
+                <input type="checkbox" name="wordVariants" id="congressional-record-wordVariants"  value="on"  checked="checked" /> <label class="quick-search-label-checkradio" for="congressional-record-wordVariants">Word Variants</label>
+                <input type="checkbox" name="caseSensitive" id="congressional-record-caseSensitive"  value="on"  /> <label class="quick-search-label-checkradio" for="congressional-record-caseSensitive">Case Sensitive</label>
+            </div>
+            <div>
+                <span class="quick-search-group-title">Search Only:</span>
+                <label class="quick-search-label-checkradio" for="congressional-record-searchOnlyHeadings"><input type="checkbox" name="searchIn" id="congressional-record-searchOnlyHeadings" value="on"  /> Headings</label>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-column-wrapper">
+        <div class="quick-search-two-column quick-search-two-column-left quick-search-form-left">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="congressional-record-congresses">Congress</label>
+                <select name="congresses[]" id="congressional-record-congresses" multiple size="5">
+                <option value="all">All Congresses 104-115 (1995-2018)</option><option value="115" selected="selected">115 (2017-2018)</option><option value="114">114 (2015-2016)</option><option value="113">113 (2013-2014)</option><option value="112">112 (2011-2012)</option><option value="111">111 (2009-2010)</option><option value="110">110 (2007-2008)</option><option value="109">109 (2005-2006)</option><option value="108">108 (2003-2004)</option><option value="107">107 (2001-2002)</option><option value="106">106 (1999-2000)</option><option value="105">105 (1997-1998)</option><option value="104">104 (1995-1996)</option>                </select>
+            </div>
+            <div class="quick-search-form-row">
+                <fieldset class="quick-search-fieldset">
+                    <legend class="quick-search-legend">Dates</legend>
+                    <div class="quick-search-form-flex-row-list">
+                        <label class="quick-search-label-checkradio">
+                            <input type="radio" name="dates" id="congressional-record-datesCongress" value="datesCongress"  checked="checked"/>
+                            Entire Congress
+                        </label>
+                    </div>
+                   <div class="quick-search-form-flex-row-list">
+                        <label class="quick-search-label-checkradio">
+                            <input type="radio" name="dates" id="congressional-record-datesFirstSession" value="datesFirstSession"  />
+                            First Session
+                        </label>
+                    </div>
+                    <div class="quick-search-form-flex-row-list">
+                        <label class="quick-search-label-checkradio">
+                            <input type="radio" name="dates" id="congressional-record-datesSecondSession" value="datesSecondSession"  />
+                            Second Session
+                        </label>
+                    </div>
+                    <div class="quick-search-form-flex-row-list">
+                        <label class="quick-search-label-checkradio">
+                            <input type="radio" name="dates" id="congressional-record-datesSelected" value="datesSelected" />
+                            Selected Date
+                        </label>
+                        <select id="congressional-record-dateOperator" name="dateOperator" class="auto-width">
+                        <option value="equal" selected="selected">is equal to</option><option value="between">is between</option><option value="after">is after</option><option value="before">is before</option><option value="is">is</option>                        </select>
+
+                        <div class="cdg-datepicker" id="congressional-record-startDate"><input type="text" name="startDate" placeholder="mm/dd/yyyy" class="auto-width selectByDate" value=""/></div>
+                        <span id="congressional-record-dateAnd">and</span>
+                        <div class="cdg-datepicker" id="congressional-record-endDate"><input type="text" name="endDate" placeholder="mm/dd/yyyy" class="auto-width selectByDate" value=""/></div>
+                        <select id="congressional-record-dateIsOption" name="dateIsOption" class="auto-width">
+                        <option value="yesterday">yesterday</option><option value="last 7 days">last 7 days</option><option value="last 30 days">last 30 days</option>                        </select>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="quick-search-two-column quick-search-two-column-right quick-search-form-right active">
+            <div class="quick-search-form-row checkradio-only">
+                <fieldset class="quick-search-fieldset">
+                    <legend class="quick-search-legend">Section of Congressional Record</legend>
+                    <label class="quick-search-label-checkradio">
+                        <input type="checkbox" name="sectionDailyDigest" id="congressional-record-sectionDailyDigest" value="on"  checked="checked"/>
+                        Daily Digest
+                    </label>
+                    <label class="quick-search-label-checkradio">
+                        <input type="checkbox" name="sectionSenate" id="congressional-record-sectionSenate" value="on"  checked="checked"/>
+                        Senate
+                    </label>
+                    <label class="quick-search-label-checkradio">
+                        <input type="checkbox" name="sectionHouse" id="congressional-record-sectionHouse" value="on"  checked="checked"/>
+                        House
+                    </label>
+                    <label class="quick-search-label-checkradio">
+                        <input type="checkbox" name="sectionExtensionsOfRemarks" id="congressional-record-sectionExtensionsOfRemarks" value="on"  checked="checked"/>
+                        Extensions of Remarks
+                    </label>
+                </fieldset>
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label">Members Remarks</label>
+                <select name="representative[]" id="congressional-record-representatives" multiple class="need-margin-bottom">
+                    <option value=""  selected="selected">By Any House Member</option>
+                <option value="A000374">Abraham, Ralph Lee [R-LA]</option><option value="A000370">Adams, Alma S. [D-NC]</option><option value="A000055">Aderholt, Robert B. [R-AL]</option><option value="A000371">Aguilar, Pete [D-CA]</option><option value="A000372">Allen, Rick W. [R-GA]</option><option value="A000367">Amash, Justin [R-MI]</option><option value="A000369">Amodei, Mark E. [R-NV]</option><option value="A000375">Arrington, Jodey C. [R-TX]</option><option value="B001291">Babin, Brian [R-TX]</option><option value="B001298">Bacon, Don [R-NE]</option><option value="B001299">Banks, Jim [R-IN]</option><option value="B001269">Barletta, Lou [R-PA]</option><option value="B001282">Barr, Andy [R-KY]</option><option value="B001300">Barragan, Nanette Diaz [D-CA]</option><option value="B000213">Barton, Joe [R-TX]</option><option value="B001270">Bass, Karen [D-CA]</option><option value="B001281">Beatty, Joyce [D-OH]</option><option value="B000287">Becerra, Xavier [D-CA]</option><option value="B001287">Bera, Ami [D-CA]</option><option value="B001301">Bergman, Jack [R-MI]</option><option value="B001292">Beyer, Donald S., Jr. [D-VA]</option><option value="B001302">Biggs, Andy [R-AZ]</option><option value="B001257">Bilirakis, Gus M. [R-FL]</option><option value="B001293">Bishop, Mike [R-MI]</option><option value="B001250">Bishop, Rob [R-UT]</option><option value="B000490">Bishop, Sanford D., Jr. [D-GA]</option><option value="B001273">Black, Diane [R-TN]</option><option value="B001243">Blackburn, Marsha [R-TN]</option><option value="B001294">Blum, Rod [R-IA]</option><option value="B000574">Blumenauer, Earl [D-OR]</option><option value="B001303">Blunt Rochester, Lisa [D-DE]</option><option value="B001278">Bonamici, Suzanne [D-OR]</option><option value="B001245">Bordallo, Madeleine Z. [D-GU]</option><option value="B001295">Bost, Mike [R-IL]</option><option value="B001296">Boyle, Brendan F. [D-PA]</option><option value="B000755">Brady, Kevin [R-TX]</option><option value="B001227">Brady, Robert A. [D-PA]</option><option value="B001290">Brat, Dave [R-VA]</option><option value="B001283">Bridenstine, Jim [R-OK]</option><option value="B001274">Brooks, Mo [R-AL]</option><option value="B001284">Brooks, Susan W. [R-IN]</option><option value="B001304">Brown, Anthony G. [D-MD]</option><option value="B001285">Brownley, Julia [D-CA]</option><option value="B001260">Buchanan, Vern [R-FL]</option><option value="B001297">Buck, Ken [R-CO]</option><option value="B001275">Bucshon, Larry [R-IN]</option><option value="B001305">Budd, Ted [R-NC]</option><option value="B001248">Burgess, Michael C. [R-TX]</option><option value="B001286">Bustos, Cheri [D-IL]</option><option value="B001251">Butterfield, G. K. [D-NC]</option><option value="B001289">Byrne, Bradley [R-AL]</option><option value="C000059">Calvert, Ken [R-CA]</option><option value="C001037">Capuano, Michael E. [D-MA]</option><option value="C001112">Carbajal, Salud O. [D-CA]</option><option value="C001097">Cardenas, Tony [D-CA]</option><option value="C001072">Carson, Andre [D-IN]</option><option value="C001103">Carter, Earl L. "Buddy" [R-GA]</option><option value="C001051">Carter, John R. [R-TX]</option><option value="C001090">Cartwright, Matt [D-PA]</option><option value="C001066">Castor, Kathy [D-FL]</option><option value="C001091">Castro, Joaquin [D-TX]</option><option value="C000266">Chabot, Steve [R-OH]</option><option value="C001076">Chaffetz, Jason [R-UT]</option><option value="C001109">Cheney, Liz [R-WY]</option><option value="C001080">Chu, Judy [D-CA]</option><option value="C001084">Cicilline, David N. [D-RI]</option><option value="C001101">Clark, Katherine M. [D-MA]</option><option value="C001067">Clarke, Yvette D. [D-NY]</option><option value="C001049">Clay, Wm. Lacy [D-MO]</option><option value="C001061">Cleaver, Emanuel [D-MO]</option><option value="C001115">Cloud, Michael [R-TX]</option><option value="C000537">Clyburn, James E. [D-SC]</option><option value="C001077">Coffman, Mike [R-CO]</option><option value="C001068">Cohen, Steve [D-TN]</option><option value="C001053">Cole, Tom [R-OK]</option><option value="C001092">Collins, Chris [R-NY]</option><option value="C001093">Collins, Doug [R-GA]</option><option value="C001108">Comer, James [R-KY]</option><option value="C001105">Comstock, Barbara [R-VA]</option><option value="C001062">Conaway, K. Michael [R-TX]</option><option value="C001078">Connolly, Gerald E. [D-VA]</option><option value="C000714">Conyers, John, Jr. [D-MI]</option><option value="C001094">Cook, Paul [R-CA]</option><option value="C000754">Cooper, Jim [D-TN]</option><option value="C001110">Correa, J. Luis [D-CA]</option><option value="C001059">Costa, Jim [D-CA]</option><option value="C001106">Costello, Ryan A. [R-PA]</option><option value="C001069">Courtney, Joe [D-CT]</option><option value="C001096">Cramer, Kevin [R-ND]</option><option value="C001087">Crawford, Eric A. "Rick" [R-AR]</option><option value="C001111">Crist, Charlie [D-FL]</option><option value="C001038">Crowley, Joseph [D-NY]</option><option value="C001063">Cuellar, Henry [D-TX]</option><option value="C001048">Culberson, John Abney [R-TX]</option><option value="C000984">Cummings, Elijah E. [D-MD]</option><option value="C001107">Curbelo, Carlos [R-FL]</option><option value="C001114">Curtis, John R. [R-UT]</option><option value="D000626">Davidson, Warren [R-OH]</option><option value="D000096">Davis, Danny K. [D-IL]</option><option value="D000619">Davis, Rodney [R-IL]</option><option value="D000598">Davis, Susan A. [D-CA]</option><option value="D000191">DeFazio, Peter A. [D-OR]</option><option value="D000197">DeGette, Diana [D-CO]</option><option value="D000620">Delaney, John K. [D-MD]</option><option value="D000216">DeLauro, Rosa L. [D-CT]</option><option value="D000617">DelBene, Suzan K. [D-WA]</option><option value="D000627">Demings, Val Butler [D-FL]</option><option value="D000612">Denham, Jeff [R-CA]</option><option value="D000604">Dent, Charles W. [R-PA]</option><option value="D000621">DeSantis, Ron [R-FL]</option><option value="D000623">DeSaulnier, Mark [D-CA]</option><option value="D000616">DesJarlais, Scott [R-TN]</option><option value="D000610">Deutch, Theodore E. [D-FL]</option><option value="D000600">Diaz-Balart, Mario [R-FL]</option><option value="D000624">Dingell, Debbie [D-MI]</option><option value="D000399">Doggett, Lloyd [D-TX]</option><option value="D000625">Donovan, Daniel M., Jr. [R-NY]</option><option value="D000482">Doyle, Michael F. [D-PA]</option><option value="D000614">Duffy, Sean P. [R-WI]</option><option value="D000615">Duncan, Jeff [R-SC]</option><option value="D000533">Duncan, John J., Jr. [R-TN]</option><option value="D000628">Dunn, Neal P. [R-FL]</option><option value="E000288">Ellison, Keith [D-MN]</option><option value="E000294">Emmer, Tom [R-MN]</option><option value="E000179">Engel, Eliot L. [D-NY]</option><option value="E000215">Eshoo, Anna G. [D-CA]</option><option value="E000297">Espaillat, Adriano [D-NY]</option><option value="E000298">Estes, Ron [R-KS]</option><option value="E000293">Esty, Elizabeth H. [D-CT]</option><option value="E000296">Evans, Dwight [D-PA]</option><option value="F000460">Farenthold, Blake [R-TX]</option><option value="F000464">Faso, John J. [R-NY]</option><option value="F000465">Ferguson, A. Drew, IV [R-GA]</option><option value="F000466">Fitzpatrick, Brian K. [R-PA]</option><option value="F000459">Fleischmann, Charles J. "Chuck" [R-TN]</option><option value="F000461">Flores, Bill [R-TX]</option><option value="F000449">Fortenberry, Jeff [R-NE]</option><option value="F000454">Foster, Bill [D-IL]</option><option value="F000450">Foxx, Virginia [R-NC]</option><option value="F000462">Frankel, Lois [D-FL]</option><option value="F000448">Franks, Trent [R-AZ]</option><option value="F000372">Frelinghuysen, Rodney P. [R-NJ]</option><option value="F000455">Fudge, Marcia L. [D-OH]</option><option value="G000571">Gabbard, Tulsi [D-HI]</option><option value="G000578">Gaetz, Matt [R-FL]</option><option value="G000579">Gallagher, Mike [R-WI]</option><option value="G000574">Gallego, Ruben [D-AZ]</option><option value="G000559">Garamendi, John [D-CA]</option><option value="G000580">Garrett, Thomas A., Jr. [R-VA]</option><option value="G000584">Gianforte, Greg [R-MT]</option><option value="G000563">Gibbs, Bob [R-OH]</option><option value="G000552">Gohmert, Louie [R-TX]</option><option value="G000585">Gomez, Jimmy [D-CA]</option><option value="G000581">Gonzalez, Vicente [D-TX]</option><option value="G000582">Gonzalez-Colon, Jenniffer [R-PR]</option><option value="G000289">Goodlatte, Bob [R-VA]</option><option value="G000565">Gosar, Paul A. [R-AZ]</option><option value="G000583">Gottheimer, Josh [D-NJ]</option><option value="G000566">Gowdy, Trey [R-SC]</option><option value="G000377">Granger, Kay [R-TX]</option><option value="G000577">Graves, Garret [R-LA]</option><option value="G000546">Graves, Sam [R-MO]</option><option value="G000560">Graves, Tom [R-GA]</option><option value="G000553">Green, Al [D-TX]</option><option value="G000410">Green, Gene [D-TX]</option><option value="G000568">Griffith, H. Morgan [R-VA]</option><option value="G000551">Grijalva, Raul M. [D-AZ]</option><option value="G000576">Grothman, Glenn [R-WI]</option><option value="G000558">Guthrie, Brett [R-KY]</option><option value="G000535">Gutierrez, Luis V. [D-IL]</option><option value="H001050">Hanabusa, Colleen [D-HI]</option><option value="H001078">Handel, Karen C. [R-GA]</option><option value="H001045">Harper, Gregg [R-MS]</option><option value="H001052">Harris, Andy [R-MD]</option><option value="H001053">Hartzler, Vicky [R-MO]</option><option value="H000324">Hastings, Alcee L. [D-FL]</option><option value="H001064">Heck, Denny [D-WA]</option><option value="H001036">Hensarling, Jeb [R-TX]</option><option value="H001056">Herrera Beutler, Jaime [R-WA]</option><option value="H001071">Hice, Jody B. [R-GA]</option><option value="H001038">Higgins, Brian [D-NY]</option><option value="H001077">Higgins, Clay [R-LA]</option><option value="H001072">Hill, J. French [R-AR]</option><option value="H001047">Himes, James A. [D-CT]</option><option value="H001065">Holding, George [R-NC]</option><option value="H001074">Hollingsworth, Trey [R-IN]</option><option value="H000874">Hoyer, Steny H. [D-MD]</option><option value="H001067">Hudson, Richard [R-NC]</option><option value="H001068">Huffman, Jared [D-CA]</option><option value="H001058">Huizenga, Bill [R-MI]</option><option value="H001059">Hultgren, Randy [R-IL]</option><option value="H001048">Hunter, Duncan D. [R-CA]</option><option value="H001073">Hurd, Will [R-TX]</option><option value="I000056">Issa, Darrell E. [R-CA]</option><option value="J000032">Jackson Lee, Sheila [D-TX]</option><option value="J000298">Jayapal, Pramila [D-WA]</option><option value="J000294">Jeffries, Hakeem S. [D-NY]</option><option value="J000297">Jenkins, Evan H. [R-WV]</option><option value="J000290">Jenkins, Lynn [R-KS]</option><option value="J000292">Johnson, Bill [R-OH]</option><option value="J000126">Johnson, Eddie Bernice [D-TX]</option><option value="J000288">Johnson, Henry C. "Hank," Jr. [D-GA]</option><option value="J000299">Johnson, Mike [R-LA]</option><option value="J000174">Johnson, Sam [R-TX]</option><option value="J000255">Jones, Walter B., Jr. [R-NC]</option><option value="J000289">Jordan, Jim [R-OH]</option><option value="J000295">Joyce, David P. [R-OH]</option><option value="K000009">Kaptur, Marcy [D-OH]</option><option value="K000386">Katko, John [R-NY]</option><option value="K000375">Keating, William R. [D-MA]</option><option value="K000376">Kelly, Mike [R-PA]</option><option value="K000385">Kelly, Robin L. [D-IL]</option><option value="K000388">Kelly, Trent [R-MS]</option><option value="K000379">Kennedy, Joseph P., III [D-MA]</option><option value="K000389">Khanna, Ro [D-CA]</option><option value="K000390">Kihuen, Ruben J. [D-NV]</option><option value="K000380">Kildee, Daniel T. [D-MI]</option><option value="K000381">Kilmer, Derek [D-WA]</option><option value="K000188">Kind, Ron [D-WI]</option><option value="K000210">King, Peter T. [R-NY]</option><option value="K000362">King, Steve [R-IA]</option><option value="K000378">Kinzinger, Adam [R-IL]</option><option value="K000387">Knight, Stephen [R-CA]</option><option value="K000391">Krishnamoorthi, Raja [D-IL]</option><option value="K000382">Kuster, Ann M. [D-NH]</option><option value="K000392">Kustoff, David [R-TN]</option><option value="L000573">Labrador, Raul R. [R-ID]</option><option value="L000585">LaHood, Darin [R-IL]</option><option value="L000578">LaMalfa, Doug [R-CA]</option><option value="L000588">Lamb, Conor [D-PA]</option><option value="L000564">Lamborn, Doug [R-CO]</option><option value="L000567">Lance, Leonard [R-NJ]</option><option value="L000559">Langevin, James R. [D-RI]</option><option value="L000560">Larsen, Rick [D-WA]</option><option value="L000557">Larson, John B. [D-CT]</option><option value="L000566">Latta, Robert E. [R-OH]</option><option value="L000581">Lawrence, Brenda L. [D-MI]</option><option value="L000586">Lawson, Al, Jr. [D-FL]</option><option value="L000551">Lee, Barbara [D-CA]</option><option value="L000589">Lesko, Debbie [R-AZ]</option><option value="L000263">Levin, Sander M. [D-MI]</option><option value="L000587">Lewis, Jason [R-MN]</option><option value="L000287">Lewis, John [D-GA]</option><option value="L000582">Lieu, Ted [D-CA]</option><option value="L000563">Lipinski, Daniel [D-IL]</option><option value="L000554">LoBiondo, Frank A. [R-NJ]</option><option value="L000565">Loebsack, David [D-IA]</option><option value="L000397">Lofgren, Zoe [D-CA]</option><option value="L000576">Long, Billy [R-MO]</option><option value="L000583">Loudermilk, Barry [R-GA]</option><option value="L000584">Love, Mia B. [R-UT]</option><option value="L000579">Lowenthal, Alan S. [D-CA]</option><option value="L000480">Lowey, Nita M. [D-NY]</option><option value="L000491">Lucas, Frank D. [R-OK]</option><option value="L000569">Luetkemeyer, Blaine [R-MO]</option><option value="L000570">Lujan, Ben Ray [D-NM]</option><option value="L000580">Lujan Grisham, Michelle [D-NM]</option><option value="L000562">Lynch, Stephen F. [D-MA]</option><option value="M001193">MacArthur, Thomas [R-NJ]</option><option value="M000087">Maloney, Carolyn B. [D-NY]</option><option value="M001185">Maloney, Sean Patrick [D-NY]</option><option value="M001158">Marchant, Kenny [R-TX]</option><option value="M001179">Marino, Tom [R-PA]</option><option value="M001198">Marshall, Roger W. [R-KS]</option><option value="M001184">Massie, Thomas [R-KY]</option><option value="M001199">Mast, Brian J. [R-FL]</option><option value="M001163">Matsui, Doris O. [D-CA]</option><option value="M001165">McCarthy, Kevin [R-CA]</option><option value="M001157">McCaul, Michael T. [R-TX]</option><option value="M001177">McClintock, Tom [R-CA]</option><option value="M001143">McCollum, Betty [D-MN]</option><option value="M001200">McEachin, A. Donald [D-VA]</option><option value="M000312">McGovern, James P. [D-MA]</option><option value="M001156">McHenry, Patrick T. [R-NC]</option><option value="M001180">McKinley, David B. [R-WV]</option><option value="M001159">McMorris Rodgers, Cathy [R-WA]</option><option value="M001166">McNerney, Jerry [D-CA]</option><option value="M001197">McSally, Martha [R-AZ]</option><option value="M001187">Meadows, Mark [R-NC]</option><option value="M001181">Meehan, Patrick [R-PA]</option><option value="M001137">Meeks, Gregory W. [D-NY]</option><option value="M001188">Meng, Grace [D-NY]</option><option value="M001189">Messer, Luke [R-IN]</option><option value="M001201">Mitchell, Paul [R-MI]</option><option value="M001194">Moolenaar, John R. [R-MI]</option><option value="M001195">Mooney, Alexander X. [R-WV]</option><option value="M001160">Moore, Gwen [D-WI]</option><option value="M001196">Moulton, Seth [D-MA]</option><option value="M001190">Mullin, Markwayne [R-OK]</option><option value="M001182">Mulvaney, Mick [R-SC]</option><option value="M001202">Murphy, Stephanie N. [D-FL]</option><option value="M001151">Murphy, Tim [R-PA]</option><option value="N000002">Nadler, Jerrold [D-NY]</option><option value="N000179">Napolitano, Grace F. [D-CA]</option><option value="N000015">Neal, Richard E. [D-MA]</option><option value="N000189">Newhouse, Dan [R-WA]</option><option value="N000184">Noem, Kristi L. [R-SD]</option><option value="N000127">Nolan, Richard M. [D-MN]</option><option value="N000188">Norcross, Donald [D-NJ]</option><option value="N000190">Norman, Ralph [R-SC]</option><option value="N000147">Norton, Eleanor Holmes [D-DC]</option><option value="N000181">Nunes, Devin [R-CA]</option><option value="O000171">O'Halleran, Tom [D-AZ]</option><option value="O000170">O'Rourke, Beto [D-TX]</option><option value="O000168">Olson, Pete [R-TX]</option><option value="P000601">Palazzo, Steven M. [R-MS]</option><option value="P000034">Pallone, Frank, Jr. [D-NJ]</option><option value="P000609">Palmer, Gary J. [R-AL]</option><option value="P000613">Panetta, Jimmy [D-CA]</option><option value="P000096">Pascrell, Bill, Jr. [D-NJ]</option><option value="P000594">Paulsen, Erik [R-MN]</option><option value="P000604">Payne, Donald M., Jr. [D-NJ]</option><option value="P000588">Pearce, Stevan [R-NM]</option><option value="P000197">Pelosi, Nancy [D-CA]</option><option value="P000593">Perlmutter, Ed [D-CO]</option><option value="P000605">Perry, Scott [R-PA]</option><option value="P000608">Peters, Scott H. [D-CA]</option><option value="P000258">Peterson, Collin C. [D-MN]</option><option value="P000597">Pingree, Chellie [D-ME]</option><option value="P000606">Pittenger, Robert [R-NC]</option><option value="P000610">Plaskett, Stacey E. [D-VI]</option><option value="P000607">Pocan, Mark [D-WI]</option><option value="P000592">Poe, Ted [R-TX]</option><option value="P000611">Poliquin, Bruce [R-ME]</option><option value="P000598">Polis, Jared [D-CO]</option><option value="P000602">Pompeo, Mike [R-KS]</option><option value="P000599">Posey, Bill [R-FL]</option><option value="P000523">Price, David E. [D-NC]</option><option value="P000591">Price, Tom [R-GA]</option><option value="Q000023">Quigley, Mike [D-IL]</option><option value="R000600">Radewagen, Aumua Amata Coleman [R-AS]</option><option value="R000606">Raskin, Jamie [D-MD]</option><option value="R000601">Ratcliffe, John [R-TX]</option><option value="R000585">Reed, Tom [R-NY]</option><option value="R000578">Reichert, David G. [R-WA]</option><option value="R000586">Renacci, James B. [R-OH]</option><option value="R000602">Rice, Kathleen M. [D-NY]</option><option value="R000597">Rice, Tom [R-SC]</option><option value="R000588">Richmond, Cedric L. [D-LA]</option><option value="R000591">Roby, Martha [R-AL]</option><option value="R000582">Roe, David P. [R-TN]</option><option value="R000395">Rogers, Harold [R-KY]</option><option value="R000575">Rogers, Mike D. [R-AL]</option><option value="R000409">Rohrabacher, Dana [R-CA]</option><option value="R000592">Rokita, Todd [R-IN]</option><option value="R000607">Rooney, Francis [R-FL]</option><option value="R000583">Rooney, Thomas J. [R-FL]</option><option value="R000435">Ros-Lehtinen, Ileana [R-FL]</option><option value="R000608">Rosen, Jacky [D-NV]</option><option value="R000580">Roskam, Peter J. [R-IL]</option><option value="R000593">Ross, Dennis A. [R-FL]</option><option value="R000598">Rothfus, Keith J. [R-PA]</option><option value="R000603">Rouzer, David [R-NC]</option><option value="R000486">Roybal-Allard, Lucille [D-CA]</option><option value="R000487">Royce, Edward R. [R-CA]</option><option value="R000599">Ruiz, Raul [D-CA]</option><option value="R000576">Ruppersberger, C. A. Dutch [D-MD]</option><option value="R000515">Rush, Bobby L. [D-IL]</option><option value="R000604">Russell, Steve [R-OK]</option><option value="R000609">Rutherford, John H. [R-FL]</option><option value="R000570">Ryan, Paul D. [R-WI]</option><option value="R000577">Ryan, Tim [D-OH]</option><option value="S001177">Sablan, Gregorio Kilili Camacho [D-MP]</option><option value="S001156">Sanchez, Linda T. [D-CA]</option><option value="S000051">Sanford, Mark [R-SC]</option><option value="S001168">Sarbanes, John P. [D-MD]</option><option value="S001176">Scalise, Steve [R-LA]</option><option value="S001145">Schakowsky, Janice D. [D-IL]</option><option value="S001150">Schiff, Adam B. [D-CA]</option><option value="S001190">Schneider, Bradley Scott [D-IL]</option><option value="S001180">Schrader, Kurt [D-OR]</option><option value="S001183">Schweikert, David [R-AZ]</option><option value="S001189">Scott, Austin [R-GA]</option><option value="S001157">Scott, David [D-GA]</option><option value="S000185">Scott, Robert C. "Bobby" [D-VA]</option><option value="S000244">Sensenbrenner, F. James, Jr. [R-WI]</option><option value="S000248">Serrano, Jose E. [D-NY]</option><option value="S000250">Sessions, Pete [R-TX]</option><option value="S001185">Sewell, Terri A. [D-AL]</option><option value="S001170">Shea-Porter, Carol [D-NH]</option><option value="S000344">Sherman, Brad [D-CA]</option><option value="S000364">Shimkus, John [R-IL]</option><option value="S001154">Shuster, Bill [R-PA]</option><option value="S001148">Simpson, Michael K. [R-ID]</option><option value="S001191">Sinema, Kyrsten [D-AZ]</option><option value="S001165">Sires, Albio [D-NJ]</option><option value="S000480">Slaughter, Louise McIntosh [D-NY]</option><option value="S000510">Smith, Adam [D-WA]</option><option value="S001172">Smith, Adrian [R-NE]</option><option value="S000522">Smith, Christopher H. [R-NJ]</option><option value="S001195">Smith, Jason [R-MO]</option><option value="S000583">Smith, Lamar [R-TX]</option><option value="S001199">Smucker, Lloyd [R-PA]</option><option value="S001200">Soto, Darren [D-FL]</option><option value="S001175">Speier, Jackie [D-CA]</option><option value="S001196">Stefanik, Elise M. [R-NY]</option><option value="S001192">Stewart, Chris [R-UT]</option><option value="S001187">Stivers, Steve [R-OH]</option><option value="S001201">Suozzi, Thomas R. [D-NY]</option><option value="S001193">Swalwell, Eric [D-CA]</option><option value="T000472">Takano, Mark [D-CA]</option><option value="T000477">Taylor, Scott [R-VA]</option><option value="T000478">Tenney, Claudia [R-NY]</option><option value="T000193">Thompson, Bennie G. [D-MS]</option><option value="T000467">Thompson, Glenn [R-PA]</option><option value="T000460">Thompson, Mike [D-CA]</option><option value="T000238">Thornberry, Mac [R-TX]</option><option value="T000462">Tiberi, Patrick J. [R-OH]</option><option value="T000470">Tipton, Scott  R. [R-CO]</option><option value="T000468">Titus, Dina [D-NV]</option><option value="T000469">Tonko, Paul [D-NY]</option><option value="T000474">Torres, Norma J. [D-CA]</option><option value="T000475">Trott, David A. [R-MI]</option><option value="T000465">Tsongas, Niki [D-MA]</option><option value="T000463">Turner, Michael R. [R-OH]</option><option value="U000031">Upton, Fred [R-MI]</option><option value="V000129">Valadao, David G. [R-CA]</option><option value="V000130">Vargas, Juan [D-CA]</option><option value="V000131">Veasey, Marc A. [D-TX]</option><option value="V000132">Vela, Filemon [D-TX]</option><option value="V000081">Velazquez, Nydia M. [D-NY]</option><option value="V000108">Visclosky, Peter J. [D-IN]</option><option value="W000812">Wagner, Ann [R-MO]</option><option value="W000798">Walberg, Tim [R-MI]</option><option value="W000791">Walden, Greg [R-OR]</option><option value="W000819">Walker, Mark [R-NC]</option><option value="W000813">Walorski, Jackie [R-IN]</option><option value="W000820">Walters, Mimi [R-CA]</option><option value="W000799">Walz, Timothy J. [D-MN]</option><option value="W000797">Wasserman Schultz, Debbie [D-FL]</option><option value="W000187">Waters, Maxine [D-CA]</option><option value="W000822">Watson Coleman, Bonnie [D-NJ]</option><option value="W000814">Weber, Randy K., Sr. [R-TX]</option><option value="W000806">Webster, Daniel [R-FL]</option><option value="W000800">Welch, Peter [D-VT]</option><option value="W000815">Wenstrup, Brad R. [R-OH]</option><option value="W000821">Westerman, Bruce [R-AR]</option><option value="W000816">Williams, Roger [R-TX]</option><option value="W000808">Wilson, Frederica S. [D-FL]</option><option value="W000795">Wilson, Joe [R-SC]</option><option value="W000804">Wittman, Robert J. [R-VA]</option><option value="W000809">Womack, Steve [R-AR]</option><option value="W000810">Woodall, Rob [R-GA]</option><option value="Y000062">Yarmuth, John A. [D-KY]</option><option value="Y000063">Yoder, Kevin [R-KS]</option><option value="Y000065">Yoho, Ted S. [R-FL]</option><option value="Y000066">Young, David [R-IA]</option><option value="Y000033">Young, Don [R-AK]</option><option value="Z000017">Zeldin, Lee M. [R-NY]</option><option value="Z000018">Zinke, Ryan K. [R-MT]</option>                </select>
+                <select name="senator[]" id="congressional-record-senators" multiple>
+                    <option value=""  selected="selected">By Any Senate Member</option>
+                <option value="A000360">Alexander, Lamar [R-TN]</option><option value="B001230">Baldwin, Tammy [D-WI]</option><option value="B001261">Barrasso, John [R-WY]</option><option value="B001267">Bennet, Michael F. [D-CO]</option><option value="B001277">Blumenthal, Richard [D-CT]</option><option value="B000575">Blunt, Roy [R-MO]</option><option value="B001288">Booker, Cory A. [D-NJ]</option><option value="B001236">Boozman, John [R-AR]</option><option value="B000944">Brown, Sherrod [D-OH]</option><option value="B001135">Burr, Richard [R-NC]</option><option value="C000127">Cantwell, Maria [D-WA]</option><option value="C001047">Capito, Shelley Moore [R-WV]</option><option value="C000141">Cardin, Benjamin L. [D-MD]</option><option value="C000174">Carper, Thomas R. [D-DE]</option><option value="C001070">Casey, Robert P., Jr. [D-PA]</option><option value="C001075">Cassidy, Bill [R-LA]</option><option value="C000567">Cochran, Thad [R-MS]</option><option value="C001035">Collins, Susan M. [R-ME]</option><option value="C001088">Coons, Christopher A. [D-DE]</option><option value="C001071">Corker, Bob [R-TN]</option><option value="C001056">Cornyn, John [R-TX]</option><option value="C001113">Cortez Masto, Catherine  [D-NV]</option><option value="C001095">Cotton, Tom [R-AR]</option><option value="C000880">Crapo, Mike [R-ID]</option><option value="C001098">Cruz, Ted [R-TX]</option><option value="D000618">Daines, Steve [R-MT]</option><option value="D000607">Donnelly, Joe [D-IN]</option><option value="D000622">Duckworth, Tammy [D-IL]</option><option value="D000563">Durbin, Richard J. [D-IL]</option><option value="E000285">Enzi, Michael B. [R-WY]</option><option value="E000295">Ernst, Joni  [R-IA]</option><option value="F000062">Feinstein, Dianne [D-CA]</option><option value="F000463">Fischer, Deb [R-NE]</option><option value="F000444">Flake, Jeff [R-AZ]</option><option value="F000457">Franken, Al [D-MN]</option><option value="G000562">Gardner, Cory [R-CO]</option><option value="G000555">Gillibrand, Kirsten E. [D-NY]</option><option value="G000359">Graham, Lindsey [R-SC]</option><option value="G000386">Grassley, Chuck [R-IA]</option><option value="H001075">Harris, Kamala D. [D-CA]</option><option value="H001076">Hassan, Margaret Wood [D-NH]</option><option value="H000338">Hatch, Orrin G. [R-UT]</option><option value="H001046">Heinrich, Martin [D-NM]</option><option value="H001069">Heitkamp, Heidi [D-ND]</option><option value="H001041">Heller, Dean [R-NV]</option><option value="H001042">Hirono, Mazie K. [D-HI]</option><option value="H001061">Hoeven, John [R-ND]</option><option value="H001079">Hyde-Smith, Cindy [R-MS]</option><option value="I000024">Inhofe, James M. [R-OK]</option><option value="I000055">Isakson, Johnny [R-GA]</option><option value="J000293">Johnson, Ron [R-WI]</option><option value="J000300">Jones, Doug  [D-AL]</option><option value="K000384">Kaine, Tim [D-VA]</option><option value="K000393">Kennedy, John [R-LA]</option><option value="K000383">King, Angus S., Jr. [I-ME]</option><option value="K000367">Klobuchar, Amy [D-MN]</option><option value="L000575">Lankford, James [R-OK]</option><option value="L000174">Leahy, Patrick J. [D-VT]</option><option value="L000577">Lee, Mike [R-UT]</option><option value="M001183">Manchin, Joe, III [D-WV]</option><option value="M000133">Markey, Edward J. [D-MA]</option><option value="M000303">McCain, John [R-AZ]</option><option value="M001170">McCaskill, Claire [D-MO]</option><option value="M000355">McConnell, Mitch [R-KY]</option><option value="M000639">Menendez, Robert [D-NJ]</option><option value="M001176">Merkley, Jeff [D-OR]</option><option value="M000934">Moran, Jerry [R-KS]</option><option value="M001153">Murkowski, Lisa [R-AK]</option><option value="M001169">Murphy, Christopher [D-CT]</option><option value="M001111">Murray, Patty [D-WA]</option><option value="N000032">Nelson, Bill [D-FL]</option><option value="P000603">Paul, Rand [R-KY]</option><option value="P000612">Perdue, David [R-GA]</option><option value="P000595">Peters, Gary C. [D-MI]</option><option value="P000449">Portman, Rob [R-OH]</option><option value="R000122">Reed, Jack [D-RI]</option><option value="R000584">Risch, James E. [R-ID]</option><option value="R000307">Roberts, Pat [R-KS]</option><option value="R000605">Rounds, Mike  [R-SD]</option><option value="R000595">Rubio, Marco [R-FL]</option><option value="S000033">Sanders, Bernard [I-VT]</option><option value="S001197">Sasse, Ben  [R-NE]</option><option value="S001194">Schatz, Brian [D-HI]</option><option value="S000148">Schumer, Charles E. [D-NY]</option><option value="S001184">Scott, Tim [R-SC]</option><option value="S001141">Sessions, Jeff [R-AL]</option><option value="S001181">Shaheen, Jeanne [D-NH]</option><option value="S000320">Shelby, Richard C. [R-AL]</option><option value="S001203">Smith, Tina  [D-MN]</option><option value="S000770">Stabenow, Debbie [D-MI]</option><option value="S001202">Strange, Luther [R-AL]</option><option value="S001198">Sullivan, Dan  [R-AK]</option><option value="T000464">Tester, Jon [D-MT]</option><option value="T000250">Thune, John [R-SD]</option><option value="T000476">Tillis, Thom [R-NC]</option><option value="T000461">Toomey, Pat [R-PA]</option><option value="U000039">Udall, Tom [D-NM]</option><option value="V000128">Van Hollen, Chris [D-MD]</option><option value="W000805">Warner, Mark R. [D-VA]</option><option value="W000817">Warren, Elizabeth [D-MA]</option><option value="W000802">Whitehouse, Sheldon [D-RI]</option><option value="W000437">Wicker, Roger F. [R-MS]</option><option value="W000779">Wyden, Ron [D-OR]</option><option value="Y000064">Young, Todd C. [R-IN]</option>                </select>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-buttons">
+        
+        <input type="hidden" name="searchResultViewType" value="compact"/>
+        <button type="button" class="button tertiary2 reset">Reset</button>
+        <button type="button" class="button primary2 submit">Search</button>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-intro">
+    <a target="_blank" href="/congressional-record/about">About the Congressional Record</a> | <a href="/congressional-record/browse-by-date">Browse By Date</a> | <a href="/congressional-record/congressional-record-index">CR Index</a> | <a href="/browse#congressional_record">CR Browse</a>    </div>
+</form>
+<script>
+$('#congressional-record form.quick-search').congress_QuickSearchCongressionalRecord({
+    defaults: {"congresses":["115"],"wordVariants":"on","caseSensitive":"","wordsPhrases":"","sectionHouse":"on","sectionSenate":"on","sectionExtensionsOfRemarks":"on","sectionDailyDigest":"on","representative":[],"senator":[],"dates":"datesCongress","datesCongress":"on","datesFirstSession":"","datesSecondSession":"","datesSelected":"","fullText":"on","titlesOnly":"","searchIn":"fullText","dateOperator":"equal","startDate":"","endDate":"","dateIsOption":""},
+    getOptionsUrl: '/quick-search/get-options',
+    resetFormUrl: '/quick-search/reset-form-selections',
+    startYear: '1995',
+    qs_expand: null});
+</script>
+                        </div>
+                        <div id="nominations" aria-labelledby="nominations-tab" class="quick-search-tabui-tab-panel">
+                            <form class="quick-search"  action="/quick-search/nominations" aria-labelledby="quick-search">
+    <div class="quick-search-form-row-words-and-phrases">
+        <textarea aria-label="Words and Phrases" row="1" class="expand80-2000 words-and-phrases" name="wordsPhrases" id="nominations-wordsPhrases" placeholder="Examples: &quot;title10&quot;, retired, Ambassador" ></textarea>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-after-words-and-phrases">
+        <div class="quick-search-group">
+            <div>
+                <label class="quick-search-label-checkradio" for="nominations-wordVariants"><input type="checkbox" name="wordVariants" id="nominations-wordVariants"  value="on"  checked="checked" /> Word Variants</label>
+                <label class="quick-search-label-checkradio" for="nominations-caseSensitive"><input type="checkbox" name="caseSensitive" id="nominations-caseSensitive"  value="on"  /> Case Sensitive</label>
+            </div>
+            <div>
+                <span class="quick-search-group-title">Search Only:</span>
+                <label class="quick-search-label-checkradio" for="nominations-searchOnlySenateActions"><input type="checkbox" name="searchOnlySenateActions" id="nominations-searchOnlySenateActions" value="on"  /> Actions</label>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-column-wrapper">
+        <div class="quick-search-two-column quick-search-two-column-left quick-search-form-left">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="nominations-congresses">Congress</label>
+                <select name="congresses[]" id="nominations-congresses" multiple size="5">
+                <option value="all">All Congresses 97-115 (1981-2018)</option><option value="115" selected="selected">115 (2017-2018)</option><option value="114">114 (2015-2016)</option><option value="113">113 (2013-2014)</option><option value="112">112 (2011-2012)</option><option value="111">111 (2009-2010)</option><option value="110">110 (2007-2008)</option><option value="109">109 (2005-2006)</option><option value="108">108 (2003-2004)</option><option value="107">107 (2001-2002)</option><option value="106">106 (1999-2000)</option><option value="105">105 (1997-1998)</option><option value="104">104 (1995-1996)</option><option value="103">103 (1993-1994)</option><option value="102">102 (1991-1992)</option><option value="101">101 (1989-1990)</option><option value="100">100 (1987-1988)</option><option value="99">99 (1985-1986)</option><option value="98">98 (1983-1984)</option><option value="97">97 (1981-1982)</option>                </select>
+            </div>
+            <div class="quick-search-form-row checkradio-only">
+                <fieldset class="quick-search-fieldset">
+                    <legend class="quick-search-legend">Nomination Type</legend>
+                    <div class="quick-search-inline-block"><span class="quick-search-checkbox-block"><label class="quick-search-label-checkradio" for="nominations-nomCivil"><input type="checkbox" name="nomCivil" id="nominations-nomCivil"  value="on"  checked="checked" /> Civilian</label></span></div>
+                    <div class="quick-search-inline-block"><span class="quick-search-checkbox-block"><label class="quick-search-label-checkradio" for="nominations-nomOther"><input type="checkbox" name="nomOther" id="nominations-nomOther"  value="on"  checked="checked" /> Military, Foreign Service, NOAA, Public Health</label></span></div>
+                </fieldset>
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="nominations-pnNumbers">PN Numbers</label>
+                <input type="text" name="pnNumbers" id="nominations-pnNumbers" placeholder="Examples: pn1, pn132-02, pn847-01" value="" />
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="nominations-nomineeNames">Nominee Names</label>
+                <input type="text" name="nomineeNames" id="nominations-nomineeNames" placeholder="Examples: Mcdonald, lynch" value="" />
+            </div>
+            <!-- new Positions -->
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="nominations-positions">Positions</label>
+                <input type="text" name="positions" id="nominations-positions" placeholder="Examples: Secretary of state, judge, ambassador" value="" />
+            </div>
+            <!-- new Organizations -->
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="nominations-organizations">Organizations</label>
+                <input type="text" name="organizations" id="nominations-organizations" placeholder="Examples: foreign service, judiciary, army" value="" />
+            </div>
+        </div>
+        <div class="quick-search-two-column quick-search-two-column-right quick-search-form-right active">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="nominations-senateCommittees">Senate Committee</label>
+                <select name="senateCommittees[]" id="nominations-senateCommittees" multiple size="5">
+
+                    <option value=""  selected="selected">Any Committee</option>
+                    <option value="ssaf00">Agriculture, Nutrition, and Forestry (70th-115th)</option><option value="ssas00">Armed Services (79th-115th)</option><option value="ssbk00">Banking, Housing, and Urban Affairs (70th-115th)</option><option value="ssbu00">Budget (93rd-115th)</option><option value="sscm00">Commerce, Science, and Transportation (79th-115th)</option><option value="sseg00">Energy and Natural Resources (70th-115th)</option><option value="ssev00">Environment and Public Works (79th-115th)</option><option value="ssfi00">Finance (70th-115th)</option><option value="ssfr00">Foreign Relations (70th-115th)</option><option value="sshr00">Health, Education, Labor, and Pensions (70th-115th)</option><option value="ssga00">Homeland Security and Governmental Affairs (70th-115th)</option><option value="ssju00">Judiciary (70th-115th)</option><option value="ssra00">Rules and Administration (79th-115th)</option><option value="sssb00">Small Business and Entrepreneurship (81st-115th)</option><option value="ssva00">Veterans' Affairs (91st-115th)</option>
+                </select>
+            </div>
+            <!-- new State Territory -->
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="nominations-stateTerritories">State or Territory Indicated</label>
+                <select name="stateTerritories[]" id="nominations-stateTerritories" multiple size="5">
+                    <option value="any" selected="selected">Any State or Territory</option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="American Samoa">American Samoa</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Guam">Guam</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Northern Mariana Islands">Northern Mariana Islands</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Puerto Rico">Puerto Rico</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virgin Islands">Virgin Islands</option><option value="Virginia">Virginia</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option>                </select>
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="nominations-nominationActions">Nomination Actions</label>
+                <select name="nominationAction" id="nominations-nominationActions">
+                    <option value="">Any Nomination Action</option>
+                    <option value="83">Placed on calendar as privileged nomination</option><option value="84">Committee requested information was received</option><option value="85">Referred to committee</option><option value="86">Hearings held</option><option value="87">Ordered reported</option><option value="88">Reported to Senate</option><option value="89">Committee discharged</option><option value="90">Placed on calendar</option><option value="91">Placed on calendar with footnote</option><option value="92">Considered by Senate</option><option value="93">Unanimous consent agreement</option><option value="94">Cloture motion</option><option value="95">Cloture invoked/not invoked</option><option value="96">Rereferred to committee</option><option value="97">Received message of withdrawal</option><option value="98">Returned to president</option><option value="99">Confirmed by Senate</option>                </select>
+            </div>
+            <!-- new Dates -->
+            <div class="quick-search-form-row">
+                <fieldset class="quick-search-fieldset">
+                    <legend class="quick-search-legend">Date of Action</legend>
+                    <div class="quick-search-inline-block datesReceivedInSenate">
+                        <label class="quick-search-label-checkradio" for="nominations-datesReceivedInSenate">
+                        <input type="radio" name="dates" id="nominations-datesReceivedInSenate" value="datesReceivedInSenate"  checked="checked" />
+                        Received in the Senate</label>
+                    </div>
+                    <div class="quick-search-inline-block datesConfirmedBySenate">
+                        <label class="quick-search-label-checkradio" for="nominations-datesConfirmedBySenate">
+                        <input type="radio" name="dates" id="nominations-datesConfirmedBySenate" value="datesConfirmedBySenate"  />
+                        Specified Nomination Action</label>
+                    </div>
+                    <div class="quick-search-form-flex-row">
+                        <select id="nominations-dateOperator" name="dateOperator" class="auto-width">
+                        <option value="equal" selected="selected">is equal to</option><option value="between">is between</option><option value="after">is after</option><option value="before">is before</option><option value="is">is</option>                        </select>
+                        <div class="cdg-datepicker" id="nominations-startDate"><input type="text" name="startDate" placeholder="mm/dd/yyyy" class="auto-width selectByDate" value=""/></div>
+                        <span id="nominations-dateAnd">and</span>
+                        <div class="cdg-datepicker" id="nominations-endDate"><input type="text" name="endDate" placeholder="mm/dd/yyyy" class="auto-width selectByDate" value=""/></div>
+                        <select id="nominations-dateIsOption" name="dateIsOption" class="auto-width">
+                        <option value="yesterday">yesterday</option><option value="last 7 days">last 7 days</option><option value="last 30 days">last 30 days</option>                        </select>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-buttons">
+        
+        <input type="hidden" name="searchResultViewType" value="compact" />
+        <button type="button" class="button tertiary2 reset">Reset</button>
+        <button type="button" class="button primary2 submit">Search</button>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-intro">
+    <a target="_blank" href="/nominations/about">About Nominations</a> | <a href="/browse#nominations_bynumber">Browse Nominations</a>    </div>
+</form>
+<script>
+$('#nominations form.quick-search').congress_QuickSearchNominations({
+    defaults: {"congresses":["115"],"nomCivil":"on","nomOther":"on","pnNumbers":"","nomineeNames":"","nominationAction":"","positions":"","organizations":"","wordsPhrases":"","wordVariants":"on","caseSensitive":"","searchOnlySenateActions":"","senateCommittees":[],"stateTerritories":["any"],"dates":"datesReceivedInSenate","dateOperator":"equal","startDate":"","endDate":"","dateIsOption":""},
+    getOptionsUrl: '/quick-search/get-options',
+    resetFormUrl: '/quick-search/reset-form-selections',
+    startYear: '1981',
+    qs_expand: null});
+</script>
+                        </div>
+                        <div id="house-communications" aria-labelledby="house-communications-tab" class="quick-search-tabui-tab-panel">
+                            <form id="house-communications-form" class="quick-search" action="/quick-search/house-communications" aria-labelledby="quick-search">
+    <div class="quick-search-form-row-words-and-phrases">
+        <textarea aria-label="Words and Phrases" row="1" class="expand80-2000 words-and-phrases" name="wordsPhrases" id="house-communications-wordsPhrases" placeholder="Examples: baseball, &quot;standing rules&quot;, Presidential Address" ></textarea>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-after-words-and-phrases">
+        <div class="quick-search-group">
+            <div>
+                <label class="quick-search-label-checkradio" for="house-communications-wordVariants"><input type="checkbox" name="wordVariants" id="house-communications-wordVariants"  value="on"  checked="checked" /> Word Variants</label>
+                <label class="quick-search-label-checkradio" for="house-communications-caseSensitive"><input type="checkbox" name="caseSensitive" id="house-communications-caseSensitive"  value="on"  /> Case Sensitive</label>
+            </div>
+            <div>
+                <span class="quick-search-group-title">Search in:</span>
+                <label for="house-communications-anyField" class="quick-search-label-checkradio"><input id="house-communications-anyField" checked="checked" name="searchIn" type="radio" value="anyField" /> Any Field</label>
+                <label for="house-communications-abstract" class="quick-search-label-checkradio"><input id="house-communications-abstract"  name="searchIn" type="radio" value="abstract" /> Abstract</label>
+                <label for="house-communications-reportNature" class="quick-search-label-checkradio"><input id="house-communications-reportNature"  name="searchIn" type="radio" value="reportNature" /> Nature</label>
+                <label for="house-communications-communicationRelatedDoc" class="quick-search-label-checkradio"><input id="house-communications-communicationRelatedDoc"  name="searchIn" type="radio" value="communicationRelatedDoc" /> House Document Title or Number</label>
+            </div>
+        </div>
+    </div>
+    <!--div class="quick-search-form-row" id="house-communications-intro-section">
+    114th-115th Congress (2015-2018) | <a target="_blank" href="/house-communications/about">About Communications to the House</a> | <a href="/browse#executive_communications">Browse Communications to the House</a>    </div-->
+    <div class="quick-search-column-wrapper">
+        <div class="quick-search-two-column quick-search-two-column-left quick-search-form-left">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="house-communications-congresses">Congress</label>
+                <select name="congresses[]" id="house-communications-congresses" multiple size="5">
+                    <option value="all" selected="selected">All Congresses 114-115 (2015-2018)</option><option value="115">115 (2017-2018)</option><option value="114">114 (2015-2016)</option>                </select>
+            </div>
+            <div class="quick-search-form-row checkradio-only">
+                <fieldset class="quick-search-fieldset">
+                    <legend class="quick-search-legend">Record Type</legend>
+                    <div class="quick-search-inline-block"><span class="quick-search-checkbox-block"><label class="quick-search-label-checkradio" for="house-communications-communicationRecType"><input name="communicationRecType" id="house-communications-communicationRecType" value="on"  checked="checked" type="checkbox"> Communication</label></span></div>
+                    <div class="quick-search-inline-block"><span class="quick-search-checkbox-block"><label class="quick-search-label-checkradio" for="house-communications-requirementRecType"><input name="requirementRecType" id="house-communications-requirementRecType" value="on"  checked="checked" type="checkbox"> Requirement</label></span></div>
+                </fieldset>
+            </div>
+            <div class="quick-search-form-row checkradio-only">
+                <fieldset class="quick-search-fieldset">
+                    <legend class="quick-search-legend">Communication Type</legend>
+                <label class="quick-search-label-checkradio"><input type="checkbox" name="anyType" id="house-communications-anyType"  value="on"  checked="checked"/> Any</label><label class="quick-search-label-checkradio"><input type="checkbox" name="PM" id="house-communications-PM"  value="on"  checked="checked"/> Presidential Message (PM)</label><label class="quick-search-label-checkradio"><input type="checkbox" name="EC" id="house-communications-EC"  value="on"  checked="checked"/> Executive Communication (EC)</label><label class="quick-search-label-checkradio"><input type="checkbox" name="PT" id="house-communications-PT"  value="on"  checked="checked"/> Petition (PT)</label><label class="quick-search-label-checkradio"><input type="checkbox" name="ML" id="house-communications-ML"  value="on"  checked="checked"/> Memorial (ML)</label>                </fieldset>
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="house-communications-submittedBy">Submitted By</label>
+                <input type="text" name="submittedBy" id="house-communications-submittedBy" placeholder="Examples: peace corps" value="" />
+            </div>
+            <div class="quick-search-form-row checkradio-only">
+                <label class="quick-search-label quick-search-block">Federal Rulemaking</label>
+                <div class="quick-search-inline-block"><label class="quick-search-label-checkradio" for="house-communications-showFederalRulemaking"><input name="showFederalRulemaking" id="house-communications-showFederalRulemaking"  value="on" type="checkbox"> Show only federal rulemaking regulations</label></div>
+            </div>
+            <div class="quick-search-form-row" id="house-communications-public-view">
+            </div>
+        </div>
+        <div class="quick-search-two-column quick-search-two-column-right quick-search-form-right active">
+            <div class="quick-search-form-row">
+                <fieldset class="quick-search-fieldset">
+                    <legend class="quick-search-legend">Communication Numbers</legend>
+                    <input type="text" name="communicationNumbers" id="house-communications-communicationNumbers" placeholder="Examples: EC6228, R12313" value="" />
+                </fieldset>
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="house-communications-legalAuthority">Legal Authority</label>
+                <input type="text" name="legalAuthority" id="house-communications-legalAuthority" placeholder="Examples: 5 U.S.C. 801 " value="" />
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="house-communications-houseCommittees">House Committee</label>
+                <select name="houseCommittees[]" id="house-communications-houseCommittees" multiple size="5">
+
+
+                    <option value=""  selected="selected">Any Committee</option>
+                    <option value="hsag00">Agriculture (70th-115th)</option><option value="hsap00">Appropriations (70th-115th)</option><option value="hsas00">Armed Services (79th-115th)</option><option value="hsbu00">Budget (93rd-115th)</option><option value="hsed00">Education and the Workforce (70th-115th)</option><option value="hsif00">Energy and Commerce (70th-115th)</option><option value="hsso00">Ethics (90th-115th)</option><option value="hsba00">Financial Services (70th-115th)</option><option value="hsfa00">Foreign Affairs (70th-115th)</option><option value="hshm00">Homeland Security (107th-115th)</option><option value="hsha00">House Administration (79th-115th)</option><option value="hlig00">Intelligence (Permanent Select) (94th-115th)</option><option value="hsju00">Judiciary (70th-115th)</option><option value="hsii00">Natural Resources (70th-115th)</option><option value="hsgo00">Oversight and Government Reform (70th-115th)</option><option value="hsru00">Rules (70th-115th)</option><option value="hssy00">Science, Space, and Technology (86th-115th)</option><option value="hssm00">Small Business (77th-115th)</option><option value="hspw00">Transportation and Infrastructure (79th-115th)</option><option value="hsvr00">Veterans' Affairs (79th-115th)</option><option value="hswm00">Ways and Means (70th-115th)</option>                </select>
+
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="house-communications-stateTerritories">States and Territories</label>
+                <select name="stateTerritories[]" id="house-communications-stateTerritories" multiple size="5">
+                    <option value="any" selected="selected">Any State</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AS">American Samoa</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District of Columbia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="GU">Guam</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="MP">Northern Mariana Islands</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="PR">Puerto Rico</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VI">Virgin Islands</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option>                </select>
+            </div>
+            <div class="quick-search-form-row">
+                <fieldset class="quick-search-fieldset">
+                    <legend class="quick-search-legend">Congressional Record Date</legend>
+                    <div class="quick-search-form-flex-row">
+                        <label class="quick-search-label-checkradio selectByDateLabel" for="house-communications-dateOperator">Date</label>
+                        <select id="house-communications-dateOperator" name="dateOperator" class="auto-width">
+                        <option value="equal" selected="selected">is equal to</option><option value="between">is between</option><option value="after">is after</option><option value="before">is before</option><option value="is">is</option>                        </select>
+                        <div class="cdg-datepicker" id="house-communications-startDate"><input type="text" name="startDate" placeholder="mm/dd/yyyy" class="auto-width selectByDate cdg-datepicker-input" value=""/></div>
+                        <span id="house-communications-dateAnd">and</span>
+                        <div class="cdg-datepicker" id="house-communications-endDate"><input type="text" name="endDate" placeholder="mm/dd/yyyy" class="auto-width selectByDate cdg-datepicker-input" value=""/></div>
+                        <select id="house-communications-dateIsOption" name="dateIsOption" class="auto-width">
+                        <option value="yesterday">yesterday</option><option value="last 7 days">last 7 days</option><option value="last 30 days">last 30 days</option>                        </select>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+     <div class="quick-search-form-row quick-search-form-row-buttons">
+        
+        <input type="hidden" name="searchResultViewType" value="compact"/>
+        <button type="button" class="button tertiary2 reset">Reset</button>
+        <button type="button" class="button primary2 submit">Search</button>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-intro" id="house-communications-intro-section">
+    <a target="_blank" href="/house-communications/about">About Communications to the House</a> | <a href="/browse#executive_communications">Browse Communications to the House</a>    </div>
+</form>
+<script>
+$('#house-communications form.quick-search').congress_QuickSearchHouseCommunications({
+    defaults: {"congresses":["all"],"communicationRecType":"on","requirementRecType":"on","anyType":"on","EC":"on","PM":"on","PT":"on","ML":"on","submittedBy":"","showFederalRulemaking":false,"wordsPhrases":"","wordVariants":"on","caseSensitive":"","searchIn":"anyField","anyField":"on","abstract":"","reportNature":"","communicationRelatedDoc":"","communicationNumbers":"","legalAuthority":"","houseCommittees":[],"stateTerritories":["any"],"dateOperator":"equal","startDate":"","endDate":"","dateIsOption":""},
+    getOptionsUrl: '/quick-search/get-options',
+    resetFormUrl: '/quick-search/reset-form-selections',
+    startYear: '2015',
+    qs_expand: null,
+    publicViewUrl: '/quick-search/house-communications-acl-view-option'
+});
+</script>
+                        </div>
+                        <div id="senate-communications" aria-labelledby="senate-communications-tab" class="quick-search-tabui-tab-panel">
+                            <form class="quick-search" action="/quick-search/senate-communications" aria-labelledby="quick-search">
+    <div class="quick-search-form-row-words-and-phrases">
+        <textarea aria-label="Words and Phrases" row="1" class="expand80-2000 words-and-phrases" name="wordsPhrases" id="senate-communications-wordsPhrases" placeholder="Examples: &quot;Trade Relations&quot;, &quot;Export Control&quot;" ></textarea>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-after-words-and-phrases">
+        <div class="quick-search-group">
+            <div>
+                <label class="quick-search-label-checkradio" for="senate-communications-wordVariants"><input type="checkbox" name="wordVariants" id="senate-communications-wordVariants"  value="on"  checked="checked" /> Word Variants</label>
+                <label class="quick-search-label-checkradio" for="senate-communications-caseSensitive"><input type="checkbox" name="caseSensitive" id="senate-communications-caseSensitive"  value="on"  /> Case Sensitive</label>
+            </div>
+            <div>
+                <span class="quick-search-group-title">Search in:</span>
+                <label for="senate-communications-anyField" class="quick-search-label-checkradio"><input id="senate-communications-anyField" checked="checked" name="searchIn" type="radio" value="" /> Any Field</label>
+                <label for="senate-communications-abstract" class="quick-search-label-checkradio"><input id="senate-communications-abstract"  name="searchIn" type="radio" value="abstract" /> Abstract</label>
+                <label for="senate-communications-communicationRelatedDoc" class="quick-search-label-checkradio"><input id="senate-communications-communicationRelatedDoc"  name="searchIn" type="radio" value="communicationRelatedDoc" /> Printed Document Number</label>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-column-wrapper">
+        <div class="quick-search-two-column quick-search-two-column-left quick-search-form-left">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="senate-communications-congresses">Congress</label>
+                <select name="congresses[]" id="senate-communications-congresses" multiple size="5">
+                    <option value="all" selected="selected">All Congresses 96-115 (1979-2018)</option><option value="115">115 (2017-2018)</option><option value="114">114 (2015-2016)</option><option value="113">113 (2013-2014)</option><option value="112">112 (2011-2012)</option><option value="111">111 (2009-2010)</option><option value="110">110 (2007-2008)</option><option value="109">109 (2005-2006)</option><option value="108">108 (2003-2004)</option><option value="107">107 (2001-2002)</option><option value="106">106 (1999-2000)</option><option value="105">105 (1997-1998)</option><option value="104">104 (1995-1996)</option><option value="103">103 (1993-1994)</option><option value="102">102 (1991-1992)</option><option value="101">101 (1989-1990)</option><option value="100">100 (1987-1988)</option><option value="99">99 (1985-1986)</option><option value="98">98 (1983-1984)</option><option value="97">97 (1981-1982)</option><option value="96">96 (1979-1980)</option>                </select>
+            </div>
+            <div class="quick-search-form-row checkradio-only">
+                <label class="quick-search-label" for="">Communication Type</label>
+                <div class="quick-search-block"><input type="checkbox" name="PM" id="senate-communications-PM"  value="on"  checked="checked"/> <label class="quick-search-label-checkradio" for="senate-communications-PM">Presidential Message (PM)</label></div><div class="quick-search-block"><input type="checkbox" name="EC" id="senate-communications-EC"  value="on"  checked="checked"/> <label class="quick-search-label-checkradio" for="senate-communications-EC">Executive Communication (EC)</label></div><div class="quick-search-block"><input type="checkbox" name="POM" id="senate-communications-POM"  value="on"  checked="checked"/> <label class="quick-search-label-checkradio" for="senate-communications-POM">Petition or Memorial (POM)</label></div>            </div>
+        </div>
+        <div class="quick-search-two-column quick-search-two-column-right quick-search-form-right active">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="senate-communications-communicationNumbers">Communication Numbers</label>
+                <input type="text" name="communicationNumbers" id="senate-communications-communicationNumbers" placeholder="Examples: EC2, PM32, POM43" value="" />
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="senate-communications-senateCommittees">Senate Committee</label>
+                <select name="senateCommittees[]" id="senate-communications-senateCommittees" multiple size="5">
+
+
+                    <option value=""  selected="selected">Any Committee</option>
+                    <option value="spag00">Aging (Special) (87th-115th)</option><option value="ssaf00">Agriculture, Nutrition, and Forestry (70th-115th)</option><option value="ssap00">Appropriations (70th-115th)</option><option value="ssas00">Armed Services (79th-115th)</option><option value="ssbk00">Banking, Housing, and Urban Affairs (70th-115th)</option><option value="ssbu00">Budget (93rd-115th)</option><option value="sscm00">Commerce, Science, and Transportation (79th-115th)</option><option value="sseg00">Energy and Natural Resources (70th-115th)</option><option value="ssev00">Environment and Public Works (79th-115th)</option><option value="slet00">Ethics (Select) (88th-115th)</option><option value="ssfi00">Finance (70th-115th)</option><option value="ssfr00">Foreign Relations (70th-115th)</option><option value="sshr00">Health, Education, Labor, and Pensions (70th-115th)</option><option value="ssga00">Homeland Security and Governmental Affairs (70th-115th)</option><option value="slia00">Indian Affairs (95th-115th)</option><option value="slin00">Intelligence (Select) (94th-115th)</option><option value="ssju00">Judiciary (70th-115th)</option><option value="ssra00">Rules and Administration (79th-115th)</option><option value="sssb00">Small Business (81st-115th)</option><option value="ssva00">Veterans' Affairs (91st-115th)</option>                </select>
+
+            </div>
+
+            <div class="quick-search-form-row">
+                <fieldset class="quick-search-fieldset">
+                    <legend class="quick-search-legend">Congressional Record Date</legend>
+                    <div class="quick-search-form-flex-row">
+                        <label class="quick-search-label-checkradio selectByDateLabel" for="senate-communications-dateOperator">Date</label>
+                        <select id="senate-communications-dateOperator" name="dateOperator" class="auto-width">
+                        <option value="equal" selected="selected">is equal to</option><option value="between">is between</option><option value="after">is after</option><option value="before">is before</option><option value="is">is</option>                        </select>
+                        <div class="cdg-datepicker" id="senate-communications-startDate"><input type="text" name="startDate" placeholder="mm/dd/yyyy" class="auto-width selectByDate cdg-datepicker-input" value=""/></div>
+                        <span id="senate-communications-dateAnd">and</span>
+                        <div class="cdg-datepicker" id="senate-communications-endDate"><input type="text" name="endDate" placeholder="mm/dd/yyyy" class="auto-width selectByDate cdg-datepicker-input" value=""/></div>
+                        <select id="senate-communications-dateIsOption" name="dateIsOption" class="auto-width">
+                        <option value="yesterday">yesterday</option><option value="last 7 days">last 7 days</option><option value="last 30 days">last 30 days</option>                        </select>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+     <div class="quick-search-form-row quick-search-form-row-buttons">
+        
+        <input type="hidden" name="searchResultViewType" value="compact"/>
+        <button type="button" class="button tertiary2 reset">Reset</button>
+        <button type="button" class="button primary2 submit">Search</button>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-intro">
+    <a target="_blank" href="/senate-communications/about">About Communications to the Senate</a> | <a href="/browse#executive_communications">Browse Communications to the Senate</a>    </div>
+</form>
+<script>
+$('#senate-communications form.quick-search').congress_QuickSearchSenateCommunications({
+    defaults: {"congresses":["all"],"EC":"on","POM":"on","PM":"on","wordsPhrases":"","wordVariants":"on","caseSensitive":"","searchIn":"anyField","anyField":"on","abstract":"","communicationRelatedDoc":"","communicationNumbers":"","senateCommittees":[],"dateOperator":"equal","startDate":"","endDate":"","dateIsOption":""},
+    getOptionsUrl: '/quick-search/get-options',
+    resetFormUrl: '/quick-search/reset-form-selections',
+    startYear: '1979',
+    qs_expand: null});
+</script>
+                        </div>
+                        <div id="treaty-documents" aria-labelledby="treaty-documents-tab" class="quick-search-tabui-tab-panel">
+                            <form class="quick-search" action="/quick-search/treaty-documents" aria-labelledby="quick-search">
+    <div class="quick-search-form-row-words-and-phrases">
+        <textarea aria-label="Words and Phrases" row="1" class="expand80-2000 words-and-phrases" name="wordsPhrases" id="treaties-wordsPhrases" placeholder='Examples: UNESCO, "sea turtles"'></textarea>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-after-words-and-phrases">
+        <div class="quick-search-group">
+            <div>
+                <label class="quick-search-label-checkradio" for="treaties-wordVariants"><input type="checkbox" name="wordVariants" id="treaties-wordVariants"  value="on"  checked="checked" /> Word Variants</label>
+                <label class="quick-search-label-checkradio" for="treaties-caseSensitive"><input type="checkbox" name="caseSensitive" id="treaties-caseSensitive"  value="on"  /> Case Sensitive</label>
+            </div>
+            <div>
+                <span class="quick-search-group-title">Search in:</span>
+                <label class="quick-search-label-checkradio" for="treaties-anyField"><input name="searchIn" id="treaties-anyField" value="anyField" type="radio"  checked="checked" /> Any Field</label>
+                <label class="quick-search-label-checkradio" for="treaties-actions"><input name="searchIn" id="treaties-actions" value="actions" type="radio"  /> Actions</label>
+                <label class="quick-search-label-checkradio" for="treaties-title"><input name="searchIn" id="treaties-title" value="title" type="radio"  /> Title</label>
+                <label class="quick-search-label-checkradio" for="treaties-textResolution"><input name="searchIn" id="treaties-textResolution" value="textResolution" type="radio"  /> Text of Resolution</label>
+                <label class="quick-search-label-checkradio" for="treaties-indexTerm"><input name="searchIn" id="treaties-indexTerm" value="indexTerm" type="radio"  /> Index Term</label>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-column-wrapper">
+        <div class="quick-search-two-column quick-search-two-column-left quick-search-form-left">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="treaties-congresses">Congress</label><br />
+                Select a Congress to see the treaty documents received, considered, or pending.
+                <select name="congresses[]" id="treaties-congresses" multiple size="5">
+                    <option value="all" selected="selected">All Congresses 81-115 (1949-2018)</option><option value="115">115 (2017-2018)</option><option value="114">114 (2015-2016)</option><option value="113">113 (2013-2014)</option><option value="112">112 (2011-2012)</option><option value="111">111 (2009-2010)</option><option value="110">110 (2007-2008)</option><option value="109">109 (2005-2006)</option><option value="108">108 (2003-2004)</option><option value="107">107 (2001-2002)</option><option value="106">106 (1999-2000)</option><option value="105">105 (1997-1998)</option><option value="104">104 (1995-1996)</option><option value="103">103 (1993-1994)</option><option value="102">102 (1991-1992)</option><option value="101">101 (1989-1990)</option><option value="100">100 (1987-1988)</option><option value="99">99 (1985-1986)</option><option value="98">98 (1983-1984)</option><option value="97">97 (1981-1982)</option><option value="96">96 (1979-1980)</option><option value="95">95 (1977-1978)</option><option value="94">94 (1975-1976)</option><option value="93">93 (1973-1974)</option><option value="92">92 (1971-1972)</option><option value="91">91 (1969-1970)</option><option value="90">90 (1967-1968)</option><option value="89">89 (1965-1966)</option><option value="88">88 (1963-1964)</option><option value="87">87 (1961-1962)</option><option value="86">86 (1959-1960)</option><option value="85">85 (1957-1958)</option><option value="84">84 (1955-1956)</option><option value="83">83 (1953-1954)</option><option value="82">82 (1951-1952)</option><option value="81">81 (1949-1950)</option>                </select>
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="treaties-treatyNumbers">Treaty Document Numbers</label>
+                <input type="text" name="treatyNumbers" id="treaties-treatyNumbers" placeholder="Examples: 107-8 105-1 100-11" value="" />
+            </div>
+        </div>
+        <div class="quick-search-two-column quick-search-two-column-right quick-search-form-right active">
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="treaties-executiveReportNumbers">Executive Report Numbers</label>
+                <input type="text" name="executiveReportNumbers" id="treaties-executiveReportNumbers" placeholder="Examples: 106-1 105-20" value="" />
+            </div>
+            <div class="quick-search-form-row">
+                <label class="quick-search-label" for="treaties-treatyTypes">Treaty Topic</label>
+                <select name="treatyTypes[]" id="treaties-treatyTypes" multiple size="5">
+                    <option value=""  selected="selected">Any Topic</option>
+                    <option value="Agriculture">Agriculture</option><option value="Arms Control">Arms Control</option><option value="Aviation">Aviation</option><option value="Commercial">Commercial</option><option value="Consular">Consular</option><option value="Dispute Settlement and Arbitration">Dispute Settlement and Arbitration</option><option value="Drugs/Illegal Substances">Drugs/Illegal Substances</option><option value="Environment">Environment</option><option value="Extradition">Extradition</option><option value="Extradition and Criminal Assistance">Extradition and Criminal Assistance</option><option value="Fisheries and Wildlife">Fisheries and Wildlife</option><option value="Human Rights">Human Rights</option><option value="Intellectual Property/Copyrights">Intellectual Property/Copyrights</option><option value="International Law">International Law</option><option value="International Law and Organization">International Law and Organization</option><option value="Investment">Investment</option><option value="Labor">Labor</option><option value="Maritime Boundaries and Claims">Maritime Boundaries and Claims</option><option value="Mutual Legal Assistance">Mutual Legal Assistance</option><option value="Shipping and Marine Pollution">Shipping and Marine Pollution</option><option value="Taxation">Taxation</option><option value="Telecommunications">Telecommunications</option><option value="Terrorism">Terrorism</option><option value="Trademarks/Patents">Trademarks/Patents</option><option value="United Nations">United Nations</option>                </select>
+            </div>
+        </div>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-buttons">
+        
+        <input type="hidden" name="searchResultViewType" value="compact"/>
+        <button type="button" class="button tertiary2 reset">Reset</button>
+        <button type="button" class="button primary2 submit">Search</button>
+    </div>
+    <div class="quick-search-form-row quick-search-form-row-intro">
+    <a target="_blank" href="/treaties/about">About Treaty Documents</a> | <a href="/browse#browse_treaties">Browse Treaty Documents</a>    </div>
+</form>
+<script>
+$('#treaty-documents form.quick-search').congress_QuickSearchTreaties({
+    defaults: {"congresses":["all"],"treatyNumbers":"","wordsPhrases":"","wordVariants":"on","caseSensitive":"","executiveReportNumbers":"","anyField":"","searchIn":"anyField","treatyTypes":[""]},
+    getOptionsUrl: '/quick-search/get-options',
+    resetFormUrl: '/quick-search/reset-form-selections',
+    qs_expand: null});
+</script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" role="button" class="toggle-search basic-search-button" id="basic-search-button" aria-controls="basic-search-panel">Fewer Options <i class="fa fa-angle-up"></i></a>
+        <a href="#" role="button" class="toggle-search quick-search-button" id="quick-search-button" aria-controls="quick-search-panel">More Options <i class="fa fa-angle-down"></i></a>
+    </div>
+
+    <script type="text/javascript">
+        $('#search-wrapper').congress_searchBar({"source":"current-legislation","hintsByDropDownValue":{"current-legislation":"Examples: hr5, sres9, \"health care\"","legislation":"Examples: hr5, sres9, \"health care\"","all-sources":"Examples: hr5, sres9, \"health care\"","comreports":"Examples: oversight, \"postal service\"","congrecord":"\"homeland security\", medicare","members":"Examples: Lamar Alexander, Zinke","nominations":"Examples: PN217, John Smith","house-communications":"Examples:Pub. L. 111-148, \"nurse education\", PT55","senate-communications":"Examples: EC2, POM43, \"trade relations\"","treaties":"Examples: 105-51, 95-20"},"currentCongress":"115","q":null,"searchWithinEnabled":false,"searchWithinOption":null,"searchWithinHint":null,"searchWithinBaseUrl":null,"searchResultViewType":"expanded","quickSearchActiveForm":null,"quickSearchFormExpanded":null,"quickSearchFormCollapsedState":false,"quickSearchSelectionsUrl":"\/quick-search\/get-session-selections","homepage":true});
+    </script>
+    	<script type="text/javascript">
+		$(document).ready(function() {
+		    // search focus
+    		$('#search_main input[id=search]').focus();
+
+    		// header
+    		$('.nav-links-main').clone().removeClass('nav-links nav-links-main').addClass('nav-links-clone nav-links-clone-main').prependTo('nav.nav-links-clone-wrapper');
+    		$('.nav-links-tertiary .tertiary').clone().removeClass('nav-links nav-links-tertiary').addClass('nav-links-clone').appendTo('.nav-links-clone');
+    		$('html').click(function() {
+				$('.nav-links-clone-wrapper, .more-tertiary-links').slideUp();
+				$('.nav-links-toggle, .tertiary-more-toggle').removeClass('active').attr('aria-expanded', 'false');
+				$('.tertiary-more').removeClass('active');
+			});
+			$('.nav-links-toggle, .tertiary-more-toggle').click(function(event){
+				event.stopPropagation();
+			});
+	    	$('.nav-links-toggle').click(function() {
+	    		if($('.nav-links-clone-wrapper').is(':hidden')) {
+	    			$('.nav-links-clone-wrapper').slideDown();
+	    			$('.nav-links-toggle').addClass('active').attr('aria-expanded', 'true');
+	    		} else {
+	    			$('.nav-links-clone-wrapper').slideUp();
+	    			$('.nav-links-toggle').removeClass('active').attr('aria-expanded', 'false');
+	    		}
+	    	});
+	    	$('.tertiary-more-toggle').click(function() {
+	    		if ($('.more-tertiary-links').is(':visible')) {
+	    			$('.more-tertiary-links').slideUp();
+	    			$('.tertiary-more').removeClass('active');
+	    			$('.tertiary-more-toggle').removeClass('active').attr('aria-expanded', 'false');
+	    		} else {
+	    			$('.more-tertiary-links').slideDown();
+	    			$('.tertiary-more').addClass('active');
+	    			$('.tertiary-more-toggle').addClass('active').attr('aria-expanded', 'true');
+	    		}
+	    	});
+	    	$(window).on("load resize scroll",function(e){
+	    		$('.nav-links-clone-wrapper').hide();
+				$('.nav-links-toggle, .tertiary-more-toggle').removeClass('active').attr('aria-expanded', 'false');
+				$('.tertiary-more').removeClass('active');
+				$('.more-tertiary-links').slideUp();
+	    	});
+		    $('.h_account').tooltip();
+		});
+	</script>
+</header>
+            <main role="main" id="content" class="content">
+                  
+<main role="main" id="content" class="content">
+    <article role="article" class="main-wrapper main-content error_page">
+        <div class="sharetool_wrapper staticAlt"><div class="breadcrumbs"><a href="https://www.congress.gov">Home</a> &gt; Page Not Found </div></div>
+        <!--<h1>An error occurred</h1>-->
+        <h1>Page Not Found.</h1>
+        <p>The page you requested is unavailable.</p>
+        <p>Please ensure that the text in the address bar is correct, or try the <a href="https://www.congress.gov">Congress.gov home page</a>.</p>
+            </article>
+</main>
+      <script language="JavaScript" type="text/javascript">
+      function doSiteMetricsPlugin(s){
+          s.pageType="errorPage";
+          s.channel="Pages Not Found (404)";
+      }
+  </script>
+            </main>
+        </div>
+        <footer role="contentinfo">
+    <script>
+        /* header mobile menu - header */
+        $('.menu_mobile a.menu_link').click(function () {
+            $('.menu_mobile ul.menu_list').slideToggle('fast');
+        });
+    </script>
+        <div class="foot_logo">
+        <h1><a href="https://www.congress.gov" class="logo_congress"><span><img alt="Congress.gov" width="212" src="https://www.congress.gov/img/svg/congress-gov-logo-no-color.svg"></span></a></h1>
+    </div>
+    <div class="foot_group">
+        <div>
+            <h2>Site Content</h2>
+            <ul>
+                <li><a href="https://www.congress.gov/legislation?q=%7B%22congress%22%3A115%7D">Legislation</a></li>
+                <li><a href="https://www.congress.gov/congressional-record">Congressional Record</a></li>
+                <li><a href="https://www.congress.gov/congressional-record/congressional-record-index">Congressional Record Index</a></li>
+                <li><a href="https://www.congress.gov/members?q=%7B%22congress%22%3A115%7D">Members</a></li>
+                <li><a href="https://www.congress.gov/committees">Committees</a></li>
+                <li><a href="https://www.congress.gov/congressional-reports">Committee Reports</a></li>
+                <li><a href="https://www.congress.gov/nominations">Nominations</a></li>
+                <li><a href="https://www.congress.gov/treaties">Treaty Documents</a></li>
+                <li><a href="/house-communications">House Communications</a></li>
+                <li><a href="/senate-communications">Senate Communications</a></li>
+                <li><a href="https://www.congress.gov/legislative-process">Legislative Process</a></li>
+                <li><a href="https://www.congress.gov/about">About Congress.gov</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Help</h2>
+            <ul>
+                <li><a href="https://www.congress.gov/help">Help</a> | <a href="https://www.congress.gov/survey">Feedback</a> | <a href="https://www.congress.gov/contact-us">Contact Us</a></li>
+                <li><a href="https://www.congress.gov/help/legislative-glossary">Glossary</a></li>
+                <li><a href="https://www.congress.gov/help/search-tools-overview">Search Tools</a></li>
+                <li><a href="http://www.loc.gov/rr/askalib/ask-law.html" target="_blank">Ask a Law Librarian</a></li>
+                <li><a href="http://www.loc.gov/law/opportunities/seminar-orient.php" target="_blank">Webinars</a></li>
+            </ul>
+            <h2>Ways to Connect</h2>
+            <ul>
+                <li><a href="https://twitter.com/congressdotgov" target="_blank"><i class="icon twitter"></i>Twitter</a></li>
+                <li><a href="https://www.youtube.com/playlist?list=PLpAGnumt6iV6j07liSyksxaQe_KmPbeow" target="_blank"><i class="icon youtube"></i>YouTube</a></li>
+                <li><a href="https://www.congress.gov/video"><i class="fa fa-video-camera"></i> Video</a></li>
+                <li><a href="https://www.congress.gov/rss">RSS &amp; Email Alerts</a></li>
+                <li><a href="http://blogs.loc.gov/law/" target="_blank">Blog &ndash; In Custodia Legis: Law Librarians of Congress</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="/resources/" target="_blank">Congress.gov Resources</a></li>
+                <li>                </li>
+                <li><a href="http://uscode.house.gov/" target="_blank">U.S. Code</a></li>
+                <li><a href="http://www.gpo.gov/fdsys/search/home.action" target="_blank">GPO FDsys</a></li>
+                <li><a href="http://www.loc.gov/law/" target="_blank">Law Library of Congress</a></li>
+                <li><a href="http://www.loc.gov/law/help/guide.php" target="_blank">Guide to Law Online</a></li>
+                <li><a href="http://www.loc.gov/law/find/educational-resources/">Teacher Lesson Plans</a></li>
+                <li><a href="https://www.congress.gov/state-legislature-websites" target="_blank">State Legislature Websites</a></li>
+                <li><a href="https://www.congress.gov/about/data">Bill Status Bulk Data</a></li>
+                <li><a href="https://www.congress.gov/roll-call-votes">Roll Call Votes</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>House Links</h2>
+            <ul>
+                <li><a href="http://www.house.gov/" target="_blank">House.gov</a></li>
+                <li><a href="http://clerk.house.gov/floorsummary/floor.aspx" target="_blank">Floor Activities</a></li>
+                <li><a href="http://www.house.gov/representatives/" target="_blank">Representatives</a></li>
+                <li><a href="http://www.house.gov/committees/" target="_blank">Committees</a></li>
+                <li><a href="https://www.congress.gov/committees/video">Hearings (Video)</a></li>
+                <li><a href="http://docs.house.gov/floor/" target="_blank">Bills to Be Considered</a></li>
+                <li><a href="http://clerk.house.gov/member_info/leadership.aspx" target="_blank">Leadership</a></li>
+                <li><a href="http://history.house.gov/" target="_blank">History, Art &amp; Archives</a></li>
+                <li><a href="/resources/display/content/House+of+Representatives" target="_blank">More House Resources</a></li>
+            </ul>
+        </div>
+        <div class="last">
+            <h2>Senate Links</h2>
+            <ul>
+                <li><a href="http://www.senate.gov/" target="_blank">Senate.gov</a></li>
+                <li><a href="http://www.senate.gov/legislative/LIS/floor_activity/floor_activity.htm" target="_blank">On the Senate Floor</a></li>
+                <li><a href="http://www.senate.gov/general/contact_information/senators_cfm.cfm" target="_blank">Senators</a></li>
+                <li><a href="http://www.senate.gov/pagelayout/committees/d_three_sections_with_teasers/committees_home.htm" target="_blank">Committees</a></li>
+                <li><a href="http://www.senate.gov/pagelayout/committees/b_three_sections_with_teasers/committee_hearings.htm" target="_blank">Hearings (Schedule)</a></li>
+                <li><a href="http://www.senate.gov/pagelayout/senators/a_three_sections_with_teasers/leadership.htm" target="_blank">Leadership</a></li>
+                <li><a href="http://www.senate.gov/pagelayout/reference/g_three_sections_with_teasers/reference_home.htm" target="_blank">History, Art &amp; Statistics</a></li>
+                <li><a href="/resources/display/content/Senate" target="_blank">More Senate Resources</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="foot_tertiary">
+        <ul class="foot_links">
+            <li class="first"><a href="https://www.congress.gov/legal">Legal</a></li>
+            <li><a href="https://www.congress.gov/accessibility">Accessibility</a></li>
+            <li><a href="https://www.congress.gov/help">Help</a></li>
+            <li><a href="https://www.congress.gov/contact-us">Contact Us</a></li>
+            <li><a href="http://www.loc.gov/global/disclaim.html" target="_blank">External Link Disclaimer</a></li>
+            <li><a href="http://www.usa.gov/" target="_blank">USA.gov</a></li>
+        </ul>
+        <ul class="foot_partners">
+            <li><a href="http://www.loc.gov/" class="logo-loc"><span><img alt="Library of Congress" width="140" src="https://www.congress.gov/img/svg/loc-gov-logo.svg"></span></a></li>
+            <li><a href="http://www.copyright.gov/" class="logo-copyright"><span><img alt="Copyright.gov" width="140" src="https://www.congress.gov/img/svg/copyright-logo.svg"></span></a></li>
+        </ul>
+    </div>
+
+    <div class="top-link">
+        <a href='#' id='sticky-back-to-top'><i></i><span>Back to top</span></a>
+    </div>
+    <script type="text/javascript">
+    $(function () {
+        var scroll_timer,
+            displayed = false,
+            $message = $('.top-link a').hide(),
+            $window = $(window),
+            top = $(document.body).children(0).position().top;
+
+        $("#sticky-back-to-top").click(function(event){
+            $window.scrollTop(0);
+            event.preventDefault();
+            return false;
+        });
+
+        $window.scroll(function () {
+            window.clearTimeout(scroll_timer);
+            scroll_timer = window.setTimeout(function () {
+                if($window.scrollTop() <= top){
+                    displayed = false;
+                    $message.fadeOut(800);
+                }else if(displayed == false){
+                    displayed = true;
+                    $message.stop(true, true).show().click(function () { $message.fadeOut(800); });
+                }
+            }, 100);
+        });
+    });
+    </script>
+</footer><!-- end footer -->
+<script type="text/javascript" src="/js/cache/dcf305e54eb0fc9011a8436291fed748.js"></script>
+    </div>
+    <div class="actionLoaderWrapper" style="display:none">
+    <div class="actionLoader">
+        <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+    <script>
+    $(document).ready(function(){
+        var h = window.location.hash,
+            scrollTo = 0;
+
+        if (h) {
+            if ($(h).offset() !== undefined) {
+                scrollTo = $(h).offset().top;
+            }
+        }
+
+        if (scrollTo > 0) {
+            $('html, body').stop().animate({ scrollTop : scrollTo + "px"}, 0);
+        }
+
+        $('body').congress_LAC({ checkUrl: '/lac/check' });
+    });
+    </script>
+</body>
+</html>

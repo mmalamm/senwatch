@@ -1,38 +1,5 @@
-import axios from "axios";
-// import squareFace from "./squareFace";
-
-export const getPartyClass = party =>
-  party === "D" ? "Democratic" : party === "R" ? "Republican" : "Other";
-
-export const getImage = sen => {
-  const sen_name = formatName(`${sen.first_name} ${sen.last_name}`);
-  const defaultImg = `https://www.congress.gov/img/member/${sen.id.toLowerCase()}.jpg`;
-  console.log(sen_name);
-  return new Promise((resolve, reject) => {
-    axios
-      .get(
-        `https://en.wikipedia.org/w/api.php?action=query&titles=${sen_name}&format=json&prop=pageimages&origin=*`
-      )
-      .then(({ data }) => {
-        console.log(data);
-        const result = data.query.pages;
-        let thumbnail = result[Object.keys(result)[0]].thumbnail;
-        let pic_url = thumbnail ? thumbnail.source : defaultImg;
-        pic_url = pic_url.replace(/\d+px/, "500px");
-        // return pic_url;
-        resolve(pic_url);
-      })
-      // .then(async pic_url => {
-      //   const finalPic = await squareFace(pic_url);
-      //   resolve(finalPic);
-      // })
-      .catch(e => reject(e));
-  });
-};
-
-const formatName = sen_name => {
-  //correct names for wikipedia api
-  let newname = sen_name
+module.exports = sen_name =>
+  sen_name
     .replace("Charles Grassley", "Chuck Grassley") // Iowa
     .replace("John Kennedy", "John Neely Kennedy") //Louisiana
     .replace("Dan Sullivan", "Dan Sullivan (U.S. Senator)") //Alaska
@@ -58,5 +25,3 @@ const formatName = sen_name => {
     .replace("Patrick Toomey", "Pat Toomey")
     .replace(" III", "")
     .replace(" ", "%20");
-  return newname;
-};
