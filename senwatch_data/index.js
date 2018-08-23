@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 5050;
 const axios = require("axios");
 const cors = require("cors");
-const squareFace = require("./lib/squareFace");
+// const squareFace = require("./lib/squareFace");
 
 console.log(secrets);
 
@@ -22,7 +22,7 @@ app.use("/api", (req, res) => {
     .catch(e => res.status(400).send(e));
 });
 
-app.post("/square", squareFace);
+// app.post("/square", squareFace);
 
 app.use(express.static(path.join(__dirname, "gui", "build")));
 
