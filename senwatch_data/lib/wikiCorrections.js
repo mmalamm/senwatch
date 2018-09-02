@@ -1,27 +1,30 @@
-module.exports = sen_name =>
-  sen_name
-    .replace("Charles Grassley", "Chuck Grassley") // Iowa
-    .replace("John Kennedy", "John Neely Kennedy") //Louisiana
-    .replace("Dan Sullivan", "Dan Sullivan (U.S. Senator)") //Alaska
-    .replace("Michael Crapo", "Mike Crapo") //Idaho
-    .replace("Mike Lee", "Mike Lee (U.S. politician)") //Utah
-    .replace("Christopher Coons", "Chris Coons")
-    .replace("Thomas Carper", "Tom Carper")
-    .replace("Benjamin Cardin", "Ben Cardin")
-    .replace("Bob Casey", "Bob Casey Jr.")
-    .replace("Jack Reed", "Jack Reed (politician)")
-    .replace("Edward Markey", "Ed Markey")
-    .replace("Margaret Hassan", "Maggie Hassan")
-    .replace("Richard Durbin", "Dick Durbin")
-    .replace("Gary Peters", "Gary Peters (politician)")
-    .replace("Shelley Capito", "Shelley Moore Capito")
-    .replace("James Inhofe", "Jim Inhofe")
-    .replace("Charles Schumer", "Chuck Schumer")
-    .replace("Bernard Sanders", "Bernie Sanders")
-    .replace("Michael Enzi", "Mike Enzi")
-    .replace("Robert Menendez", "Bob Menendez")
-    .replace("Christopher Murphy", "Chris Murphy (Connecticut politician)")
-    .replace("Ron Johnson", "Ron Johnson (American politician)")
-    .replace("Patrick Toomey", "Pat Toomey")
-    .replace(" III", "")
-    .replace(" ", "%20");
+module.exports = sen_name => {
+  const corrections = {
+    "Charles Grassley": "Chuck Grassley", // Iowa
+    "John Kennedy": "John Neely Kennedy", //Louisiana
+    "Dan Sullivan": "Dan Sullivan (U.S. Senator)", //Alaska
+    "Michael Crapo": "Mike Crapo", //Idaho
+    "Mike Lee": "Mike Lee (U.S. politician)", //Utah
+    "Christopher Coons": "Chris Coons",
+    "Thomas Carper": "Tom Carper",
+    "Benjamin Cardin": "Ben Cardin",
+    "Bob Casey": "Bob Casey Jr.",
+    "Jack Reed": "Jack Reed (politician)",
+    "Edward Markey": "Ed Markey",
+    "Margaret Hassan": "Maggie Hassan",
+    "Richard Durbin": "Dick Durbin",
+    "Gary Peters": "Gary Peters (politician)",
+    "Shelley Capito": "Shelley Moore Capito",
+    "James Inhofe": "Jim Inhofe",
+    "Charles Schumer": "Chuck Schumer",
+    "Bernard Sanders": "Bernie Sanders",
+    "Michael Enzi": "Mike Enzi",
+    "Robert Menendez": "Bob Menendez",
+    "Christopher Murphy": "Chris Murphy (Connecticut politician)",
+    "Ron Johnson": "Ron Johnson (American politician)",
+    "Patrick Toomey": "Pat Toomey"
+  };
+  if (corrections[sen_name]) sen_name = corrections[sen_name];
+
+  return sen_name.replace(" III", "").replace(" ", "%20");
+};
