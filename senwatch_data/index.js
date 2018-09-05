@@ -37,3 +37,15 @@ app.get("/file", (req, res) => {
 
   res.sendFile(path.join(__dirname, "jsons", filename));
 });
+app.get("/file_size", (req, res) => {
+  const filename = fs
+    .readdirSync("./jsons")
+    .sort((a, b) => +a.slice(5) - +b.slice(5))
+    .pop();
+
+  const stats = fs.statSync(path.join(__dirname, "jsons", filename));
+  const fileSizeInBytes = stats.size;
+  //Convert the file size to megabytes (optional)
+  const fileSizeInMegabytes = fileSizeInBytes / 1000000.0;
+  res.send(fileSizeInMegabytes.toString());
+});
