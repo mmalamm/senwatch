@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 
 // frontend
-const publicPath = path.join(__dirname, "..", "senwatch_react", "build");
+const publicPath = path.join(__dirname, "..", "senwatch_frontend", "build");
 app.use(express.static(publicPath));
 
 // listen

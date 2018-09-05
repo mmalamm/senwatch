@@ -27,6 +27,13 @@ app.use(favicon(path.join(__dirname, "gui", "build", "favicon.ico")));
 
 app.listen(port, () => console.log("server running on port", port));
 
-app.get("/file", (req, res) =>
-  res.sendFile(path.join(__dirname, "jsons", "sens-1535927178221.json"))
-);
+const fs = require("fs");
+
+app.get("/file", (req, res) => {
+  const filename = fs
+    .readdirSync("./jsons")
+    .sort((a, b) => +a.slice(5) - +b.slice(5))
+    .pop();
+
+  res.sendFile(path.join(__dirname, "jsons", filename));
+});

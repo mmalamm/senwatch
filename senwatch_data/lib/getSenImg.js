@@ -16,12 +16,8 @@ const getSenImg = sen => {
         let thumbnail = result[Object.keys(result)[0]].thumbnail;
         let pic_url = thumbnail ? thumbnail.source : defaultImg;
         pic_url = pic_url.replace(/\d+px/, "500px");
-        // return pic_url;
         resolve(pic_url);
       });
-    // .then(async pic_url => {
-    //   const finalPic = await squareFace(pic_url);
-    //   resolve(finalPic);
   }).catch(e => reject(e));
 };
 
