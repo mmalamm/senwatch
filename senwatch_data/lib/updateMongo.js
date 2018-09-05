@@ -1,9 +1,12 @@
 // create updated sens objects
 
 /**
- *  make main cal
- *  make secondary calll
+ * x make main call
+ * x make secondary call
+ * x make pictures call
  *  make crp call
+ *  prune data
+ *  update mongo
  *
  */
 

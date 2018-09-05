@@ -1,0 +1,110 @@
+{
+  "created_at": "Wed Sep 05 2018 00:56:15 GMT-0400 (EDT)",
+  "filename": "undefined-undefined-crp.json",
+  "data": {
+    "response": {
+      "industries": {
+        "@attributes": {
+          "cand_name": "Cory Booker (D)",
+          "cid": "N00035267",
+          "cycle": "2018",
+          "origin": "Center for Responsive Politics",
+          "source": "https://www.opensecrets.org/members-of-congress/industries?cid=N00035267&cycle=2018",
+          "last_updated": "08/21/2018"
+        },
+        "industry": [
+          {
+            "@attributes": {
+              "industry_code": "K01",
+              "industry_name": "Lawyers/Law Firms",
+              "indivs": "2685707",
+              "pacs": "191000",
+              "total": "2876707"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "F07",
+              "industry_name": "Securities & Investment",
+              "indivs": "2598047",
+              "pacs": "62200",
+              "total": "2660247"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "F10",
+              "industry_name": "Real Estate",
+              "indivs": "1337890",
+              "pacs": "29000",
+              "total": "1366890"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "B02",
+              "industry_name": "TV/Movies/Music",
+              "indivs": "915564",
+              "pacs": "33000",
+              "total": "948564"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "N05",
+              "industry_name": "Business Services",
+              "indivs": "579217",
+              "pacs": "10500",
+              "total": "589717"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "F13",
+              "industry_name": "Misc Finance",
+              "indivs": "553041",
+              "pacs": "15000",
+              "total": "568041"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "W06",
+              "industry_name": "Retired",
+              "indivs": "519537",
+              "pacs": "0",
+              "total": "519537"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "W04",
+              "industry_name": "Education",
+              "indivs": "462689",
+              "pacs": "6500",
+              "total": "469189"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "F09",
+              "industry_name": "Insurance",
+              "indivs": "310780",
+              "pacs": "155500",
+              "total": "466280"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "Q05",
+              "industry_name": "Pro-Israel",
+              "indivs": "397599",
+              "pacs": "36527",
+              "total": "434126"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
