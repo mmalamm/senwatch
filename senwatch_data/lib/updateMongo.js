@@ -14,7 +14,9 @@ const axios = require("axios");
 const secrets = require("../../secrets");
 const merge = require("lodash/merge");
 const getSenImg = require("./getSenImg");
+const saveFileJson = require("./saveFileJson");
 const saveSensJson = require("./saveSensJson");
+const getSenCrpIndustries = require("./getSenCrpIndustries");
 const ppMainUrl =
   "https://api.propublica.org/congress/v1/115/senate/members.json";
 
@@ -37,7 +39,7 @@ const pp2Call = async sen => {
   }).then(data => merge(sen, data.data.results[0]));
 };
 
-const debouncer = arr => fn => {
+const debouncer = fn => arr => {
   return Promise.all(
     arr.map(s1 => {
       return new Promise((resolve, reject) => {
@@ -60,9 +62,18 @@ const updateImgUrls = async sens => {
 
 const getSens = () => {
   return pp1Call()
-    .then(sens => debouncer(sens)(pp2Call))
-    .then(sens2 => updateImgUrls(sens2))
-    .then(final => saveSensJson(final));
+    .then(debouncer(pp2Call))
+    .then(updateImgUrls)
+    .then(saveSensJson);
 };
 
-getSens();
+const getCrpUpdate = sens => {
+  return Promise.all(sens.map(getSenCrpIndustries)).then(crpSens => {
+    saveSensJson(crpSens);
+    saveFileJson(crpSens, "crpSens.json");
+  });
+};
+
+// getSens();
+const sss = require("../jsons/sens-1536122052639.json");
+getCrpUpdate(sss.sens);
