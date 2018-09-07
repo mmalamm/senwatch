@@ -15,6 +15,7 @@
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "lodash": "^4.17.10",
+    "mongodb": "^3.1.4",
     "request": "^2.88.0",
     "serve-favicon": "^2.5.0"
   }

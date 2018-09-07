@@ -19,6 +19,7 @@ const saveSensJson = require("./saveSensJson");
 const getSenCrpIndustries = require("./getSenCrpIndustries");
 const ppMainUrl =
   "https://api.propublica.org/congress/v1/115/senate/members.json";
+const MongoClient = require("mongodb").MongoClient;
 
 const pp1Call = () => {
   console.log("making pp1 call...");
@@ -81,6 +82,15 @@ const fs = require("fs");
 
 const getLatestSensJson = () =>
   fs
-    .readdirSync("../jsons")
+    .readdirSync("./jsons")
     .sort((a, b) => +a.slice(5) - +b.slice(5))
     .pop();
+
+(ss => {
+  MongoClient.connect(secrets.mongoUrl)
+    .then(async val => {
+      const sens = await val.db().collection('Sens').find().toArray();
+      console.log(sens);
+    })
+    .catch(e => console.error(e));
+})(getLatestSensJson());
