@@ -75,5 +75,12 @@ const getCrpUpdate = sens => {
 };
 
 // getSens();
-const sss = require("../jsons/sens-1536122052639.json");
-getCrpUpdate(sss.sens);
+// const sss = require("../jsons/sens-1536122052639.json");
+// getCrpUpdate(sss.sens);
+const fs = require("fs");
+
+const getLatestSensJson = () =>
+  fs
+    .readdirSync("../jsons")
+    .sort((a, b) => +a.slice(5) - +b.slice(5))
+    .pop();
