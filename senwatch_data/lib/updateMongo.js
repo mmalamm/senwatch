@@ -78,19 +78,130 @@ const getCrpUpdate = sens => {
 // getSens();
 // const sss = require("../jsons/sens-1536122052639.json");
 // getCrpUpdate(sss.sens);
-const fs = require("fs");
+const fs = require("fs"),
+  path = require("path");
 
 const getLatestSensJson = () =>
-  fs
-    .readdirSync("./jsons")
-    .sort((a, b) => +a.slice(5) - +b.slice(5))
-    .pop();
+  require(path.join(
+    "..",
+    "jsons",
+    fs
+      .readdirSync("./jsons")
+      .sort((a, b) => +a.slice(5) - +b.slice(5))
+      .pop()
+  )).sens;
 
-(ss => {
+const createSenObj = rawSen => {
+  const {
+    id: pp_id,
+    first_name,
+    middle_name,
+    last_name,
+    party,
+    twitter_account,
+    facebook_account,
+    rss_url,
+    crp_id,
+    crp,
+    url: domain,
+    next_election,
+    phone,
+    fax,
+    state,
+    state_rank,
+    senate_class,
+    date_of_birth: dob,
+    gender,
+    img_url,
+    office,
+    votes_with_party_pct,
+    roles
+  } = rawSen;
+  console.log(pp_id, first_name, last_name);
+  const committees = roles[0];
+  return {
+    pp_id,
+    first_name,
+    middle_name,
+    last_name,
+    party,
+    twitter_account,
+    facebook_account,
+    rss_url,
+    crp_id,
+    crp,
+    domain,
+    next_election,
+    phone,
+    fax,
+    state,
+    state_rank,
+    senate_class,
+    dob,
+    gender,
+    img_url,
+    office,
+    votes_with_party_pct,
+    committees
+  };
+};
+
+const isSenInMongo = async sen => {
+  const mClient = await MongoClient.connect(secrets.mongoUrl);
+  const sensRef = await mClient.db().collection("Sens");
+  const output = await sensRef.find({ pp_id: sen.id }).toArray();
+  mClient.close();
+  return Boolean(output.length);
+};
+
+const updateSen = async sen => {
+  const mClient = await MongoClient.connect(secrets.mongoUrl);
+  const sensRef = await mClient.db().collection("Sens");
+  sensRef
+    .findOneAndUpdate({ pp_id: sen.id }, { $set: createSenObj(sen) })
+    .then(val => {
+      console.log("done!!");
+      console.log(val);
+    })
+    .catch(e => {
+      console.log("error has been cought......", e);
+    });
+};
+
+const updateMongo = updatedSens => {
   MongoClient.connect(secrets.mongoUrl)
     .then(async val => {
-      const sens = await val.db().collection('Sens').find().toArray();
+      const sensRef = val.db().collection("Sens");
+      const sens = await sensRef.find().toArray();
       console.log(sens);
     })
     .catch(e => console.error(e));
-})(getLatestSensJson());
+};
+
+const sensNotInDb = async sens => {
+  const promises = sens.map(async s => {
+    const b = await isSenInMongo(s);
+    // console.log(b, s.last_name);
+    return b ? false : s;
+  });
+
+  const arr = await Promise.all(promises);
+  return arr;
+};
+
+// sensNotInDb(getLatestSensJson());
+
+const getSensString = o =>
+  `${o.first_name} ${o.last_name} (${o.state}-${o.party})`;
+
+// const dougJones = getLatestSensJson().filter(s => s.last_name === "Jones");
+
+// const dog = async () => await isSenInMongo(dougJones);
+
+// dog().then(b => console.log(b));
+const sens = getLatestSensJson();
+
+sensNotInDb(sens)
+  .then(a => a.filter(x => !!x))
+  .then(x => x.map(y => getSensString(y)))
+  .then(arr => console.log(arr));
