@@ -1,0 +1,781 @@
+{
+  "created_at": "Sat Sep 08 2018 01:25:47 GMT-0400 (EDT)",
+  "filename": "rawthing.json",
+  "data": {
+    "id": "A000360",
+    "title": "Senator, 2nd Class",
+    "short_title": "Sen.",
+    "api_uri": "https://api.propublica.org/congress/v1/members/A000360.json",
+    "first_name": "Lamar",
+    "middle_name": "",
+    "last_name": "Alexander",
+    "suffix": null,
+    "date_of_birth": "1940-07-03",
+    "gender": "M",
+    "party": "R",
+    "leadership_role": null,
+    "twitter_account": "SenAlexander",
+    "facebook_account": "senatorlamaralexander",
+    "youtube_account": "lamaralexander",
+    "govtrack_id": "300002",
+    "cspan_id": "5",
+    "votesmart_id": "15691",
+    "icpsr_id": "40304",
+    "crp_id": "N00009888",
+    "google_entity_id": "/m/01rbs3",
+    "fec_candidate_id": "S2TN00058",
+    "url": "https://www.alexander.senate.gov/public",
+    "rss_url": "https://www.alexander.senate.gov/public/?a=RSS.Feed",
+    "contact_form": "http://www.alexander.senate.gov/public/index.cfm?p=Email",
+    "in_office": true,
+    "dw_nominate": 0.323,
+    "ideal_point": null,
+    "seniority": "15",
+    "next_election": "2020",
+    "total_votes": 526,
+    "missed_votes": 26,
+    "total_present": 0,
+    "last_updated": "2018-09-04 19:30:52 -0400",
+    "ocd_id": "ocd-division/country:us/state:tn",
+    "office": "455 Dirksen Senate Office Building",
+    "phone": "202-224-4944",
+    "fax": "202-228-3398",
+    "state": "TN",
+    "senate_class": "2",
+    "state_rank": "senior",
+    "lis_id": "S289",
+    "missed_votes_pct": 4.94,
+    "votes_with_party_pct": 96.8,
+    "member_id": "A000360",
+    "times_topics_url": "http://topics.nytimes.com/top/reference/timestopics/people/a/lamar_alexander/index.html",
+    "times_tag": "",
+    "current_party": "R",
+    "most_recent_vote": "2018-09-04",
+    "roles": [
+      {
+        "congress": "115",
+        "chamber": "Senate",
+        "title": "Senator, 2nd Class",
+        "short_title": "Sen.",
+        "state": "TN",
+        "party": "R",
+        "leadership_role": null,
+        "fec_candidate_id": "S2TN00058",
+        "seniority": "15",
+        "senate_class": "2",
+        "state_rank": "senior",
+        "lis_id": "S289",
+        "ocd_id": "ocd-division/country:us/state:tn",
+        "start_date": "2017-01-03",
+        "end_date": "2019-01-03",
+        "office": "455 Dirksen Senate Office Building",
+        "phone": "202-224-4944",
+        "fax": "202-228-3398",
+        "contact_form": "http://www.alexander.senate.gov/public/index.cfm?p=Email",
+        "bills_sponsored": 28,
+        "bills_cosponsored": 110,
+        "missed_votes_pct": 4.94,
+        "votes_with_party_pct": 96.8,
+        "committees": [
+          {
+            "name": "Committee on Appropriations",
+            "code": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSAP.json",
+            "side": "majority",
+            "title": "Member",
+            "rank_in_party": 3,
+            "begin_date": "2017-01-03",
+            "end_date": "2019-01-03"
+          },
+          {
+            "name": "Committee on Energy and Natural Resources",
+            "code": "SSEG",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSEG.json",
+            "side": "majority",
+            "title": "Member",
+            "rank_in_party": 8,
+            "begin_date": "2017-01-03",
+            "end_date": "2019-01-03"
+          },
+          {
+            "name": "Committee on Health, Education, Labor, and Pensions",
+            "code": "SSHR",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSHR.json",
+            "side": "majority",
+            "title": "Chair",
+            "rank_in_party": 1,
+            "begin_date": "2017-01-03",
+            "end_date": "2019-01-03"
+          },
+          {
+            "name": "Committee on Rules and Administration",
+            "code": "SSRA",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSRA.json",
+            "side": "majority",
+            "title": "Member",
+            "rank_in_party": 4,
+            "begin_date": "2017-01-03",
+            "end_date": "2019-01-03"
+          }
+        ],
+        "subcommittees": [
+          {
+            "name": "Commerce, Justice, Science, and Related Agencies Subcommittee",
+            "code": "SSAP16",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSAP/subcommittees/SSAP16.json",
+            "side": "majority",
+            "title": "Member",
+            "rank_in_party": 2,
+            "begin_date": "",
+            "end_date": "2019-01-03"
+          },
+          {
+            "name": "Department of Defense Subcommittee",
+            "code": "SSAP02",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSAP/subcommittees/SSAP02.json",
+            "side": "majority",
+            "title": "Member",
+            "rank_in_party": 4,
+            "begin_date": "",
+            "end_date": "2019-01-03"
+          },
+          {
+            "name": "Department of the Interior, Environment, and Related Agencies",
+            "code": "SSAP17",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSAP/subcommittees/SSAP17.json",
+            "side": "majority",
+            "title": "Member",
+            "rank_in_party": 3,
+            "begin_date": "",
+            "end_date": "2019-01-03"
+          },
+          {
+            "name": "Departments of Labor, Health and Human Services, and Education, and Related Agencies",
+            "code": "SSAP18",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSAP/subcommittees/SSAP18.json",
+            "side": "majority",
+            "title": "Member",
+            "rank_in_party": 4,
+            "begin_date": "",
+            "end_date": "2019-01-03"
+          },
+          {
+            "name": "Energy and Water Development Subcommittee",
+            "code": "SSAP22",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSAP/subcommittees/SSAP22.json",
+            "side": "majority",
+            "title": "Chair",
+            "rank_in_party": 1,
+            "begin_date": "",
+            "end_date": "2019-01-03"
+          },
+          {
+            "name": "Transportation, Housing and Urban Development, and Related Agencies",
+            "code": "SSAP24",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSAP/subcommittees/SSAP24.json",
+            "side": "majority",
+            "title": "Member",
+            "rank_in_party": 3,
+            "begin_date": "",
+            "end_date": "2019-01-03"
+          },
+          {
+            "name": "Energy Subcommittee",
+            "code": "SSEG01",
+            "parent_committee_id": "SSEG",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSEG/subcommittees/SSEG01.json",
+            "side": "majority",
+            "title": "Member",
+            "rank_in_party": 5,
+            "begin_date": "",
+            "end_date": "2019-01-03"
+          },
+          {
+            "name": "National Parks Subcommittee",
+            "code": "SSEG04",
+            "parent_committee_id": "SSEG",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSEG/subcommittees/SSEG04.json",
+            "side": "majority",
+            "title": "Member",
+            "rank_in_party": 5,
+            "begin_date": "",
+            "end_date": "2019-01-03"
+          },
+          {
+            "name": "Public Lands, Forests, and Mining Subcommittee",
+            "code": "SSEG03",
+            "parent_committee_id": "SSEG",
+            "api_uri": "https://api.propublica.org/congress/v1/115/senate/committees/SSEG/subcommittees/SSEG03.json",
+            "side": "majority",
+            "title": "Member",
+            "rank_in_party": 7,
+            "begin_date": "",
+            "end_date": "2019-01-03"
+          }
+        ]
+      },
+      {
+        "congress": "114",
+        "chamber": "Senate",
+        "title": "Senator, 2nd Class",
+        "short_title": "Sen.",
+        "state": "TN",
+        "party": "R",
+        "leadership_role": null,
+        "fec_candidate_id": "P60003225",
+        "seniority": "13",
+        "senate_class": "2",
+        "state_rank": "",
+        "lis_id": "S289",
+        "ocd_id": "ocd-division/country:us/state:tn",
+        "start_date": "2015-01-06",
+        "end_date": "2017-01-03",
+        "office": null,
+        "phone": null,
+        "fax": null,
+        "contact_form": null,
+        "bills_sponsored": 49,
+        "bills_cosponsored": 124,
+        "missed_votes_pct": 2.79,
+        "votes_with_party_pct": 85.45,
+        "committees": [
+          {
+            "name": "Committee on Appropriations",
+            "code": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/114/senate/committees/SSAP.json",
+            "rank_in_party": null,
+            "begin_date": "",
+            "end_date": "2017-01-03"
+          },
+          {
+            "name": "Committee on Health, Education, Labor, and Pensions",
+            "code": "SSHR",
+            "api_uri": "https://api.propublica.org/congress/v1/114/senate/committees/SSHR.json",
+            "rank_in_party": 1,
+            "begin_date": "",
+            "end_date": "2017-01-03"
+          },
+          {
+            "name": "Committee on Rules and Administration",
+            "code": "SSRA",
+            "api_uri": "https://api.propublica.org/congress/v1/114/senate/committees/SSRA.json",
+            "rank_in_party": null,
+            "begin_date": "",
+            "end_date": "2017-01-03"
+          },
+          {
+            "name": "Committee on Energy and Natural Resources",
+            "code": "SSEG",
+            "api_uri": "https://api.propublica.org/congress/v1/114/senate/committees/SSEG.json",
+            "rank_in_party": null,
+            "begin_date": "",
+            "end_date": "2017-01-03"
+          }
+        ],
+        "subcommittees": []
+      },
+      {
+        "congress": "113",
+        "chamber": "Senate",
+        "title": "Senator, 2nd Class",
+        "short_title": "Sen.",
+        "state": "TN",
+        "party": "R",
+        "leadership_role": null,
+        "fec_candidate_id": "",
+        "seniority": "11",
+        "senate_class": "2",
+        "state_rank": "",
+        "lis_id": "S289",
+        "ocd_id": "ocd-division/country:us/state:tn",
+        "start_date": "2013-01-03",
+        "end_date": "2015-01-02",
+        "office": null,
+        "phone": null,
+        "fax": null,
+        "contact_form": null,
+        "bills_sponsored": 27,
+        "bills_cosponsored": 156,
+        "missed_votes_pct": 6.7,
+        "votes_with_party_pct": 85.97,
+        "committees": [
+          {
+            "name": "Committee on Rules and Administration",
+            "code": "SSRA",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSRA.json",
+            "rank_in_party": 5,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          },
+          {
+            "name": "Committee on Energy and Natural Resources",
+            "code": "SSEG",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSEG.json",
+            "rank_in_party": 8,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          },
+          {
+            "name": "Committee on Health, Education, Labor, and Pensions",
+            "code": "SSHR",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSHR.json",
+            "rank_in_party": 1,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          },
+          {
+            "name": "Committee on Appropriations",
+            "code": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSAP.json",
+            "rank_in_party": 4,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          }
+        ],
+        "subcommittees": [
+          {
+            "name": "Commerce, Justice, Science, and Related Agencies Subcommittee",
+            "code": "SSAP16",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSAP/subcommittees/SSAP16.json",
+            "rank_in_party": 3,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          },
+          {
+            "name": "Department of Defense Subcommittee",
+            "code": "SSAP02",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSAP/subcommittees/SSAP02.json",
+            "rank_in_party": 4,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          },
+          {
+            "name": "Department of the Interior, Environment, and Related Agencies",
+            "code": "SSAP17",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSAP/subcommittees/SSAP17.json",
+            "rank_in_party": 2,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          },
+          {
+            "name": "Departments of Labor, Health and Human Services, and Education, and Related Agencies",
+            "code": "SSAP18",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSAP/subcommittees/SSAP18.json",
+            "rank_in_party": 3,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          },
+          {
+            "name": "Energy and Water Development Subcommittee",
+            "code": "SSAP22",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSAP/subcommittees/SSAP22.json",
+            "rank_in_party": 1,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          },
+          {
+            "name": "Transportation, Housing and Urban Development, and Related Agencies",
+            "code": "SSAP24",
+            "parent_committee_id": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSAP/subcommittees/SSAP24.json",
+            "rank_in_party": 3,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          },
+          {
+            "name": "Children and Families Subcommittee",
+            "code": "SSHR09",
+            "parent_committee_id": "SSHR",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSHR/subcommittees/SSHR09.json",
+            "rank_in_party": 2,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          },
+          {
+            "name": "Employment and Workplace Safety Subcommittee",
+            "code": "SSHR11",
+            "parent_committee_id": "SSHR",
+            "api_uri": "https://api.propublica.org/congress/v1/113/senate/committees/SSHR/subcommittees/SSHR11.json",
+            "rank_in_party": 2,
+            "begin_date": "2013-01-03",
+            "end_date": "2015-01-03"
+          }
+        ]
+      },
+      {
+        "congress": "112",
+        "chamber": "Senate",
+        "title": "Senator, 2nd Class",
+        "short_title": "Sen.",
+        "state": "TN",
+        "party": "R",
+        "leadership_role": null,
+        "fec_candidate_id": "",
+        "seniority": "9",
+        "senate_class": "2",
+        "state_rank": "",
+        "lis_id": "S289",
+        "ocd_id": "ocd-division/country:us/state:tn",
+        "start_date": "2011-01-04",
+        "end_date": "2013-01-03",
+        "office": null,
+        "phone": null,
+        "fax": null,
+        "contact_form": null,
+        "bills_sponsored": 10,
+        "bills_cosponsored": 193,
+        "missed_votes_pct": 3.29,
+        "votes_with_party_pct": 86.84,
+        "committees": [
+          {
+            "name": "Joint Committee on Printing",
+            "code": "JSPR",
+            "api_uri": "https://api.propublica.org/congress/v1/112/senate/committees/JSPR.json",
+            "rank_in_party": 1,
+            "begin_date": "2011-01-07",
+            "end_date": "2013-01-03"
+          },
+          {
+            "name": "Joint Committee on the Library",
+            "code": "JSLC",
+            "api_uri": "https://api.propublica.org/congress/v1/112/senate/committees/JSLC.json",
+            "rank_in_party": 2,
+            "begin_date": "2011-01-07",
+            "end_date": "2013-01-03"
+          },
+          {
+            "name": "Committee on Appropriations",
+            "code": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/112/senate/committees/SSAP.json",
+            "rank_in_party": 5,
+            "begin_date": "2011-01-05",
+            "end_date": "2013-01-03"
+          },
+          {
+            "name": "Committee on Environment and Public Works",
+            "code": "SSEV",
+            "api_uri": "https://api.propublica.org/congress/v1/112/senate/committees/SSEV.json",
+            "rank_in_party": 6,
+            "begin_date": "2011-01-05",
+            "end_date": "2013-01-03"
+          },
+          {
+            "name": "Committee on Health, Education, Labor, and Pensions",
+            "code": "SSHR",
+            "api_uri": "https://api.propublica.org/congress/v1/112/senate/committees/SSHR.json",
+            "rank_in_party": 2,
+            "begin_date": "2011-01-05",
+            "end_date": "2013-01-03"
+          },
+          {
+            "name": "Committee on Rules and Administration",
+            "code": "SSRA",
+            "api_uri": "https://api.propublica.org/congress/v1/112/senate/committees/SSRA.json",
+            "rank_in_party": 1,
+            "begin_date": "2011-01-05",
+            "end_date": "2013-01-03"
+          }
+        ],
+        "subcommittees": []
+      },
+      {
+        "congress": "111",
+        "chamber": "Senate",
+        "title": "Senator, 2nd Class",
+        "short_title": "Sen.",
+        "state": "TN",
+        "party": "R",
+        "leadership_role": null,
+        "fec_candidate_id": "",
+        "seniority": "7",
+        "senate_class": "2",
+        "state_rank": "",
+        "lis_id": "S289",
+        "ocd_id": "ocd-division/country:us/state:tn",
+        "start_date": "2009-01-06",
+        "end_date": "2011-01-03",
+        "office": null,
+        "phone": null,
+        "fax": null,
+        "contact_form": null,
+        "bills_sponsored": 29,
+        "bills_cosponsored": 149,
+        "missed_votes_pct": 1.33,
+        "votes_with_party_pct": 84.28,
+        "committees": [
+          {
+            "name": "Committee on Appropriations",
+            "code": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/111/senate/committees/SSAP.json",
+            "rank_in_party": 9,
+            "begin_date": "2009-01-21",
+            "end_date": "2011-01-03"
+          },
+          {
+            "name": "Committee on the Budget",
+            "code": "SSBU",
+            "api_uri": "https://api.propublica.org/congress/v1/111/senate/committees/SSBU.json",
+            "rank_in_party": 10,
+            "begin_date": "2009-01-21",
+            "end_date": "2011-01-03"
+          },
+          {
+            "name": "Committee on Environment and Public Works",
+            "code": "SSEV",
+            "api_uri": "https://api.propublica.org/congress/v1/111/senate/committees/SSEV.json",
+            "rank_in_party": 7,
+            "begin_date": "2009-01-21",
+            "end_date": "2011-01-03"
+          },
+          {
+            "name": "Committee on Health, Education, Labor, and Pensions",
+            "code": "SSHR",
+            "api_uri": "https://api.propublica.org/congress/v1/111/senate/committees/SSHR.json",
+            "rank_in_party": 3,
+            "begin_date": "2009-01-21",
+            "end_date": "2011-01-03"
+          },
+          {
+            "name": "Committee on Rules and Administration",
+            "code": "SSRA",
+            "api_uri": "https://api.propublica.org/congress/v1/111/senate/committees/SSRA.json",
+            "rank_in_party": 6,
+            "begin_date": "2009-01-21",
+            "end_date": "2011-01-03"
+          }
+        ],
+        "subcommittees": []
+      },
+      {
+        "congress": "110",
+        "chamber": "Senate",
+        "title": "Senator, 2nd Class",
+        "short_title": "Sen.",
+        "state": "TN",
+        "party": "R",
+        "leadership_role": null,
+        "fec_candidate_id": "",
+        "seniority": "5",
+        "senate_class": "2",
+        "state_rank": "",
+        "lis_id": "S289",
+        "ocd_id": "ocd-division/country:us/state:tn",
+        "start_date": "2007-01-04",
+        "end_date": "2009-01-03",
+        "office": null,
+        "phone": null,
+        "fax": null,
+        "contact_form": null,
+        "bills_sponsored": 22,
+        "bills_cosponsored": 197,
+        "missed_votes_pct": 4.41,
+        "votes_with_party_pct": 87.74,
+        "committees": [
+          {
+            "name": "Committee on Appropriations",
+            "code": "SSAP",
+            "api_uri": "https://api.propublica.org/congress/v1/110/senate/committees/SSAP.json",
+            "rank_in_party": 14,
+            "begin_date": "2007-01-12",
+            "end_date": "2009-01-03"
+          },
+          {
+            "name": "Committee on Environment and Public Works",
+            "code": "SSEV",
+            "api_uri": "https://api.propublica.org/congress/v1/110/senate/committees/SSEV.json",
+            "rank_in_party": 7,
+            "begin_date": "2007-01-12",
+            "end_date": "2009-01-03"
+          },
+          {
+            "name": "Committee on Health, Education, Labor, and Pensions",
+            "code": "SSHR",
+            "api_uri": "https://api.propublica.org/congress/v1/110/senate/committees/SSHR.json",
+            "rank_in_party": 3,
+            "begin_date": "2007-01-12",
+            "end_date": "2009-01-03"
+          },
+          {
+            "name": "Committee on Rules and Administration",
+            "code": "SSRA",
+            "api_uri": "https://api.propublica.org/congress/v1/110/senate/committees/SSRA.json",
+            "rank_in_party": 9,
+            "begin_date": "2007-01-12",
+            "end_date": "2009-01-03"
+          }
+        ],
+        "subcommittees": []
+      },
+      {
+        "congress": "109",
+        "chamber": "Senate",
+        "title": "Senator, 2nd Class",
+        "short_title": "Sen.",
+        "state": "TN",
+        "party": "R",
+        "leadership_role": null,
+        "fec_candidate_id": "",
+        "seniority": "3",
+        "senate_class": "2",
+        "state_rank": "",
+        "lis_id": "S289",
+        "ocd_id": "ocd-division/country:us/state:tn",
+        "start_date": "2005-01-04",
+        "end_date": "2007-01-03",
+        "office": null,
+        "phone": null,
+        "fax": null,
+        "contact_form": null,
+        "bills_sponsored": 26,
+        "bills_cosponsored": 181,
+        "missed_votes_pct": 2.33,
+        "votes_with_party_pct": 92.38,
+        "committees": [],
+        "subcommittees": []
+      },
+      {
+        "congress": "108",
+        "chamber": "Senate",
+        "title": "Senator, 2nd Class",
+        "short_title": "Sen.",
+        "state": "TN",
+        "party": "R",
+        "leadership_role": null,
+        "fec_candidate_id": "",
+        "seniority": "1",
+        "senate_class": "2",
+        "state_rank": "",
+        "lis_id": "S289",
+        "ocd_id": "ocd-division/country:us/state:tn",
+        "start_date": "2003-01-07",
+        "end_date": "2005-01-03",
+        "office": null,
+        "phone": null,
+        "fax": null,
+        "contact_form": null,
+        "bills_sponsored": 16,
+        "bills_cosponsored": 123,
+        "missed_votes_pct": 1.93,
+        "votes_with_party_pct": 95.92,
+        "committees": [],
+        "subcommittees": []
+      }
+    ],
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/LamarAlexander.jpg/500px-LamarAlexander.jpg",
+    "crp": {
+      "candIndustry": {
+        "@attributes": {
+          "cand_name": "Lamar Alexander (R)",
+          "cid": "N00009888",
+          "cycle": "2018",
+          "origin": "Center for Responsive Politics",
+          "source": "https://www.opensecrets.org/members-of-congress/industries?cid=N00009888&cycle=2018",
+          "last_updated": "08/21/2018"
+        },
+        "industry": [
+          {
+            "@attributes": {
+              "industry_code": "H04",
+              "industry_name": "Pharmaceuticals/Health Products",
+              "indivs": "29450",
+              "pacs": "322650",
+              "total": "352100"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "Q03",
+              "industry_name": "Leadership PACs",
+              "indivs": "0",
+              "pacs": "307215",
+              "total": "307215"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "H01",
+              "industry_name": "Health Professionals",
+              "indivs": "47900",
+              "pacs": "226500",
+              "total": "274400"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "F07",
+              "industry_name": "Securities & Investment",
+              "indivs": "165300",
+              "pacs": "97500",
+              "total": "262800"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "F10",
+              "industry_name": "Real Estate",
+              "indivs": "217450",
+              "pacs": "36000",
+              "total": "253450"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "K01",
+              "industry_name": "Lawyers/Law Firms",
+              "indivs": "119739",
+              "pacs": "115488",
+              "total": "235227"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "F09",
+              "industry_name": "Insurance",
+              "indivs": "73850",
+              "pacs": "144000",
+              "total": "217850"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "W06",
+              "industry_name": "Retired",
+              "indivs": "214615",
+              "pacs": "0",
+              "total": "214615"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "H02",
+              "industry_name": "Hospitals/Nursing Homes",
+              "indivs": "85000",
+              "pacs": "103267",
+              "total": "188267"
+            }
+          },
+          {
+            "@attributes": {
+              "industry_code": "E01",
+              "industry_name": "Oil & Gas",
+              "indivs": "49853",
+              "pacs": "99433",
+              "total": "149286"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
