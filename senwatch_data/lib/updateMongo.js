@@ -118,7 +118,7 @@ const createSenObj = rawSen => {
     roles
   } = rawSen;
   console.log(pp_id, first_name, last_name);
-  const committees = roles[0];
+  const { committees } = roles[0];
   return {
     pp_id,
     first_name,
@@ -142,7 +142,8 @@ const createSenObj = rawSen => {
     img_url,
     office,
     votes_with_party_pct,
-    committees
+    committees,
+    updated_at: Date.now().toString()
   };
 };
 
@@ -162,6 +163,7 @@ const updateSen = async sen => {
     .then(val => {
       console.log("done!!");
       console.log(val);
+      mClient.close();
     })
     .catch(e => {
       console.log("error has been cought......", e);
@@ -186,13 +188,13 @@ const sensNotInDb = async sens => {
   });
 
   const arr = await Promise.all(promises);
-  return arr;
+  return arr.filter(x => !!x);
 };
 
 // sensNotInDb(getLatestSensJson());
 
 const getSensString = o =>
-  `${o.first_name} ${o.last_name} (${o.state}-${o.party})`;
+  `${o.first_name} ${o.last_name} (${o.state}-${o.party}) [${o.id}]`;
 
 // const dougJones = getLatestSensJson().filter(s => s.last_name === "Jones");
 
@@ -201,7 +203,27 @@ const getSensString = o =>
 // dog().then(b => console.log(b));
 const sens = getLatestSensJson();
 
-sensNotInDb(sens)
-  .then(a => a.filter(x => !!x))
-  .then(x => x.map(y => getSensString(y)))
-  .then(arr => console.log(arr));
+const insertNewSens = async () => {
+  const newSens = await sensNotInDb(sens);
+  const mClient = await MongoClient.connect(secrets.mongoUrl);
+  const sensRef = mClient.db().collection("Sens");
+
+  newSens.forEach(s => {
+    const prunedSen = createSenObj(s);
+    sensRef.insertOne(prunedSen).then(v => console.log("worked::", v));
+  });
+};
+
+const updateSens = sens => {
+  const promises = sens.map(s => updateSen(s));
+  return Promise.all(promises);
+};
+
+updateSens(sens).then(() => console.log("done!!!!!"));
+// const saveOldSens = () => {
+//   console.log("making senwatchv0 call...");
+//   return axios({
+//     url: "http://senwatch.us/api/sens",
+//     method: "GET"
+//   }).then(({ data }) => saveFileJson(data, `oldSens.json`));
+// };
