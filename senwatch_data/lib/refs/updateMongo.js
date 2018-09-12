@@ -11,7 +11,7 @@
  */
 
 const axios = require("axios");
-const secrets = require("../../secrets");
+const secrets = require("../../../secrets");
 const merge = require("lodash/merge");
 const getSenImg = require("./getSenImg");
 const saveFileJson = require("./saveFileJson");

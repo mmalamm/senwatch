@@ -1,6 +1,6 @@
 const savePic = require("./savePic");
 const axios = require("axios");
-const secrets = require("../../secrets");
+const secrets = require("../../../secrets");
 const getSenImg = require("./getSenImg");
 
 (async () => {

@@ -1,5 +1,5 @@
 const MongoClient = require("mongodb").MongoClient;
-const secrets = require("../../secrets");
+const secrets = require("../../../secrets");
 const sensToRemove = ["F000457", "C000567", "S001202"];
 
 sensToRemove.forEach(async id => {

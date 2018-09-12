@@ -1,5 +1,5 @@
 const axios = require("axios");
-const openSecretsKey = require("../../secrets").openSecretsKey;
+const openSecretsKey = require("../../../secrets").openSecretsKey;
 
 const merge = require("lodash/merge");
 
